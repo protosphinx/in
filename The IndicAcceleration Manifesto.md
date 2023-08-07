@@ -8,23 +8,23 @@ We live in a time of extraordinary potential. Technology, when harnessed effecti
 
 "Indic Acceleration" represents our commitment to employ the profound power of technology for accelerating India's progress, thereby elevating our society to new heights. Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other tech innovations to speed up India's socio-economic growth, reduce corruption, streamline the judicial system, and encourage overall development.
 
-### I. Reducing Corruption
+## I. Reducing Corruption
 
 Corruption is a social disease that hinders the healthy growth of any nation. We believe that by harnessing the power of blockchain and AI, we can inject more transparency and accountability into systems. A decentralized, transparent digital ledger can help track and validate transactions, making bribery and fraud significantly more difficult. AI can be used to analyze patterns and predict potential fraud before it occurs.
 
-### II. Accelerating Civilization
+## II. Accelerating Civilization
 
 To harness the potential of our civilization, we will integrate digital technology into every aspect of life. This will include education, healthcare, agriculture, infrastructure, and energy. We aim to create a digital-first society where access to information and services is democratized, enhancing overall productivity and facilitating India's leap into a digitally empowered future.
 
-### III. AI in Judiciary
+## III. AI in Judiciary
 
 The Indian judicial system, burdened by a vast backlog of cases, is in desperate need of a revamp. Leveraging AI in judiciary can help expedite legal proceedings, reduce manual workload, and offer a more efficient system. An AI-driven system can sort and prioritize cases, analyze legal documents swiftly, and offer support in decision-making.
 
-### IV. Education and Skill Development
+## IV. Education and Skill Development
 
 We envisage a future where every Indian, regardless of their socio-economic status, has access to quality education. Through digital platforms, we can democratize learning and provide equal opportunities for everyone. AI-driven personalized learning can help cater to individual learning styles, offering a more effective education.
 
-### V. Smart Infrastructure
+## V. Smart Infrastructure
 
 Reducing Infrastructure Corruption: Infrastructure projects often become breeding grounds for corruption due to their complex, multifaceted nature and lack of transparency. AI-driven monitoring and blockchain technology can ensure the full transparency of processes, from tender bidding to project completion. This will also enable the early detection of anomalies, misappropriation of funds or materials, and other signs of corruption.
 
