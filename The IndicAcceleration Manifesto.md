@@ -28,10 +28,15 @@ We envisage a future where every Indian, regardless of their socio-economic stat
 
 Reducing Infrastructure Corruption: Infrastructure projects often become breeding grounds for corruption due to their complex, multifaceted nature and lack of transparency. AI-driven monitoring and blockchain technology can ensure the full transparency of processes, from tender bidding to project completion. This will also enable the early detection of anomalies, misappropriation of funds or materials, and other signs of corruption.
 
-Intelligent Transportation Systems: Leveraging AI, we aim to optimize road usage, reducing congestion and improving safety. Real-time data analysis can aid in traffic management, predictive maintenance, and accident prevention. Connected and autonomous vehicles can further streamline transport, leading to fewer accidents and more efficient use of roads.
+- **Intelligent Transportation Systems**
+Leveraging AI, we aim to optimize road usage, reducing congestion and improving safety. Real-time data analysis can aid in traffic management, predictive maintenance, and accident prevention. Connected and autonomous vehicles can further streamline transport, leading to fewer accidents and more efficient use of roads.
 
-Smart Tolls: Automated toll collection systems powered by AI and IoT can streamline toll operations, reducing wait times, and improving efficiency. These systems can also prevent revenue leakage, ensuring that all funds collected contribute to the maintenance and improvement of the roadways.
+- **Smart Tolls**
+Automated toll collection systems powered by AI and IoT can streamline toll operations, reducing wait times, and improving efficiency. These systems can also prevent revenue leakage, ensuring that all funds collected contribute to the maintenance and improvement of the roadways.
 
-Predictive Maintenance: AI can help monitor infrastructure, predicting potential faults before they lead to costly repairs or dangerous failures. For instance, sensors placed on roads, bridges, and buildings can provide data to AI models that predict when maintenance will be required, extending the life of these structures, and improving public safety.
+- **Predictive Maintenance**
+AI can help monitor infrastructure, predicting potential faults before they lead to costly repairs or dangerous failures. For instance, sensors placed on roads, bridges, and buildings can provide data to AI models that predict when maintenance will be required, extending the life of these structures, and improving public safety.
+
+--- 
 
 In conclusion, we believe that technology should be seen not just as a tool but as a fundamental building block for the future of India. Indic Acceleration is our pledge to build an India that is modern, inclusive, and sustainable, a nation that balances technological advancements with its rich cultural heritage. This is our manifesto for an enlightened and empowered India, an India that leads the world not just in technology, but in wisdom, compassion, and progress.
