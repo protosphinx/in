@@ -32,6 +32,16 @@ We envisage a future where every Indian, regardless of their socio-economic stat
 ### V. Digital Public Smart Infrastructure
 Some ideas in appendix below.
 
+## Pillars
+
+### Research Mediation (Ānvīkṣikī)
+### Design Proposals (Kalpana)
+### Policy Advocacy (Nītivāda)
+### Change Management (Yojana)
+### Build & Execution (Nirmana)
+### Deployment & Operations (Vyavahāra)
+### Marketing & Consultation (Samvāda)
+
 ## Conclusion
 
 In conclusion, we believe that technology should be seen not just as a tool but as a fundamental building block for the future of India. Indic Acceleration is our pledge to build an India that is modern, inclusive, and sustainable, a nation that balances technological advancements with its rich cultural heritage. This is our manifesto for an enlightened and empowered India, an India that leads the world not just in technology, but in wisdom, compassion, and progress.
