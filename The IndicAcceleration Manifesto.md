@@ -10,12 +10,7 @@ We live in a time of extraordinary potential. Technology, when harnessed effecti
 
 India's market liberalization in 1991 was only the beginning of the journey. We as a nation are still grapelling with the spaghetti code of conduct of the central planners era. Refactoring has only just begun. Thus, indic acceleration will also involve policy mediation, advocacy and technocratic solution building.
 
-## Pillars
 
-### Research Mediation & Policy Advocacy 
-### Design Proposals & Project Plans 
-### Build & Execution
-### Deployment & Operations
 
 ## Mission
 - Raise India's GDP while improving Gini's coefficient and sustainability of natural ecology
