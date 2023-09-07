@@ -18,21 +18,22 @@ India's market liberalization in 1991 was only the beginning of the journey. We 
 ## Goals
 
 ### I. Improve Governance and Reduce Corruption
-Corruption is a social disease that hinders the healthy growth of any nation. We believe that by harnessing the power of blockchain and AI, we can inject more transparency and accountability into systems. A decentralized, transparent digital ledger can help track and validate transactions, making bribery and fraud significantly more difficult. AI can be used to analyze patterns and predict potential fraud before it occurs.
+{{Corruption is a social disease that hinders the healthy growth of any nation. We believe that by harnessing the power of blockchain and AI, we can inject more transparency and accountability into systems. A decentralized, transparent digital ledger can help track and validate transactions, making bribery and fraud significantly more difficult. AI can be used to analyze patterns and predict potential fraud before it occurs.}}
 
-### II. Uplift & Accelerate Civilization
-To harness the potential of our civilization, we will integrate digital technology into every aspect of life. This will include education, healthcare, agriculture, infrastructure, and energy. We aim to create a digital-first society where access to information and services is democratized, enhancing overall productivity and facilitating India's leap into a digitally empowered future.
+### II. Accelerate Civilization Sustainably
+{{To harness the potential of our civilization, we will integrate digital technology into every aspect of life. This will include education, healthcare, agriculture, infrastructure, and energy. We aim to create a digital-first society where access to information and services is democratized, enhancing overall productivity and facilitating India's leap into a digitally empowered future.}}
 
-### III. Optimise Contract Enforcement & Judiciary Backlog
-The Indian judicial system, burdened by a vast backlog of cases, is in desperate need of a revamp. Leveraging AI in judiciary can help expedite legal proceedings, reduce manual workload, and offer a more efficient system. An AI-driven system can sort and prioritize cases, analyze legal documents swiftly, and offer support in decision-making.
+### III. Ensure Contract Enforcement & Delivery of Justice
+{{The Indian judicial system, burdened by a vast backlog of cases, is in desperate need of a revamp. Leveraging AI in judiciary can help expedite legal proceedings, reduce manual workload, and offer a more efficient system. An AI-driven system can sort and prioritize cases, analyze legal documents swiftly, and offer support in decision-making.}}
 
 ### IV. Universalize Education Opportunities and Skill Development
-We envisage a future where every Indian, regardless of their socio-economic status, has access to quality education. Through digital platforms, we can democratize learning and provide equal opportunities for everyone. AI-driven personalized learning can help cater to individual learning styles, offering a more effective education.
+{{We envisage a future where every Indian, regardless of their socio-economic status, has access to quality education. Through digital platforms, we can democratize learning and provide equal opportunities for everyone. AI-driven personalized learning can help cater to individual learning styles, offering a more effective education.}}
 
-### V. Digital Public Smart Infrastructure
-Some ideas in appendix below.
+### V. Digital Public Capital Building
+{{Some ideas in appendix below.}}
 
 ## Pillars
+Represents the kind of tasks you can volunteer for:
 
 ### Research Mediation (Ānvīkṣikī)
 ### Design Proposals (Kalpana)
@@ -41,6 +42,31 @@ Some ideas in appendix below.
 ### Build & Execution (Nirmana)
 ### Deployment & Operations (Vyavahāra)
 ### Marketing & Consultation (Samvāda)
+
+
+## Initiatives
+Independent {{Projects}} with defined objectives and measures of success.
+
+### ReFactor
+Reimagine what is possible from first principles. 
+Navigate complexity economics and uncertainty with simpler heuristics.
+Accelerate sustainable growth and ecological economics as a win-win scenario. 
+ReFacorting the code of governance in India - simple and effective policy proposals for taxes, money, urban planning, care economy, etc.
+
+## ONDG
+Open Network for Digital Governance. For nations, for networks.
+A set of interoperable, federated, trasparent protocols for regulators to deploy monetizable policies on a digital-native tokenised information infrastruture.
+Marries the world of:
+- Digital Public Infrastruture - ONDC (Beckn), NPCI (UPI), CBDCs, IndiaStack...
+- Interchain / Web3 - IBC, CosmosSDK, Anoma, USDC, XRP...
+- Ecological & Complexity Economics - Doughnut Economics Action Lab, in/acc/ReFactor 
+
+### vLocal
+Open SOPs & Consultation for any profession.
+Reduce the friction for self-employement and micro-small enterprises.
+Pipelines and Playbooks to setup, qualify, and scale your professional services and micro ventures. 
+Aligned towards sustainable capitalism, anti-consumerism.
+
 
 ## Conclusion
 
