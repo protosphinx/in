@@ -1,13 +1,5 @@
 # 🇮🇳/acc
 
-## Pillars
-
-### Research Mediation & Policy Advocacy 
-### Design Proposals & Project Plans 
-### Build & Execution
-### Deployment & Operations
-### Feedback & Consultation
-
 
 ## Quick Links
 - Github Repo:
@@ -26,6 +18,7 @@ If you encounter issues or have suggestions, please open an issue on the project
 
 
 ## How to Contribute
+
 1. **Fork the Repository**: Start by forking the project repository to your GitHub account. This will create a copy of the project under your account.
 
 2. **Clone the Repository**: Clone the forked repository to your local development environment using git clone.
