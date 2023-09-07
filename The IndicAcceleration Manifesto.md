@@ -62,6 +62,13 @@ Automated toll collection systems powered by AI and IoT can streamline toll oper
 - **Predictive Maintenance**
 AI can help monitor infrastructure, predicting potential faults before they lead to costly repairs or dangerous failures. For instance, sensors placed on roads, bridges, and buildings can provide data to AI models that predict when maintenance will be required, extending the life of these structures, and improving public safety.
 
+---
+
+- **Healthcare**
+With a median age of 28.2, India has a relatively young population. Despite this, the country's healthcare infrastructure remains in a nascent stage and is largely inadequate. India has only 0.7 physicians, 1.7 nurses, and 0.5 hospital beds per 1,000 people. In contrast, China, a country with a similar population size, boasts 2.2 physicians, 3.1 nurses, and 4.3 hospital beds per 1,000 people. This disparity highlights a significant opportunity to build in various aspects of healthcare which include preventive healthcare such as better diagnostic tools, promoting a fitness-oriented lifestyle(better fitness trackers), and critically, improving the current non-existent healthcare infrastructure(better med/nursing schools, hospitals, better and more equipements).
+
+---
+
 - **Open Network for Digital Payments**
 Interoperable CBDC Mesh Networks for Bilateral Cross-border Transaction, Trade, and Tax. The Introductory Digital Public Good in the ‘Network State of the Nation States’ - The Interchain/Cosmoverse for Regulators & Governments. Base layer to building anti-corruption tax toolings. Same technology, once built, can be repurposed for coordinating and prioritizing RnD project via market price discovery protocols. 
 
