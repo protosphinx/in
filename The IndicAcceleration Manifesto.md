@@ -20,6 +20,8 @@ To harness the potential of our civilization, we will integrate digital technolo
 
 The Indian judicial system, burdened by a vast backlog of cases, is in desperate need of a revamp. Leveraging AI in judiciary can help expedite legal proceedings, reduce manual workload, and offer a more efficient system. An AI-driven system can sort and prioritize cases, analyze legal documents swiftly, and offer support in decision-making.
 
+The Indian judicial system needs to have a robust mechanism for protecting civil rights. This can be achieved by using AI and encoding irrefutable facts like proof of provenance in a tamper proof, decentralized digital ledger.
+
 ## IV. Education and Skill Development
 
 We envisage a future where every Indian, regardless of their socio-economic status, has access to quality education. Through digital platforms, we can democratize learning and provide equal opportunities for everyone. AI-driven personalized learning can help cater to individual learning styles, offering a more effective education.
