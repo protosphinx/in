@@ -1,13 +1,35 @@
-# in/Acc
-
-**Manifesto for Indic Acceleration**: A Vision for Technological Advancement in India
+# Indic/Acceleration | 🇮🇳/acc
+A vision for continued socio-economic leapfrog in India via human coordination and technological advancement
 
 ## Preamble
 
-We live in a time of extraordinary potential. Technology, when harnessed effectively, can radically transform societies and uplift the quality of life for billions. For India, with its unique blend of cultural diversity, rich heritage, and untapped human potential, the advent of digital transformation holds remarkable promise.
+**To degrow or to accelerate?** 
 
-"Indic Acceleration" represents our commitment to employ the profound power of technology for accelerating India's progress, thereby elevating our society to new heights. Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other tech innovations to speed up India's socio-economic growth, reduce corruption, streamline the judicial system, and encourage overall development.
+The dichotomy of degrowth vs. accelerationism might be a forced one. 
+What we want is to degrow our impact on ecology, while accelerating civilization.
 
+We need to do so sustainably, and not to serve hedonistic consumerism. We need to respect ecology and internalize the 'externalities'. 
+
+We need to do so inclusively, with as much federated ownership of capital as possible. Either bring the rate of return parity between labour and capital; or allow labour to translate to capital ownership as early as possible. 
+
+We need to better velocity of money for sponsoring more opportunities to turn labour into inclusive capital, sustainably, avoiding the trap of consumerism.
+
+We need to free the free markets from the clutches of crony consumerists - sometimes masquerading as central planners, other times as sales and marketing professionals. More transparency and accountability.
+
+We need to respect the uncertainty of complexity and have simpler, interoperable heuristics for human coordination and consensus.  
+
+Political will and technocratic infrastructure for any policy are like chicken and egg. One can manifest the other in existence for real change. Managing that change is equally crucial. 
+
+Build upon the philosophy of [#IndiaStack](https://twitter.com/hashtag/IndiaStack?src=hashtag_click), Digital Public Infrastructures (DPI), Interchain/Cosmos, Complexity Economics, and Doughnut Ecological Economics. We live in a time of extraordinary potential. Technology, when harnessed effectively, can radically transform societies and uplift the quality of life for billions. For India, with its unique blend of cultural diversity, rich heritage, and untapped human potential, the advent of digital transformation holds remarkable promise.
+
+"Indic Acceleration" represents our commitment to employ the profound power of technology & first principles for accelerating India's progress, thereby elevating our society to new heights.   
+
+India's market liberalization in 1991 was only the beginning of the journey. We as a nation are still grappling with the spaghetti code of conduct from the central planner's era. Refactoring has only just begun. Indic acceleration, thus, will also involve research mediation, policy advocacy and technocratic solution building.
+
+## Mission
+
+- Raise India's GDP while improving Gini's Coefficient and (Sustainability) Doughnut Metrics,
+- Build a fraternity of collaborators & builders contributing towards a more interoperable, sovereign, federated, inclusive, marketable infrastructure for human coordination and consensus.
 ## I. Reducing Corruption
 
 Corruption is a social disease that hinders the healthy growth of any nation. We believe that by harnessing the power of blockchain and AI, we can inject more transparency and accountability into systems. A decentralized, transparent digital ledger can help track and validate transactions, making bribery and fraud significantly more difficult. AI can be used to analyze patterns and predict potential fraud before it occurs.
