@@ -2,7 +2,6 @@
 A vision for continued socio-economic leapfrog in India via human coordination and technological advancement
 
 ## Preamble
-
 **To degrow or to accelerate?** 
 
 The dichotomy of degrowth vs. accelerationism might be a forced one. 
@@ -26,10 +25,21 @@ Build upon the philosophy of [#IndiaStack](https://twitter.com/hashtag/IndiaStac
 
 India's market liberalization in 1991 was only the beginning of the journey. We as a nation are still grappling with the spaghetti code of conduct from the central planner's era. Refactoring has only just begun. Indic acceleration, thus, will also involve research mediation, policy advocacy and technocratic solution building.
 
-## Mission
+We want to build a fraternity of collaborators & builders.
+We want to contribute towards a more open, interoperable, sovereign, federated, inclusive, sustainable, marketable, monetizable infrastructure for capital building by human coordination & consensus.
 
-- Raise India's GDP while improving Gini's Coefficient and (Sustainability) Doughnut Metrics,
-- Build a fraternity of collaborators & builders contributing towards a more interoperable, sovereign, federated, inclusive, marketable infrastructure for human coordination and consensus.
+Inspired from Bharat G20 2023 motto, we want to Accelerate/One Earth, Include/One Family, Sustain/One Future.
+
+## Mission
+Accelerate the following metrics as soon and as holistically, inclusively, sustainably as possible:
+- GDP Growth / Accelerate
+- Gini's Coefficient / Include
+- Doughnut Metrics / Sustain
+
+In an ideal world, these set of holistic metric should replace the significance that is currently enjoyed by just GDP alone. We want align national as well as private capacity building towards these 'north-stars'. 
+
+
+
 ## I. Reducing Corruption
 
 Corruption is a social disease that hinders the healthy growth of any nation. We believe that by harnessing the power of blockchain and AI, we can inject more transparency and accountability into systems. A decentralized, transparent digital ledger can help track and validate transactions, making bribery and fraud significantly more difficult. AI can be used to analyze patterns and predict potential fraud before it occurs.
