@@ -38,7 +38,42 @@ Accelerate the following metrics as soon and as holistically, inclusively, susta
 
 In an ideal world, these set of holistic metric should replace the significance that is currently enjoyed by just GDP alone. We want align national as well as private capacity building towards these 'north-stars'. 
 
+## Goals
+- Improve Governance to mitigate
+	- Corruption
+	- Complexity
+	- Rent Seeking
+- Accelerate Civilization
+	- Sustainably
+	- Inclusively
+	- Openly
+- Build Civility by ensuring
+	- Trust & Safety
+	- Contract Enforcement
+	- Timely Delivery of Justice
+- Universalize Opportunities via
+	- Open Education & Skill Development
+	- Digital & Public Infrastructure
+	- Entrepreneurial Ecosystem & Capacity Building
 
+## Pillars
+Pillars represent the kind of projects or tasks you can volunteer for:
+- Research Mediation (Ānvīkṣikī)
+- Design Proposals (Kalpana)
+- Policy Advocacy (Nītivāda)
+- Change Management (Yojana)
+- Build & Execution (Nirmana)
+- Deployment & Operations (Vyavahāra)
+- Marketing & Consultation (Samvāda)
+
+## Conclusion
+In conclusion, we believe that technology should be seen not just as a tool but as a fundamental building block for the future of India. Indic Acceleration is our pledge to build an India that is modern, inclusive, and sustainable, a nation that balances technological advancements with its rich cultural heritage. Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other tech innovations to speed up India's socioeconomic growth, reduce corruption, streamline the judicial system, and encourage overall development. This is our manifesto for an enlightened and empowered India, an India that leads the world not just in technology, but in wisdom, compassion, and progress.
+
+---
+
+# Appendix
+
+## Some Project Ideas
 
 ## I. Reducing Corruption
 
@@ -76,6 +111,3 @@ With a median age of 28.2, India has a relatively young population. Despite this
 
   This disparity highlights a significant opportunity to build in various aspects of healthcare which include preventive healthcare such as better diagnostic tools, promoting a fitness-oriented lifestyle(better fitness trackers), and critically, improving the current non-existent healthcare infrastructure(better med/nursing schools, hospitals, better and more equipements).
 
---- 
-
-In conclusion, we believe that technology should be seen not just as a tool but as a fundamental building block for the future of India. Indic Acceleration is our pledge to build an India that is modern, inclusive, and sustainable, a nation that balances technological advancements with its rich cultural heritage. This is our manifesto for an enlightened and empowered India, an India that leads the world not just in technology, but in wisdom, compassion, and progress.
