@@ -18,9 +18,9 @@ To harness the potential of our civilization, we will integrate digital technolo
 
 ## III. AI in Judiciary
 
-The Indian judicial system, burdened by a vast backlog of cases, is in desperate need of a revamp. Leveraging AI in judiciary can help expedite legal proceedings, reduce manual workload, and offer a more efficient system. An AI-driven system can sort and prioritize cases, analyze legal documents swiftly, and offer support in decision-making.
+The Indian judicial system, burdened by a vast backlog of cases, is in desperate need of a revamp. Leveraging AI in judiciary can help expedite legal proceedings, reduce manual workload, and offer a more efficient system, thus helping set up a robust mechanism for protecting civil rights of all Indians.
 
-The Indian judicial system needs to have a robust mechanism for protecting civil rights. This can be achieved by using AI and encoding irrefutable facts like proof of provenance in a tamper proof, decentralized digital ledger.
+Digitization efforts have [accelerated recently](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1896034), including case information software, national judicial data grid, and e-filing of case documents. An AI-driven system trained with these digitized case history and judgement documents can help strengthen jurisprudence (prevent different courts giving contradictory judgements in similar cases), analyze legal documents swiftly, sort and prioritize cases, and even offer decision-making support. Irrefutable facts like proof of provenance can be managed in a tamper proof, decentralized digital ledger.
 
 ## IV. Education and Skill Development
 
