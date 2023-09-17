@@ -2,6 +2,8 @@
 
 **Manifesto for Indic Acceleration**: A Vision for Technological Advancement in India
 
+![in/acc Logo](./complete.jpg)
+
 ## Preamble
 
 We live in a time of extraordinary potential. Technology, when harnessed effectively, can radically transform societies and uplift the quality of life for billions. For India, with its unique blend of cultural diversity, rich heritage, and untapped human potential, the advent of digital transformation holds remarkable promise.
