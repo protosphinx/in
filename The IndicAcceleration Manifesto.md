@@ -4,6 +4,13 @@ A vision for continued socio-economic leapfrog in India via human coordination a
 ![in/acc Logo](./complete.jpg)
 
 ## Preamble
+
+We live in a time of extraordinary potential. Technology, when harnessed effectively, can radically transform societies and uplift the quality of life for billions. For India, with its unique blend of cultural diversity, rich heritage, and untapped human potential, the advent of digital transformation holds remarkable promise.
+
+"Indic Acceleration" represents our commitment to employ the profound power of technology for accelerating India's progress, thereby elevating our society to new heights. It is not only imperative to aim to capitalize the potential inherent in current times, but also to do it in a manner that is not a mindless copy of playbook of existing models. The insights from the past experiences and civilization learnings are to be treated as well as the new ideas incorporated towards progress and growth in real sense.
+
+Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other tech innovations to speed up India's socio-economic growth, reduce corruption, streamline the judicial system, and encourage overall development.
+
 **To degrow or to accelerate?** 
 
 The dichotomy of degrowth vs. accelerationism might be a forced one. 
