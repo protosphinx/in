@@ -1,6 +1,8 @@
 # Indic/Acceleration | 🇮🇳/acc
 A vision for continued socio-economic leapfrog in India via human coordination and technological advancement
 
+![in/acc Logo](./complete.jpg)
+
 ## Preamble
 **To degrow or to accelerate?** 
 
