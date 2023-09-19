@@ -1,10 +1,12 @@
-<p align="center"><a href="https://twitter.com/i/communities/1669220055907811330">
-    <h1 align="center">🇮🇳/acc</h1>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./media/in-acc-dark.png">
-      <img src="./media/in-acc-light.png" height="250">
-    </picture>
-  </a></p>
+<p align="center">
+    <a href="https://twitter.com/i/communities/1669220055907811330">
+        <h1 align="center">🇮🇳/acc</h1>
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./media/in-acc-dark.png">
+            <img src="./media/in-acc-light.png" height="250">
+        </picture>
+    </a>
+</p>
 
 ## Indic/Accelerationism
 A vision for continued socio-economic leapfrog in India via human coordination and technological advancement
