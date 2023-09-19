@@ -1,7 +1,15 @@
-# Indic/Acceleration | 🇮🇳/acc
-A vision for continued socio-economic leapfrog in India via human coordination and technological advancement
+<p align="center">
+    <a href="https://twitter.com/i/communities/1669220055907811330">
+        <h1 align="center">🇮🇳/acc</h1>
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./media/in-acc-dark.png">
+            <img src="./media/in-acc-light.png">
+        </picture>
+    </a>
+</p>
 
-![in/acc Logo](./complete.jpg)
+## Indic/Accelerationism
+A vision for continued socio-economic leapfrog in India via human coordination and technological advancement
 
 ## Preamble
 
@@ -11,7 +19,7 @@ We live in a time of extraordinary potential. Technology, when harnessed effecti
 
 Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other tech innovations to speed up India's socio-economic growth, reduce corruption, streamline the judicial system, and encourage overall development.
 
-**To degrow or to accelerate?** 
+### To degrow or to accelerate?
 
 The dichotomy of degrowth vs. accelerationism might be a forced one. 
 What we want is to degrow our impact on ecology, while accelerating civilization.
@@ -80,12 +88,9 @@ In conclusion, we believe that technology should be seen not just as a tool but 
 
 ---
 
-# Appendix
-
-## Some Project Ideas
+# Some Project Ideas
 
 ## I. Reducing Corruption
-
 Corruption is a social disease that hinders the healthy growth of any nation. We believe that by harnessing the power of blockchain and AI, we can inject more transparency and accountability into systems. A decentralized, transparent digital ledger can help track and validate transactions, making bribery and fraud significantly more difficult. AI can be used to analyze patterns and predict potential fraud before it occurs.
 
 ## II. Accelerating Civilization
@@ -119,4 +124,3 @@ AI can help monitor infrastructure, predicting potential faults before they lead
 With a median age of 28.2, India has a relatively young population. Despite this, the country's healthcare infrastructure remains in a nascent stage and is largely inadequate. India has only 0.7 physicians, 1.7 nurses, and 0.5 hospital beds per 1,000 people. In contrast, China, a country with a similar population size, boasts 2.2 physicians, 3.1 nurses, and 4.3 hospital beds per 1,000 people.  
 
   This disparity highlights a significant opportunity to build in various aspects of healthcare which include preventive healthcare such as better diagnostic tools, promoting a fitness-oriented lifestyle(better fitness trackers), and critically, improving the current non-existent healthcare infrastructure(better med/nursing schools, hospitals, better and more equipements).
-
