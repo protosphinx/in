@@ -3,7 +3,7 @@
         <h1 align="center">🇮🇳/acc</h1>
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="./media/in-acc-dark.png">
-            <img src="./media/in-acc-light.png" height="250">
+            <img src="./media/in-acc-light.png">
         </picture>
     </a>
 </p>
