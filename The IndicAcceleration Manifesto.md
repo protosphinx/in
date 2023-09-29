@@ -76,12 +76,12 @@ In an ideal world, these set of holistic metric should replace the significance 
 ## Pillars
 Pillars represent the kind of projects or tasks you can volunteer for:
 - Research Mediation (Ānvīkṣikī)
-- Design Proposals (Kalpana)
+- Design Proposals (Kalpanā)
 - Policy Advocacy (Nītivāda)
-- Change Management (Yojana)
-- Build & Execution (Nirmana)
+- Change Management (Yojanā)
+- Build & Execution (Nirmāṇa)
 - Deployment & Operations (Vyavahāra)
-- Marketing & Consultation (Samvāda)
+- Marketing & Consultation (Saṃvāda)
 
 ## Conclusion
 In conclusion, we believe that technology should be seen not just as a tool but as a fundamental building block for the future of India. Indic Acceleration is our pledge to build an India that is modern, inclusive, and sustainable, a nation that balances technological advancements with its rich cultural heritage. Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other tech innovations to speed up India's socioeconomic growth, reduce corruption, streamline the judicial system, and encourage overall development. This is our manifesto for an enlightened and empowered India, an India that leads the world not just in technology, but in wisdom, compassion, and progress.
