@@ -69,7 +69,7 @@ That makes manufacturing a coordination problem before it is a subsidy problem. 
 
 **Small state for daily life. Strong state for industrial capacity. Free markets on top of national infrastructure.**
 
-The manufacturing question must therefore be argued in numbers, not vibes. The core metric is **days from intent to first production**. The fiscal question is not "can India afford to give manufacturers relief?" but "why is India comfortable financing foreign industrial capacity through a $100 billion-scale China trade deficit while hesitating to forgo a much smaller amount of tax on Indian manufacturing profits?"
+The manufacturing question must therefore be argued in numbers, not slogans. The core metric is **days from intent to first production**. The fiscal question is not "can India afford to give manufacturers relief?" but "why is India comfortable financing foreign industrial capacity through a $100 billion-scale China trade deficit while hesitating to forgo a much smaller amount of tax on Indian manufacturing profits?"
 
 The quantitative doctrine is developed in detail here: **[The Industrial Base Math](./manufacturing/industrial-base-math.md)**.
 
@@ -97,7 +97,7 @@ A Foxconn-scale electronics plant makes the point clearly: if land, power, custo
 | Inspection or rejection dispute resolution | Under 15 days |
 | Company incorporation to first production run | 90-120 days |
 
-A factory does not care whether a portal exists. A factory cares whether it can start producing. If an entrepreneur has capital, designs, workers, machines, and customers, the state's job is to make sure nothing artificial blocks the path from land to machine installation to first shipment.
+A factory does not care whether a portal exists. A factory cares whether it can start producing. If an entrepreneur has capital, machines, and customers, the state's job is to make sure nothing artificial blocks the path from land to machine installation to first shipment.
 
 ---
 
@@ -951,6 +951,8 @@ Land is India's most unreformed factor market. The problems are interrelated:
 ---
 
 ## Chapter 19: Manufacturing and Industrial Policy
+
+The manufacturing section near the top of this manifesto states the current doctrine. This chapter is background: it surveys the older policy landscape, the missing middle, PLI, and the China+1 opportunity.
 
 ### The Missing Middle of Indian Manufacturing
 
