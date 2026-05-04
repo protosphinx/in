@@ -166,6 +166,122 @@ cost of discretionary delay = capital locked x cost of capital x delay days / 36
 
 If a Rs 10 crore project is delayed 180 days by an approval chain and the cost of capital is 12 percent, the delay cost is about Rs 59 lakh. If the first-year expected sales are Rs 20 crore, that delay alone is a 2.95 percent sales tax before any bribe is paid. At a 10 percent operating margin, a 3 percent sales tax is 30 percent of operating profit.
 
+### 11.1. A Firm-Level Corruption Model
+
+Model a manufacturer deciding whether to invest `K` in a plant that produces annual sales `S`, has operating margin `m`, faces corporate tax `tau`, and discounts future cash flows at `r`. Without corruption, annual after-tax operating profit is:
+
+```text
+Pi_0 = S x m x (1 - tau)
+```
+
+Let corruption enter through four channels:
+
+```text
+b = direct bribe rate as share of sales
+d = discretionary delay days
+h = harassment/compliance cost as share of sales
+q = probability of arbitrary disruption or revocation
+L = loss if disruption/revocation happens
+```
+
+The annualized corruption wedge is:
+
+```text
+c = b + h + (q x L / S) + (K x r x d / 365) / S
+```
+
+Annual profit after corruption becomes:
+
+```text
+Pi_c = S x (m - c) x (1 - tau)
+```
+
+For investment, the relevant test is not whether the firm is profitable in a clean world. It is whether the present value of corrupted cash flow exceeds the capital cost:
+
+```text
+NPV_c = -K + sum_{t=1}^{T} [S_t x (m_t - c_t) x (1 - tau)] / (1 + r)^t
+```
+
+The factory is killed when:
+
+```text
+c >= m - K x CRF(r, T) / S
+```
+
+where `CRF(r, T) = r(1+r)^T / ((1+r)^T - 1)` is the capital recovery factor. This condition is useful because it shows why corruption is more damaging to manufacturing than to trading. Manufacturing has high `K/S` during setup, so the delay term and capital recovery term are large. Trading has lower fixed capital and can exit faster.
+
+A simple one-year margin example shows the severity. If `m = 10%`, `tau = 25%`, and direct informal payments are `b = 3%` of sales, then:
+
+```text
+Pi_0 / S = 10% x (1 - 25%) = 7.5%
+Pi_c / S = (10% - 3%) x (1 - 25%) = 5.25%
+profit loss = 2.25 percentage points of sales
+profit loss / clean profit = 2.25 / 7.5 = 30%
+```
+
+If the same firm also faces a 180-day approval delay on `K = Rs 10 crore`, `S = Rs 20 crore`, and `r = 12%`, then the delay wedge is:
+
+```text
+c_delay = (10 crore x 12% x 180/365) / 20 crore
+        = 2.96% of sales
+```
+
+The combined direct bribe plus delay wedge is roughly:
+
+```text
+c = 3.00% + 2.96% = 5.96% of sales
+Pi_c / S = (10% - 5.96%) x (1 - 25%) = 3.03%
+profit loss / clean profit = (7.5 - 3.03) / 7.5 = 59.6%
+```
+
+At that point, corruption has not merely "increased cost." It has converted a normal 10 percent operating-margin manufacturer into a low-return project. If infrastructure unreliability or payment delay adds even 2-3 more percentage points of sales cost, the investment fails.
+
+The policy conclusion is mathematical. A 25 percent corporate tax on a 10 percent margin is a 2.5 percent sales wedge. A corruption process with `b = 3%` already exceeds that wedge. Add delay and it becomes two to three times larger than the corporate-tax burden. Zero tax cannot rescue manufacturing if the corruption wedge remains larger than the tax wedge.
+
+### 11.2. Selection Effects
+
+Corruption also changes which firms enter. Let `a_i` denote firm productivity and `p_i` denote political-access capability. In a clean regime, entry depends mainly on:
+
+```text
+expected return = f(a_i, K_i, S_i, m_i)
+```
+
+In a corrupt regime, entry depends on:
+
+```text
+expected return = f(a_i, K_i, S_i, m_i) - c_i + g(p_i)
+```
+
+where `g(p_i)` is the advantage from access: faster approvals, lower harassment, tolerance of violations, or privileged dispute resolution. The economy then selects for the wrong trait. High-productivity firms without access exit or stay small. Lower-productivity firms with access survive. This is the political-economy channel through which corruption becomes misallocation, not merely theft.
+
+That matters for the Hsieh-Klenow missing-middle argument. If corruption raises the effective fixed cost of formality and scale, firms remain below thresholds, avoid visible investment, use cash, split entities, or rely on relationship networks. The measurable symptom is not just bribe payment. It is a distorted firm-size distribution.
+
+### 11.3. Dashboard Variables
+
+The corruption model implies specific variables for the factory-time dashboard:
+
+```text
+b_hat      = reported informal payments / sales
+d_p50      = median approval time by transaction
+d_p90      = 90th percentile approval time by transaction
+sigma_d    = dispersion of approval time across districts
+rho_reject = rejection rate
+rho_loop   = resubmission-loop rate
+i_rate     = inspection frequency per firm-year
+appeal_t   = time to appeal resolution
+refund_t   = time to tax refund
+pay_t      = time to buyer payment
+```
+
+The key anti-corruption statistic is not only average time. It is dispersion. High variance in approval time, rejection loops, and inspection frequency is a signature of discretion. The target is therefore:
+
+```text
+minimize c = b + h + qL/S + Kr d/(365S)
+subject to safety, environmental, labor, and tax compliance
+```
+
+This is why anti-corruption policy for manufacturing is not generic ethics reform. It is margin restoration. It takes an informal, discretionary, unpriced burden and converts it into measured transaction costs that can be reduced, compared across states, and tied to eligibility for central infrastructure and manufacturing support.
+
 The [World Bank Enterprise Survey for India 2022](https://microdata.worldbank.org/catalog/6500) gives a conservative starting point because it covers formal private establishments and relies on self-reporting. In the raw 2022 India microdata variable for ["Percent of Total Annual Sales Paid In Informal Payments" (`j7a`)](https://microdata.worldbank.org/index.php/catalog/6500/variable/V242), 4,400 of 7,182 non-refusal/non-don't-know responses reported zero informal payments, while the raw mean across those valid responses is about 3.0 percent of annual sales. Among firms reporting any positive informal payment, the raw mean is about 7.8 percent of sales. These are not weighted population estimates, but they define the order of magnitude: even a 1 percent bribe on sales equals 10 percent of profit at a 10 percent margin; a 3 percent bribe on sales is larger than the 2.5 percent-of-sales burden created by a 25 percent corporate tax on a 10 percent margin.
 
 The transaction evidence points to where the tax is levied. In the same 2022 survey data dictionary, informal gifts or payments were reported or requested in 50 of 212 non-refusal/non-don't-know [construction-permit](https://microdata.worldbank.org/index.php/catalog/6500/variable/V152) responses, about 24 percent; 62 of 320 [import-customs](https://microdata.worldbank.org/catalog/6500/variable/V95) responses, about 19 percent; 53 of 486 [operating-license](https://microdata.worldbank.org/catalog/6500/variable/V249) responses, about 11 percent; 31 of 328 [electrical-connection](https://microdata.worldbank.org/catalog/6500/variable/V50) responses, about 9 percent; and 20 of 196 [water-connection](https://microdata.worldbank.org/catalog/6500/variable/V61) responses, about 10 percent. The official [India 2022 country profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) reports bribery incidence as the share of firms experiencing at least one bribe request across six transactions, including taxes, permits or licenses, and utility connections.
