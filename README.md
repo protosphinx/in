@@ -57,6 +57,87 @@ In an ideal world, these holistic metrics replace the outsized significance curr
 
 ---
 
+## Manufacturing
+
+### Manufacturing Statecraft
+
+The in/acc state should be libertarian by default, conservative in social foundations, and industrial in manufacturing.
+
+For most of life, the state should step back: protect property, enforce contracts, reduce licenses, cut compliance, lower taxes where possible, and let families, firms, communities, markets, and civil society organize themselves. The default posture should be market-first and permission-light.
+
+Manufacturing is the exception.
+
+Manufacturing is not just private commerce. It is national capacity. A factory cannot be conjured by deregulation alone. It needs land, power, water, roads, rail, ports, warehouses, customs, standards, credit, tooling, testing, worker housing, supplier clusters, and predictable dispute resolution. These are not things a single entrepreneur can solve from first principles. They are coordination problems at civilizational scale.
+
+So the state should be small where society can self-organize, but strong where only the state can build the base layer. The state should not run factories, pick every product, set every price, or recreate the License Raj. It should build the conditions in which factories can multiply.
+
+**Small state for daily life. Strong state for industrial capacity. Free markets on top of national infrastructure.**
+
+### Ease of Doing Business in Factory-Time
+
+For manufacturing, ease of doing business cannot remain a slogan or a ranking. It must be measured in factory-time: the time, cost, uncertainty, and friction required to turn capital into production.
+
+Every state should compete on one master metric: **days from intent to first production**.
+
+| Metric | Target |
+|--------|--------|
+| Time to acquire or lease industrial land | Under 30 days |
+| Time to receive factory construction approvals | Under 45 days |
+| Time to get an industrial power connection | Under 15 days |
+| Industrial power uptime | 99.9%+ |
+| Time for GST, labor, pollution, and local registrations | Under 7 days |
+| Physical office visits required for routine compliance | 0 |
+| Separate compliance filings per year for MSME manufacturers | Under 12 |
+| Customs clearance for imported inputs | 24-48 hours |
+| Government refunds, dues, and approved subsidies | Under 30 days |
+| Commercial contract enforcement | Under 180 days |
+| Payment-delay resolution from large buyers or government | Under 45 days |
+| Inspection or rejection dispute resolution | Under 15 days |
+| Company incorporation to first production run | 90-120 days |
+
+A factory does not care whether a portal exists. A factory cares whether it can start producing. If an entrepreneur has capital, designs, workers, machines, and customers, the state's job is to make sure nothing artificial blocks the path from land to machine installation to first shipment.
+
+### Zero Tax for New Manufacturing Capacity
+
+India is already paying a manufacturing subsidy. It is just paying it to foreign industrial bases.
+
+India's goods trade deficit with China has hovered around the $100 billion scale, with recent estimates ranging from roughly $99 billion in FY 2024-25 to over $110 billion by calendar-year measures. This is not only a trade number. It is a measure of factories not built in India, workers not trained in India, suppliers not created in India, and industrial learning not accumulated in India.
+
+Against that scale, zero tax for new manufacturing capacity is rational arithmetic. Suppose India replaces $20 billion of imports with domestic manufacturing. If manufacturers earn a 10% profit margin and the otherwise applicable corporate tax rate is 25%, the corporate tax foregone is:
+
+```text
+$20B domestic production x 10% profit x 25% tax = $500M tax foregone
+```
+
+The state gives up $500 million of tax only after $20 billion of domestic production exists. That is a 40:1 ratio between production created and corporate tax foregone. Even if domestic value addition is only 40%, India still creates $8 billion of domestic value for $500 million of forgone corporate tax, a 16:1 ratio.
+
+Production-linked incentives are better than neglect, but they are selective, bureaucratic, and budget-funded. PLI says: apply, qualify, comply, wait, prove incremental production, then receive the incentive. Zero tax says: manufacture, sell, earn, keep the profit, and reinvest.
+
+For 10-15 years, manufacturing profits should be tax-free where firms meet clear conditions:
+
+- physical production in India
+- audited payroll and formal employment
+- minimum domestic value addition thresholds
+- digital compliance
+- labor and environmental standards
+- reinvestment into capacity, tooling, R&D, exports, or worker training
+
+Tax consumption, land speculation, monopoly rents, and luxury extraction if needed. Do not tax new manufacturing capacity. If a firm manufactures in India, employs Indians, builds supply chains, and reduces strategic imports, its profit should be its own. Scale first. Tax later.
+
+### The Manufacturing Target
+
+The goal should be explicit: seed 10,000 manufacturers, then grow them into 100,000. If each manufacturer supports 100 direct jobs, that is 10 million productive, tax-paying jobs, and many more indirect jobs across suppliers, logistics, repair, packaging, distribution, design, maintenance, and services.
+
+Every physical product is not merely an object. It is a node in an industrial culture.
+
+The state should help small manufacturers with serviced land, reliable power, shared testing facilities, common tooling centers, working-capital access, export support, fast clearances, logistics corridors, digital compliance, supplier discovery, and procurement guarantees. Build the roads, but also make sure there are goods to move on them. Expressways without factories become monuments. Expressways connected to manufacturers become industrial arteries.
+
+This is not socialism. It is statecraft.
+
+Without manufacturing, India has consumers but not enough producers. It has roads but not enough goods. It has talent but not enough industrial absorption. It has ambition but not enough strategic depth. A civilization that does not manufacture is dependent on those that do.
+
+---
+
 ## Goals
 
 ### 1. Improve Governance
