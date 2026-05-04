@@ -138,7 +138,43 @@ Khan's political-settlement framework sharpens the capture problem. Rents are no
 
 The SEZ history is the warning. Tax-preferred zones can become real-estate plays, enclave politics, and permanent exemptions. A manufacturing zero-tax regime therefore attaches benefits to production, not land. It sunsets by default, stays open to new entrants, and publishes value-addition and payroll performance. Labor flexibility must come with formal payroll, safety enforcement, and portable benefits. Otherwise the state will have subsidized precariousness rather than industrial capability.
 
-## 11. Federal Architecture
+## 11. Corruption as a Manufacturing Tax
+
+Corruption is a manufacturing tax on time, uncertainty, and scale. A bribe paid for a power connection, pollution consent, land conversion, customs clearance, building approval, fire certificate, transport permit, or tax refund is not only a transfer from firm to official. It changes the investment decision before the factory exists. The honest firm prices delay and harassment into its expected return. The dishonest firm learns that political access is a production input. The foreign manufacturer compares the same project across jurisdictions and chooses the place where execution risk is lower.
+
+Manufacturing is especially exposed because it has more contact points with the state than services. A software firm can often begin with laptops and rented space. A factory needs land, electricity, water, roads, labor registration, safety approvals, environmental permissions, logistics, customs, and local policing. Each interface can become a toll booth. If the policy merely announces zero tax while leaving these toll booths intact, the state has shifted the rent from the tax department to the permit chain.
+
+The anti-corruption design must therefore be built into the operating system. Factory-time metrics have to be transaction-level, not press-release level. Every approval needs a statutory service-level agreement, a deemed-approval rule where legally possible, a named officer, an electronic file trail, and an appeal path. Randomized post-audit is better than discretionary pre-clearance for low-risk categories. High-risk categories such as hazardous chemicals need real inspection, but inspections have to be scheduled, recorded, risk-scored, and reviewable.
+
+The dashboard publishes not just average approval time but dispersion, rejection rates, resubmission loops, inspection frequency, refund delays, and litigation backlog by state and department. Corruption hides in variance. If one district clears power connections in 20 days and another takes 180, the problem is administrative discretion without accountability.
+
+The zero-tax benefit itself also needs anti-corruption design. Eligibility becomes automatic when data match: GST invoices, customs records, EPFO payroll, MCA filings, audited financials, and domestic value-addition calculations. Officials cannot have wide discretion to "recommend" firms. Revocation has to be rule-based, documented, and appealable. A corrupt zero-tax regime would be worse than no regime because it would create a new prize for political access. The only defensible version is one where the firm earns eligibility through observable production and loses it through observable failure.
+
+## 12. Infrastructure Is the Industrial Policy
+
+Bad infrastructure is not background noise. It is the industrial policy India already has. Expensive power, unreliable feeders, weak roads to industrial land, port dwell time, broken drainage, poor worker transport, water uncertainty, and slow rail freight all tax production before statutory tax begins. A manufacturer does not experience infrastructure as an abstract public good. It appears as inventory buffers, generator costs, missed shipments, higher defect rates, larger warehouses, longer cash cycles, and lower margins.
+
+This is why tax policy alone cannot carry the manufacturing argument. A zero-tax regime improves post-profit returns. Bad infrastructure can prevent profit from appearing in the first place. If logistics costs are several percentage points higher than competitor countries, and operating margins are often single-digit, the infrastructure gap can wipe out the value of the tax benefit. If power quality forces captive generation or equipment damage, the factory is paying an invisible tariff. If port dwell time is unpredictable, export discipline becomes harder because delivery reliability collapses.
+
+The manufacturing state therefore has to treat infrastructure as part of the production function. Industrial parks must be judged by delivered power quality, water reliability, road access, effluent treatment, common testing facilities, worker housing access, and time to first shipment, not by acres announced. Corridors matter only if they connect actual production nodes to ports, airports, railheads, warehouses, and suppliers. A highway near a factory is useful; a highway unrelated to freight movement is a monument.
+
+The policy instrument is the factory-time dashboard plus hard infrastructure audits. Each industrial node publishes average outage hours, voltage reliability, power tariff for industry, land allotment time, road freight time to port, customs clearance time, container dwell time, effluent capacity, water availability, and last-mile road condition. These measures decide priority for central infrastructure funds. States that cut factory-time and improve reliability get more support. States that announce parks without power, water, roads, and clearances do not.
+
+This is also where private participation matters. The state does not need to build every warehouse, testing lab, dormitory, logistics park, or captive renewable plant. It needs to make land, contracts, tariffs, interconnection, and permits predictable enough for private infrastructure to form around manufacturing clusters. The role of the state is coordination where networks are public and competition where private provision can work.
+
+## 13. Law, Order, and Contract Enforcement
+
+Manufacturing requires more law and order than most service activity because the capital is fixed. A factory cannot disappear overnight when local extortion, political violence, land disputes, theft, blockade, labor intimidation, transport harassment, or arbitrary enforcement begins. Machines are sunk capital. Land is immobile. Inventory is visible. Workers and managers have to travel through the same local environment every day. If the local state cannot provide basic security, the investor prices that risk into the project or chooses another location.
+
+Contract enforcement is equally central. Manufacturing is a chain of promises: supplier delivery, buyer payment, tooling quality, lease terms, power purchase, transport service, maintenance contracts, export orders, bank credit, and worker obligations. When contracts are slow to enforce, the system shifts from legal trust to relationship trust. Firms buy from known networks, demand more collateral, avoid new suppliers, keep production in-house, and stay smaller than they otherwise would. The missing middle is partly a contract-enforcement problem.
+
+Payment delay is one of the clearest examples. A manufacturer can survive a low margin if cash cycles are predictable. It can be killed by delayed receivables even when the order book is strong. MSME payment rules matter only if enforcement is fast enough to change buyer behavior. Arbitration matters only if awards are enforceable. Commercial courts matter only if interim relief, evidence, and execution happen at industrial speed.
+
+The policy package therefore needs an industrial rule-of-law component. Industrial clusters need dedicated commercial benches or fast-track mechanisms for supplier disputes, payment delays, land-title conflicts, lease enforcement, and utility disputes. Standard contracts for industrial land, power, warehousing, and supplier payments need digitized, time-bound enforcement. E-invoicing and GST data can help identify chronic payment delay. Public-sector buyers and large firms face automatic interest and procurement penalties for delayed payment to qualifying manufacturers.
+
+Law and order also belongs in the factory-time dashboard. States are measured on industrial theft, cargo theft, reported extortion, blockade days, labor-violence incidents, police response time in industrial zones, and time to enforce commercial awards. This is uncomfortable but necessary. A state that offers tax incentives while failing to protect factories is asking capital to absorb political risk.
+
+## 14. Federal Architecture
 
 Manufacturing execution is heavily state-mediated. The Union can set tax treatment, customs rules, trade policy, national logistics priorities, and broad audit architecture. States control land, local approvals, power distribution, labor-rule implementation, industrial parks, police, local infrastructure, and much of the investor's daily experience. A national manufacturing policy that ignores states will fail.
 
@@ -148,7 +184,7 @@ A Manufacturing Council could coordinate the narrow set of issues that no single
 
 The federal design also protects the libertarian part of the doctrine. Instead of a central ministry deciding every project, states compete to provide the best operating environment. Firms choose locations. Workers move toward opportunity. Capital flows toward reliability. The central state sets the tax rule and measurement architecture; states win by making factories easier to build and run.
 
-## 12. Strategic Capacity as Real Option
+## 15. Strategic Capacity as Real Option
 
 Some manufacturing capacity has option value beyond current output. Pharma APIs, mature-node semiconductors, rare earths, drones, telecom/RAN, grid components, batteries, and defense-linked electronics may matter most during crisis. The value of domestic capacity rises under supply shock, sanctions, war, pandemic, export controls, or geopolitical coercion.
 
@@ -156,7 +192,7 @@ This is a real-options problem. The broad zero-tax regime rewards qualifying man
 
 This distinction matters because strategic capacity can easily become a slogan. Not every import is a vulnerability. Not every domestic plant is strategic. The test combines import concentration, substitutability, crisis demand, production-network centrality, capability thickness, and time to scale. A sector with high dependence, few alternate suppliers, long restart time, and high downstream importance deserves a premium. A sector with many suppliers and low crisis relevance does not.
 
-## 13. Effective Protection and Tariff Discipline
+## 16. Effective Protection and Tariff Discipline
 
 Nominal tariff logic is too weak for this paper. Corden's effective-rate-of-protection framework is the correct tool because what matters is protection of value added, not only the tariff on the final good. A downstream manufacturer may receive little or even negative effective protection if imported inputs face high tariffs while the final good faces competition.
 
@@ -164,23 +200,29 @@ This is a known risk in Indian manufacturing. Electronics, solar components, tex
 
 Tariffs can buy time. They cannot substitute for cost reduction. Any tariff support must be paired with input-tariff alignment, logistics improvement, power reliability, scale, supplier development, and export discipline. Protection without a path to external competitiveness becomes consumer punishment. Protection with a sunset and cost-down path can support learning.
 
-## 14. The Policy Package
+## 17. The Policy Package
 
-The policy package has five parts.
+The policy package has eight parts.
 
 First, qualifying new manufacturing profits receive zero corporate tax for a fixed period, likely 10 to 15 years, with five-year reviews. Eligibility depends on audited production, formal payroll, domestic value addition, reinvestment, and compliance. The benefit expires by default and is revoked when conditions fail.
 
-Second, India publishes a factory-time dashboard. Each state is measured on land, power, approvals, customs, inspections, payment, tax refunds, and dispute resolution. The dashboard is the operating definition of ease of doing business for manufacturing.
+Second, India publishes a factory-time dashboard. Each state is measured on land, power, approvals, customs, inspections, payment, tax refunds, law-and-order incidents, contract enforcement, and dispute resolution. The dashboard is the operating definition of ease of doing business for manufacturing.
 
 Third, deeper benefits require discipline. In export-oriented sectors, discipline comes from export performance, quality, delivery, and certification. In strategic sectors where exports are not the right near-term metric, discipline comes from domestic output, readiness, cost-down milestones, and import-dependence reduction.
 
 Fourth, strategic-capacity premia are narrow. They apply to sectors where option value is high and capability is thin. They are separate from the broad zero-tax rule and receive separate audit.
 
-Fifth, a Manufacturing Council coordinates the federal layer: common metrics, audit rules, land and power transparency, labor-code rollout, logistics corridors, and destructive incentive competition.
+Fifth, corruption control is embedded into process design: service-level agreements, electronic file trails, deemed approvals for low-risk permissions, risk-scored inspections, published rejection rates, independent audit, and appealable revocation.
+
+Sixth, infrastructure funds follow operational reliability. Industrial nodes are ranked by power quality, water, last-mile roads, port and rail time, effluent capacity, worker access, and time to first shipment.
+
+Seventh, industrial law and order becomes a measured state responsibility. Cargo theft, extortion, blockade days, industrial policing response, payment delays, and commercial-award enforcement become part of the state manufacturing score.
+
+Eighth, a Manufacturing Council coordinates the federal layer: common metrics, audit rules, land and power transparency, labor-code rollout, logistics corridors, industrial policing standards, contract-enforcement benchmarks, and destructive incentive competition.
 
 This is a conservative and market-first industrial policy. It does not ask the state to run factories. It asks the state to stop making factories slow, expensive, and uncertain; to stop taxing qualifying formation; and to measure the public bottlenecks it already controls.
 
-## 15. Objections
+## 18. Objections
 
 The strongest liberal objection is that India ought to focus on broad reform: trade liberalization, infrastructure, education, courts, and simpler regulation. That objection is partly right. Manufacturing policy cannot substitute for broad reform. But broad reform alone may underprovide manufacturing when learning spillovers, coordination failures, strategic capacity, and premature deindustrialization are present. The right answer is market-first reform with a narrow manufacturing exception.
 
@@ -192,17 +234,23 @@ The strongest labor objection is that manufacturing competitiveness can become a
 
 The strongest fiscal objection is revenue loss. The answer is arithmetic and timing. Zero tax waives a claim on profit that may not otherwise exist. Wage-side taxes, GST, supplier profits, electricity duties, port fees, rail freight, household consumption, and future firm growth can offset part of the cost. Where they do not, the policy must be defended as a strategic-capacity and employment investment, not hidden as fake fiscal neutrality.
 
-## 16. Data and Replication Standard
+The strongest corruption objection is that any manufacturing exception becomes a new rent channel. That is the reason for designing the benefit around data exhaust rather than official favor. A corrupt state wants discretion. A manufacturing policy that minimizes discretion, publishes time metrics, relies on existing transaction data, and revokes benefits through auditable rules is still vulnerable to capture, but it gives firms and citizens evidence with which to fight it.
 
-The next version of this paper makes every numerical claim traceable. The core data sources are DGCI&S bilateral trade by HS code; ASI industry and plant data where available; PLI approvals, disbursements, sales, exports, and employment; tariff schedules and input-output tables for effective protection; EPFO and ESI payroll data; port dwell time and customs clearance data; power connection and land allotment timelines; and state industrial-policy incentives.
+The strongest infrastructure objection is that India cannot tax-cut its way around bad roads, bad power, and slow ports. That objection is correct. Zero tax is not a substitute for infrastructure. It is one part of a package where infrastructure reliability is measured, ranked, funded, and tied to industrial outcomes.
+
+The strongest rule-of-law objection is that contracts, policing, and courts are too slow for manufacturing. That objection is also correct. A manufacturing policy without contract enforcement will favor incumbents and relationship networks. The answer is to make industrial contract enforcement, payment discipline, cargo security, and local policing part of the manufacturing policy itself rather than treating them as generic governance problems.
+
+## 19. Data and Replication Standard
+
+The next version of this paper makes every numerical claim traceable. The core data sources are DGCI&S bilateral trade by HS code; ASI industry and plant data where available; PLI approvals, disbursements, sales, exports, and employment; tariff schedules and input-output tables for effective protection; EPFO and ESI payroll data; port dwell time and customs clearance data; power connection and land allotment timelines; state industrial-policy incentives; commercial court disposal data; arbitration enforcement data; MSME payment-delay data; electricity reliability data; cargo theft and industrial policing data; and district-level approval timelines.
 
 Every table identifies source, year, unit, transformation, and uncertainty. Rounded estimates are better than fake precision. Where data are missing, the paper says so and specifies what would be needed to complete the estimate.
 
-## 17. Conclusion
+## 20. Conclusion
 
 India's manufacturing problem is not solved by slogans about self-reliance, and it is not solved by a passive state that taxes formal producers while tolerating the hidden costs it imposes. Manufacturing needs a different settlement: markets for firms, discipline for beneficiaries, measurement for states, and a tax system that does not punish new industrial capacity before it has time to compound.
 
-The doctrine is deliberately narrow. Keep the state out of ordinary economic life as much as possible. Make it serious where the physical and institutional preconditions of production are already public. If India can cut factory-time, stop taxing qualifying new manufacturing profits, force states to compete on operational quality, and discipline benefits through value addition, payroll, exports, and sunset, it can build industrial capacity without reviving the License Raj.
+The doctrine is deliberately narrow. Keep the state out of ordinary economic life as much as possible. Make it serious where the physical and institutional preconditions of production are already public. If India can cut factory-time, stop taxing qualifying new manufacturing profits, fight corruption through process design, upgrade infrastructure reliability, enforce contracts, secure industrial zones, force states to compete on operational quality, and discipline benefits through value addition, payroll, exports, and sunset, it can build industrial capacity without reviving the License Raj.
 
 The paper is still incomplete. The model needs calibration, the product-space chapter needs current numbers, the Hsieh-Klenow chapter needs Indian data work, the case studies need full treatment, and the sector chapters need named statutory and institutional detail. But the direction is fixed: a right-wing manufacturing policy for India can be pro-market in form, pro-capacity in substance, and hostile to discretionary rent extraction.
 
