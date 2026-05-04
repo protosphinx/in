@@ -16,7 +16,7 @@ That means the paper cannot rest on slogans about factories, jobs, or national p
 
 ## 1. Learning Externalities: Greenwald-Stiglitz
 
-The manufacturing exception should begin with learning, not sentiment. Greenwald and Stiglitz provide the strongest theoretical foundation: development is a process of learning, and markets underinvest in activities where the social benefits of learning exceed the private returns captured by the firm.
+The manufacturing exception begins with learning. Greenwald and Stiglitz provide the strongest theoretical foundation: development is a process of learning, and markets underinvest in activities where the social benefits of learning exceed the private returns captured by the firm.
 
 The implication for this paper is direct. A manufacturer may only internalize current-period profit, but production can also create process knowledge, trained workers, supplier capabilities, quality routines, and export relationships. Those spillovers are not fully priced. If the marginal social return to manufacturing exceeds the marginal private return, a policy wedge can be welfare-improving.
 
@@ -30,7 +30,7 @@ The product-space literature prevents the paper from treating "manufacturing" as
 
 For India, this means the 100,000-manufacturer target cannot be sector-agnostic. The paper must distinguish sectors that are close to India's current capability base from sectors that are strategically important but capability-distant. Electronics assembly, pharma APIs, apparel, auto components, specialty steel, batteries, and semiconductor ATMP do not sit at the same point in the product space.
 
-The full paper needs India's ECI trajectory, product-space density, and comparison with Vietnam, China, and Bangladesh. The question is not simply "what should India make?" It is "which products move India into denser, more complex parts of the product space without pretending every frontier sector is immediately reachable?"
+The full paper needs India's ECI trajectory, product-space density, and comparison with Vietnam, China, and Bangladesh. The operative question is which products move India into denser, more complex parts of the product space without pretending every frontier sector is immediately reachable.
 
 Policy implication: broad zero-tax treatment can be sector-neutral at the eligibility layer, but strategic premia should not be sector-neutral. They should go where capability adjacency, spillovers, production-network centrality, and geopolitical option value are jointly high.
 
@@ -40,17 +40,17 @@ Hsieh and Klenow is the anchor for the missing-middle argument. Their QJE paper 
 
 This matters because India's manufacturing problem is not only low investment. It is distorted allocation. Firms stay too small, productive firms fail to scale, and capital/labor do not flow smoothly toward higher-productivity plants.
 
-The white paper should use this literature to discipline the argument. "100,000 manufacturers" should not mean subsidizing every small firm to remain small. The goal is a thicker distribution of firms that can cross thresholds, formalize, raise productivity, and enter supplier networks.
+This literature disciplines the argument. "100,000 manufacturers" means a thicker distribution of firms that can cross thresholds, formalize, raise productivity, and enter supplier networks.
 
-Required upgrade: reproduce the logic with current Indian data where possible. The chapter should distinguish tax-induced informality, finance constraints, labor-threshold avoidance, land/power frictions, and sector-specific distortions rather than treating "missing middle" as one cause.
+Required upgrade: reproduce the logic with current Indian data where possible. The chapter distinguishes tax-induced informality, finance constraints, labor-threshold avoidance, land/power frictions, and sector-specific distortions rather than treating "missing middle" as one cause.
 
 ## 4. Premature Deindustrialization: Rodrik
 
 Rodrik's premature-deindustrialization frame supplies the urgency. Late industrializers are running out of manufacturing-led development opportunities earlier and at lower income levels than early industrializers. Manufacturing peaks have shifted downward and leftward.
 
-For India, this changes the demographic argument. It is not enough to say India has a young population. The relevant question is whether India can absorb young workers into productive tradable sectors before the industrialization window narrows further.
+For India, this changes the demographic argument. A young population matters only if India can absorb young workers into productive tradable sectors before the industrialization window narrows further.
 
-The full paper should chart India against Korea, Taiwan, Malaysia, China, Vietnam, and Bangladesh at comparable income levels. If India has already missed part of the classic East Asian manufacturing window, then policy must focus on sectors where India still has realistic capability adjacency and labor absorption.
+The full paper needs a chart placing India against Korea, Taiwan, Malaysia, China, Vietnam, and Bangladesh at comparable income levels. If India has already missed part of the classic East Asian manufacturing window, then policy must focus on sectors where India still has realistic capability adjacency and labor absorption.
 
 Limit: the premise does not prove that any industrial policy works. It proves that delay is costly and that India must be selective about where manufacturing-led development is still feasible.
 
@@ -60,7 +60,7 @@ The recent industrial-policy literature is more empirical and less ideological t
 
 Lane's work on Korea's HCI drive is central because it studies an intervention with persistent capability effects after the policy period. Juhasz's Napoleonic blockade paper shows that temporary protection can lead to technology adoption and persistent industrial activity under some conditions.
 
-The lesson is not "protect everything." The lesson is that temporary, disciplined, capability-building policy can have long-run effects when it induces learning and technology adoption. That supports sunset clauses and export discipline rather than permanent protection.
+The empirical lesson is temporary, disciplined, capability-building policy can have long-run effects when it induces learning and technology adoption. That supports sunset clauses and export discipline rather than permanent protection.
 
 Design implication: India should treat benefits as conditional and time-bounded. A firm that does not raise domestic value addition, payroll, quality, exports, or strategic output should lose access automatically.
 
@@ -80,9 +80,9 @@ The strongest objection to industrial policy in India is not theoretical. It is 
 
 Kelkar and Shah's critique of Indian state capacity pushes the proposal toward low-discretion instruments. Pritchett, Andrews, and Woolcock warn that states can mimic form without function. Pritchett and Sandefur's "flailing state" frame highlights inconsistent execution across agencies and levels of government.
 
-The implication is that India's manufacturing policy should avoid discretionary winner-picking where possible. A rule-based zero-tax regime tied to audited production, payroll, domestic value addition, and export performance requires verification capacity, but not the same level of sector-picking wisdom as classic industrial policy.
+The implication is that India's manufacturing policy avoids discretionary winner-picking where possible. A rule-based zero-tax regime tied to audited production, payroll, domestic value addition, and export performance requires verification capacity, but not the same level of sector-picking wisdom as classic industrial policy.
 
-This is the central conservative/libertarian compatibility point. The state should not micromanage prices, licenses, and firm strategy. It should define narrow eligibility rules, measure factory-time, stop taxing qualifying formation, and revoke privileges when public criteria fail.
+This is the central conservative/libertarian compatibility point. The state defines narrow eligibility rules, measures factory-time, stops taxing qualifying formation, and revokes privileges when public criteria fail.
 
 ## 8. Political Settlements and Productive Rents: Khan
 
@@ -98,13 +98,13 @@ Open problem: India has fragmented political authority and many veto points. The
 
 Studwell's framework is not a formal model, but it names a mechanism the paper needs: export discipline. Protection without export discipline becomes domestic complacency. Exporting forces firms to meet external standards on cost, quality, delivery, certification, and design improvement.
 
-This should become a load-bearing part of the proposal. Zero tax should be available for qualifying production, but deeper benefits or strategic premia should require export performance or credible import-substitution in strategic categories with measurable cost-down paths.
+Export discipline becomes a load-bearing part of the proposal. Zero tax can be available for qualifying production, while deeper benefits or strategic premia require export performance or credible import-substitution in strategic categories with measurable cost-down paths.
 
 India-specific caveat: not every strategic category can be judged by near-term export performance. APIs, mature-node chips, grid components, and defense-linked electronics may need strategic-output tests. The discipline mechanism should differ by sector, but it must still be measurable.
 
 ## 10. Trade Theory: Effective Protection
 
-The paper should not use nominal tariff logic. Corden's effective-rate-of-protection framework is the right tool. What matters for a producer is protection of value added, not just the tariff on the final good.
+Nominal tariff logic is too weak for this paper. Corden's effective-rate-of-protection framework is the right tool. What matters for a producer is protection of value added, not just the tariff on the final good.
 
 If input tariffs are high, downstream manufacturers may receive little or even negative effective protection despite high tariffs on final goods. This is a known risk in India. Any tariff-support argument must compute effective protection by sector, especially for electronics, textiles, solar components, and auto parts.
 
@@ -114,9 +114,9 @@ Policy implication: tariff support must be paired with input-tariff alignment an
 
 Manufacturing policy is also direction-of-technical-change policy. Acemoglu's directed technical change work and Mazzucato's mission-oriented innovation frame can help clarify where the state should shape technological trajectories rather than merely subsidize current production.
 
-For India, this matters in batteries, grid equipment, drones, mature-node semiconductors, industrial automation, and clean manufacturing. The policy should separate broad manufacturing formation from missions where technological direction and strategic capability are explicit goals.
+For India, this matters in batteries, grid equipment, drones, mature-node semiconductors, industrial automation, and clean manufacturing. The policy separates broad manufacturing formation from missions where technological direction and strategic capability are explicit goals.
 
-Constraint: mission policy is more discretionary and therefore more vulnerable to state-capability failure. The paper should keep mission premia narrow, explicit, and audited separately from the broad zero-tax manufacturing regime.
+Constraint: mission policy is more discretionary and therefore more vulnerable to state-capability failure. Mission premia stay narrow, explicit, and audited separately from the broad zero-tax manufacturing regime.
 
 ## 12. What This Literature Implies for the Paper
 

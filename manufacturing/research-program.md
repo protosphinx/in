@@ -1,14 +1,14 @@
-# Manufacturing White Paper Research Program
+# Manufacturing White Paper Backlog
 
-This document defines the upgrade path from a sharp policy note to a research-grade industrial-policy white paper. The current [Industrial Base Math](./industrial-base-math.md) file is a working note. A publishable white paper needs literature engagement, formal modeling, comparative evidence, political-economy theory, and sector-specific institutional detail.
+This document is the backlog for the research project. The canonical reader-facing draft is [Manufacturing Policy for India](./white-paper.md). The current [Industrial Base Math](./industrial-base-math.md) file is a working note; [Literature Review](./literature-review.md) and [Annotated Bibliography](./bibliography.md) are appendices.
 
-The target is not a longer essay. It is a paper with enough structure that economists, industrial-policy practitioners, and state officials can argue with the assumptions instead of dismissing the piece as rhetoric.
+The target is a paper with enough structure that economists, industrial-policy practitioners, and state officials can argue with the assumptions instead of dismissing the piece as rhetoric.
 
 ## 1. Core Thesis to Prove
 
-The paper should prove a narrower claim than "manufacturing matters":
+The paper proves a narrower claim than "manufacturing matters":
 
-India should run a low-discretion, rule-based manufacturing-capacity policy built around zero tax for qualifying new manufacturing profits, factory-time metrics, export discipline, and state-level competition, because manufacturing generates learning spillovers and strategic-capacity externalities that private firms cannot fully capture.
+India needs a low-discretion, rule-based manufacturing-capacity policy built around zero tax for qualifying new manufacturing profits, factory-time metrics, export discipline, and state-level competition, because manufacturing generates learning spillovers and strategic-capacity externalities that private firms cannot fully capture.
 
 The burden of proof:
 
@@ -30,7 +30,7 @@ Move the five-line doctrine to the front, not the end:
 - zero tax for qualifying new manufacturing capacity
 - factory-time as the ease-of-doing-business metric
 
-This section should be short. The rest of the paper derives it.
+This section stays short. The rest of the paper derives it.
 
 ### B. Welfare-Theoretic Foundation
 
@@ -43,7 +43,7 @@ Private return = current-period profit
 Social return = current-period profit + learning spillovers + supplier capability accumulation + strategic option value
 ```
 
-The optimal policy wedge should be derived as a function of learning-curve elasticity, spillover coefficient, time horizon, and social discount rate. The current `v / (m x tau)` ratio should be presented only as a static corner case of a dynamic optimum.
+The optimal policy wedge derives from learning-curve elasticity, spillover coefficient, time horizon, and social discount rate. The current `v / (m x tau)` ratio belongs only as a static corner case of a dynamic optimum.
 
 ### C. Dynamic Capability Model
 
@@ -60,7 +60,7 @@ Capability evolves with production volume, process learning, supplier density, a
 H_{t+1} = H_t + phi(Q_t, supplier_density_t, export_discipline_t) - depreciation
 ```
 
-The model should simulate 10-year and 20-year cumulative value added under three regimes:
+The model simulates 10-year and 20-year cumulative value added under three regimes:
 
 - baseline PLI-only
 - zero-tax broad manufacturing
@@ -89,7 +89,7 @@ This grounds the 100,000-manufacturer target in product-space geometry rather th
 
 ### E. Misallocation and the Missing Middle
 
-Use Hsieh-Klenow as the anchor. The missing middle should be treated as a misallocation problem, not a descriptive complaint.
+Use Hsieh-Klenow as the anchor. Treat the missing middle as a misallocation problem, not a descriptive complaint.
 
 Required empirical work:
 
@@ -104,29 +104,23 @@ Use Rodrik's frame. Compare India's manufacturing employment and value-added sha
 
 The point:
 
-India's urgency is not only demographic. It is also that manufacturing-led development peaks earlier and lower for late industrializers. The window is narrower than the old East Asian path suggests.
+India's urgency is demographic and industrial. Manufacturing-led development peaks earlier and lower for late industrializers, which makes the window narrower than the old East Asian path suggests.
 
 ### G. Comparative Case Studies
 
-Each case should follow the same evidence structure:
-
-```text
-initial conditions -> policy intervention -> capability mechanism -> outcome -> counterfactual
-```
-
 Required cases:
 
-- Korea HCI, 1973-1979: learning persistence and state discipline
+- Korea HCI, 1973-1979: learning persistence after policy ended
 - Taiwan ITRI / TSMC: public research to industrial flagship
-- Vietnam, 2000-2020: FDI-led manufacturing and export discipline
-- Bangladesh garments: labor-intensive success and one-product trap
-- China Made in China 2025 / dual circulation: the policy competitor India faces
+- Vietnam, 2000-2020: FDI-led labor-cost arbitrage and export discipline
+- Bangladesh garments: labor-intensive success, quota history, and one-product trap
+- China Made in China 2025 / dual circulation: adversary-scale state-firm bargain
 
-These cases should not be decorative. They should identify mechanisms India can copy and mechanisms India cannot copy.
+These cases identify mechanisms India can copy and mechanisms India cannot copy.
 
 ### H. Sectoral Institutional Chapters
 
-"Manufacturing" is not one good. The paper needs sector chapters with different policy logics.
+Manufacturing is many policy problems grouped under one word. The paper needs sector chapters with different policy logics.
 
 Required sectors:
 
@@ -136,12 +130,7 @@ Required sectors:
 - Textiles and apparel: Tiruppur, Bangladesh competition, MMF transition, size-cap lock-in
 - Steel and auto: Bharat Forge, Tata/JLR, Maruti, CBAM, EV transition
 
-Each chapter should end with:
-
-- binding bottleneck
-- relevant statute/regulator/scheme
-- policy instrument
-- measurable target
+Each chapter needs named institutions, binding constraints, policy instruments, and measurable targets, but the structure follows the sector rather than a common template.
 
 ### I. Political Economy and State Capability
 
@@ -184,7 +173,7 @@ Policy design:
 
 ### K. Strategic-Capacity Real Options
 
-Strategic capacity should be modeled as a real option under geopolitical volatility.
+Strategic capacity is modeled as a real option under geopolitical volatility.
 
 Candidate sectors:
 
@@ -204,7 +193,7 @@ Layered policy design:
 
 ### L. Five Institutional Bottlenecks
 
-Separate chapters should replace abstract mentions of "logistics" and "delay":
+Separate chapters replace abstract mentions of "logistics" and "delay":
 
 - Energy: industrial power cross-subsidy, DISCOM fiscal stress, open access
 - Logistics: National Logistics Policy, Gati Shakti, DFCs, port dwell time
@@ -212,11 +201,11 @@ Separate chapters should replace abstract mentions of "logistics" and "delay":
 - Labor: labor codes, state rules, threshold effects, formal payroll
 - Capital: MSME credit gap, TReDS, supply-chain finance, working capital
 
-Each chapter should map reforms to named statutes, schemes, or institutions.
+Each chapter maps reforms to named statutes, schemes, or institutions.
 
 ### M. Objections Chapter
 
-A serious paper should steelman the strongest objections.
+A serious paper steelmans the strongest objections.
 
 Required objections:
 
@@ -225,7 +214,7 @@ Required objections:
 - Kelkar/Shah: the Indian state lacks execution bandwidth
 - Pritchett: basics-first before industrial ambition
 
-The zero-tax proposal should be defended as a low-discretion instrument that needs audit and registration capacity, not winner-picking capacity.
+The zero-tax proposal is defended as a low-discretion instrument that needs audit and registration capacity, not winner-picking capacity.
 
 ## 3. Bibliography to Work Through
 
@@ -300,4 +289,14 @@ Minimum datasets:
 6. Political-economy memo: capture, state capacity, federal architecture.
 7. Full white paper: 80-120 pages.
 
-The current essay should not be stretched into that paper. It should be treated as the seed thesis.
+The current essay will not be stretched into that paper. It remains the seed thesis.
+
+## 6. Next Full-Prose Chapters
+
+To break template pressure, the next writing pass produces three uneven, evidence-led chapters before expanding the rest of the outline:
+
+1. Hsieh-Klenow and the Indian missing middle, using ASI where possible.
+2. Korea HCI, using Lane as the anchor and focusing on persistence after policy withdrawal.
+3. State capability and capture, using Kelkar-Shah, Pritchett/Andrews/Woolcock, and Khan.
+
+These three chapters set the style standard: prose first, numbers early, equations only where they do work, and no common chapter mold.
