@@ -1,7 +1,5 @@
 # Manufacturing Policy for India
 
-> Status: prose working draft. This is the canonical reader-facing manufacturing paper. The empirical tables, model calibration, and sector appendices still need to be filled in, but the argument is now written as prose rather than an outline.
-
 ## Abstract
 
 India should treat manufacturing as the main exception to a normally permission-light economic state. The argument is not nostalgia for factories or a return to the License Raj. It is that manufacturing creates learning externalities, supplier capabilities, export discipline, strategic options, and formal employment ladders that private firms cannot fully capture. A policy regime built around factory-time metrics, qualifying zero-tax treatment for new manufacturing profits, export discipline, and low-discretion state competition may fit India's state capacity better than discretionary winner-picking.
@@ -426,7 +424,7 @@ The WTO objection is a legal constraint on design. The WTO Agreement on Subsidie
 
 ## 19. Data and Replication Standard
 
-The next version of this paper makes every numerical claim traceable. The core data sources are DGCI&S trade data, ASI plant data, PLI scheme records, tariff schedules, payroll data, port and customs timelines, power and land-allotment timelines, court and arbitration data, MSME payment-delay data, electricity reliability data, and industrial policing data.
+Every numerical claim in the paper should remain traceable. The core data sources are DGCI&S trade data, ASI plant data, PLI scheme records, tariff schedules, payroll data, port and customs timelines, power and land-allotment timelines, court and arbitration data, MSME payment-delay data, electricity reliability data, and industrial policing data.
 
 Every table identifies source, year, unit, transformation, and uncertainty. Rounded estimates are better than fake precision. Where data are missing, the paper says so and specifies what would be needed to complete the estimate.
 
@@ -436,8 +434,8 @@ India's manufacturing problem requires a different settlement: markets for firms
 
 The doctrine is deliberately narrow. Keep the state out of ordinary economic life as much as possible. Make it serious where the physical and institutional preconditions of production are already public. If India can cut factory-time, stop taxing qualifying new manufacturing profits, fight corruption through process design, upgrade infrastructure reliability, enforce contracts, and discipline benefits through value addition, payroll, exports, and sunset, it can build industrial capacity without reviving the License Raj.
 
-The paper is still incomplete. The model needs calibration, the product-space chapter needs density work, the Hsieh-Klenow chapter needs Indian data, the case studies need full treatment, and the sector chapters need named statutory detail. The next draft should turn those gaps into tables and case evidence.
+The practical test is simple: if a firm produces in India, pays workers formally, meets audited production criteria, and survives export or strategic-output discipline, the state should make formation faster and stop taxing the early compounding period. If a state wants manufacturing, it should win on factory-time, infrastructure reliability, law and order, and contract enforcement. That is the manufacturing exception.
 
-## Bibliography and Working Notes
+## Bibliography
 
-See [Annotated Bibliography](./bibliography.md), [Literature Review](./literature-review.md), [Industrial Base Math](./industrial-base-math.md), and [Manufacturing White Paper Backlog](./research-program.md).
+See [Annotated Bibliography](./bibliography.md), [Literature Review](./literature-review.md), and [Industrial Base Math](./industrial-base-math.md).
