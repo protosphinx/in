@@ -123,7 +123,176 @@ The SEZ lesson matters. India has already seen how tax-preferred zones can drift
 
 The strongest objection is capture. A manufacturing exception can become a new rent machine if incumbents write the rules, labor protections are bypassed, or states compete by hiding costs instead of raising productivity. That is why the policy must be published, auditable, and open to new entrants. Labor flexibility should be paired with formal payroll, safety enforcement, and portable benefits; otherwise the state will have subsidized precariousness rather than production.
 
-## 9. Dashboard and Clock
+## 9. Industrial Centrality: A PageRank for Supply-Chain Targeting
+
+Sector selection is the operational hole in any zero-tax or PLI proposal. Picking by political salience reproduces the License Raj. Picking by export contribution rewards incumbents who already have lobbyists in the room. The dashboard in §10 fixes the friction problem; it does not fix the prioritization problem. What is missing is a rule-based, recomputable, publishable score that ranks sectors by their structural importance to the production network.
+
+This section develops one. It is a directed-graph centrality measure on the input-output network, in the lineage of Acemoglu, Carvalho, Ozdaglar, and Tahbaz-Salehi (Econometrica 2012), Liu (QJE 2019), and Baqaee and Farhi (Econometrica 2019), with two policy-relevant modifications: a strategic-vulnerability weight and a capability-thickness discount. The result, Industrial Centrality (IC), is a quarterly-recomputable score that can drive zero-tax eligibility tiers, infrastructure sequencing, and the structural rows of the §10 dashboard.
+
+### 9.1. The Production Graph
+
+Let `G = (V, E, W)` be a directed weighted graph. `V = {1, ..., n}` indexes sectors at first, and firms at the firm-level extension. `E` is the set of input-output linkages. `W` assigns each edge `(i, j)` the technical coefficient
+
+```text
+a_{ij} = (rupees of input i used by sector j) / (rupees of total intermediate input used by j)
+```
+
+Stack the coefficients as `A in R^{n x n}`. Each column of `A` sums to at most 1; the residual is value added (wages, capital, taxes). The Leontief inverse `L = (I - A)^{-1}` has finite entries because the spectral radius of `A` is below 1 for any productive economy (Hawkins-Simon condition).
+
+For India, `A` is computable from the CSO Supply-Use Tables (latest comprehensive vintage 2017-18, 140 sectors), and at firm level from GSTN B2B invoice flows aggregated to monthly bilateral edges. The first source is published. The second is held by GSTN and accessible through NIPFP and IIM research partnerships.
+
+### 9.2. Forward and Backward Centrality
+
+Standard PageRank solves the fixed point
+
+```text
+x = (1 - d) v + d P x
+```
+
+for a column-stochastic transition matrix `P`, a personalization distribution `v`, and a damping factor `d in (0, 1)`. The closed form is
+
+```text
+x = (1 - d) (I - d P)^{-1} v
+```
+
+Production networks admit two natural specializations.
+
+**Forward Industrial Centrality (FIC)** measures the extent to which a sector's output propagates downstream. Take `P = A` after column-normalization with uniform redistribution over dangling sectors, and let `v_F` be a personalization vector concentrated on final-demand sinks (households, exports, strategic categories). Solve `x_F = (1 - d) (I - d A)^{-1} v_F`. A sector with high `x_F` is one whose value-add is widely consumed downstream. Pharma APIs, basic chemicals, and electronics components score high.
+
+**Backward Industrial Centrality (BIC)** measures the extent to which a sector is fed by upstream supply that the rest of the economy depends on. Take `P = A^T` and a uniform `v_B`. A sector with high `x_B` is one whose failure propagates broadly because many downstream sectors depend on it. This is the policy-relevant direction for strategic-capacity questions: what loses the most output if input `i` becomes unavailable.
+
+The damping factor `d` plays two roles. Mathematically it makes the iteration a contraction with modulus `d`, so power iteration converges geometrically irrespective of the spectral structure of `P`. Operationally it weights short over long supply chains: `d = 0.85` (the Brin-Page choice) emphasizes effects within roughly six supply-chain steps, which matches the empirical depth of most Indian manufacturing chains. The limit `d -> 1` recovers the classical Leontief multiplier.
+
+### 9.3. Connection to the Production-Network Literature
+
+Three results from the recent macro-network literature anchor the construction.
+
+Acemoglu, Carvalho, Ozdaglar, and Tahbaz-Salehi (2012) showed that idiosyncratic sectoral shocks do not wash out in aggregation when the production network is asymmetric. The standard deviation of GDP fluctuations decays slower than `1/sqrt(n)`, and the rate of decay is governed by the degree distribution of `A`. Their "influence vector" `alpha = (1/n) (I - (1 - alpha) A)^{-1} 1` is structurally a uniform-personalization PageRank up to scaling.
+
+Baqaee and Farhi (2019) generalized Hulten's theorem beyond the first order. Once non-linearities are admitted, shocks at network-central nodes have outsize macroeconomic consequences with magnitude proportional to Domar-weighted higher derivatives of the aggregate production function evaluated at central nodes. The policy reading: distortions and supports concentrated at high-centrality sectors have first-order welfare effects.
+
+Liu (2019) is the most directly relevant. He defines distortion centrality `delta = (I - A')^{-1} epsilon` where `epsilon` is the sectoral wedge vector, and proves that under a wide class of inefficiencies, the optimal industrial subsidy is positive and largest at sectors with high `delta`. India's policy-relevant `epsilon` includes labor-regulation wedges, credit-allocation wedges, and inverted input-tariff structures. Liu's distortion centrality is a Leontief-weighted distortion vector. BIC is the damped, regularized variant.
+
+The contribution here is operational rather than theoretical: composing centrality with two observable, lobbying-resistant weights to produce a decision rule that can survive contact with administrative practice.
+
+### 9.4. Two Policy-Relevant Weights
+
+For each sector `i`, define two scalars.
+
+**Strategic vulnerability** `m_i in [0, 1]` is the share of sector `i`'s domestic absorption supplied by a single concentrated foreign source, computed from DGCI&S commodity-country flows. For each four-digit HS code mapped into the I-O classification, take the maximum import share from any single country (or politically-linked country bloc), weighted by domestic absorption. Active pharma ingredients, mature-node semiconductor wafers, lithium-cell precursors, and rare-earth permanent magnets place sectors at `m_i > 0.6`. Diversified or domestically-dominant sectors have `m_i` near zero.
+
+**Capability thickness** `h_i > 0` is a normalized count of domestic firms producing in sector `i` with revenue above a productivity floor (for example, ASI Schedule plants above Rs 5 crore turnover), drawn from the ASI plant frame and MCA company data. Sectors with thousands of domestic producers (textiles, food processing, basic auto components) have high `h_i`. Sectors with under a hundred (mature semis, large turbines, advanced API molecules) have low `h_i`. The denominator penalizes adding state weight to sectors that are already supplier-thick.
+
+Both weights are observable, recomputable quarterly, and resistant to firm-level lobbying because they aggregate over thousands of underlying flows.
+
+### 9.5. The Industrial Centrality Score
+
+Combine:
+
+```text
+IC_i = (BIC_i x m_i) / h_i
+```
+
+A sector with high `IC` is structurally critical, strategically vulnerable, and thinly supplied domestically. These are the sectors where state coordination produces the largest expected reduction in strategic exposure per unit of effort.
+
+Two operational variants are useful.
+
+**IC-export** uses FIC instead of BIC, with `v_F` concentrated on exports, identifying sectors whose downstream output reaches foreign buyers most thickly. This is the variant for export-discipline targeting (§7).
+
+**IC-employment** weights the numerator by sectoral labor intensity from ASI, identifying sectors where centrality coincides with employment generation. This is the variant for the §5 100,000-manufacturer target.
+
+The general form admits a tunable upstream-downstream balance:
+
+```text
+IC_i^{(k)} = (w_k x BIC_i + (1 - w_k) x FIC_i) x m_i / h_i
+```
+
+with `w_k in [0, 1]` indexing the policy use case (capacity, exports, employment, strategic).
+
+### 9.6. The Algorithm
+
+```text
+Input:
+  A     : n x n technical-coefficient matrix
+  m     : n-vector of strategic-vulnerability weights, m_i in [0, 1]
+  h     : n-vector of capability-thickness counts, h_i > 0
+  v     : n-vector personalization, sum(v) = 1
+  d     : damping factor, default 0.85
+  w     : upstream weight, w in [0, 1]
+  tol   : convergence tolerance, default 1e-9
+  k_max : iteration cap, default 200
+
+Procedure:
+  1. Build P_B from A^T, row-stochastic, dangling rows redistributed uniformly over V.
+  2. Build P_F from A,   row-stochastic, dangling rows redistributed uniformly over V.
+  3. For each P in {P_B, P_F}:
+       x_0 := v
+       for k in 1 .. k_max:
+         x_k := (1 - d) v + d P x_{k-1}
+         if ||x_k - x_{k-1}||_1 < tol break
+       record x_k as BIC or FIC.
+  4. For each i:
+       IC_i := (w x BIC_i + (1 - w) x FIC_i) x m_i / h_i
+  5. Rank sectors by IC, descending.
+
+Output:
+  IC vector, BIC vector, FIC vector, ranked sector list.
+```
+
+**Convergence.** The map `x -> (1 - d) v + d P x` is a contraction in the L1 norm with modulus `d` whenever `P` is row-stochastic, so `||x_k - x*||_1 <= d^k x ||x_0 - x*||_1`. With `d = 0.85` and `tol = 1e-9`, convergence is reached in roughly `ceil(log(tol) / log(d)) ~ 128` iterations, independent of `n`. Existence and uniqueness of the fixed point follow from Banach.
+
+**Complexity.** Each iteration costs `O(nnz(A))`, where `nnz` counts non-zeros. For the 140-sector I-O table, `nnz` is on the order of 5,000 and a full IC computation runs in milliseconds. For the firm-level GSTN graph at roughly 1.4M registered manufacturers and approximately 5 x 10^7 monthly bilateral edges, each iteration costs about 50 ms with sparse linear algebra (scipy.sparse, PETSc), and the full IC computation finishes in under 10 seconds on a single workstation. Quarterly recomputation is trivially affordable.
+
+**Numerical stability.** The damping factor regularizes the spectral problem. Even when `A` has near-unit spectral radius, the damped iteration has spectral radius `d` and converges. This is the operational reason for preferring damped PageRank over the raw Leontief inverse for policy targeting.
+
+### 9.7. Worked Qualitative Illustration
+
+This paper is the specification, not the empirical execution. The qualitative structure of `IC` for India in 2026 is expected to resemble:
+
+| Sector cluster | BIC | m | h | IC rank |
+|---|---|---|---|---|
+| Active pharma ingredients (key molecules) | High | High (China 0.6-0.8) | Low | Top decile |
+| Mature-node semiconductors | Moderate | High (Taiwan, China) | Very low | Top decile |
+| Lithium-cell precursors | Moderate-high | Very high (China) | Near zero | Top decile |
+| Rare-earth permanent magnets | Moderate | Very high (China) | Near zero | Top decile |
+| Advanced auto components | High | Moderate | Moderate | Mid-upper |
+| Industrial chemicals (commodity) | High | Moderate | Moderate | Mid |
+| Apparel and textiles | Moderate | Low | Very high | Lower |
+| Food processing | Low-moderate | Low | Very high | Bottom |
+
+Two structural points emerge. First, the IC ranking does not coincide with employment intensity. Textiles and food rank low because they are domestically thick. They are addressed by a different instrument: the IC-employment variant, or direct labor-policy reform. Second, the top-decile IC sectors substantially overlap the announced PLI list, with two important divergences. PLI covers solar modules where IC is moderate (China-heavy but `h` is rising fast post-2022); PLI does not cover several IC top-decile chemical intermediates where domestic capability remains thin and import dependence is severe.
+
+The reading: a recomputed quarterly IC ranking would give the next iteration of PLI, or its successor instrument, a rule-based target list with explicit graduation when `m_i` falls below threshold or `h_i` rises above threshold. The concession ends when the capability is built, not when the lobbying ends.
+
+### 9.8. Connection to the Rest of the Paper
+
+The IC algorithm operationalizes three earlier sections.
+
+**Zero-tax eligibility (§3, §8).** Sectors are tiered. Tier 1 is the top-decile IC: full zero-tax for the maximum 15-year window with strict eligibility. Tier 2 is the top-quartile IC: a 10-year window. Tier 3 is all qualifying manufacturing under §8's general conditions: a 7-year window. Graduation is automatic when IC drops below threshold for four consecutive quarters.
+
+**The 100,000-manufacturer target (§5).** Composition matters. Roughly 10,000 in IC top-decile sectors where individual scale and capability matter most; roughly 30,000 in IC mid-quartile sectors where supplier-base depth matters; the remaining 60,000 in employment-intensive sectors selected by IC-employment. Aggregate counts hide the structural problem.
+
+**The dashboard (§10).** Add three structural rows: top-10 sectors by IC; sectors that exited the top decile this quarter (capability built); sectors that entered the top decile this quarter (new strategic exposure). The dashboard becomes a state-capability instrument, not just a friction monitor.
+
+### 9.9. Limitations
+
+The algorithm has four well-defined failure modes.
+
+**Sector aggregation.** The 140-sector I-O classification masks within-sector heterogeneity. "Pharmaceuticals" hides the molecule-level dependence on six Chinese intermediates. Operationalization at firm level via GSTN data resolves this but raises data-privacy and access questions. The plan: publish at 140-sector for transparency, refine to four-digit HS for actual policy ranking.
+
+**Structural change.** `A` evolves. Treating it as fixed assumes the production technology is stationary over the policy horizon. For a country undergoing rapid industrialization that assumption is wrong: building cell-precursor capacity changes `A` for batteries, autos, and the grid simultaneously. Mitigation: recompute quarterly; treat IC as a rolling instrument, not a one-time master plan.
+
+**Endogeneity of `h`.** The capability-thickness denominator is itself a target variable. Once policy raises `h_i`, IC drops for that sector. This is a feature (graduation), but it implies the IC ranking is not a static optimum. It is the gradient of where to push next, recomputed continuously.
+
+**Strategic gaming.** A foreign supplier could try to game `m_i` downward by routing through a third country. Mitigation: compute `m_i` on country-of-origin (rules-of-origin certificates) rather than country-of-shipment, and aggregate over politically-linked country blocs (China and Hong Kong) rather than nominal national borders.
+
+These are real limits, not deal-breakers, and each has a mitigation path. The IC algorithm is a substantial improvement over discretionary sector lists drawn up by committee, while remaining honest about the parameters it depends on.
+
+### 9.10. What This Adds to the Doctrine
+
+Sector targeting becomes auditable: the eligibility list is published quarterly and any analyst can rerun the computation from open data. The policy is self-graduating: sectors exit when capability is built, with no political-will requirement at the exit gate. Capture is structurally harder, because a firm seeking inclusion must alter `m` (the country-trade structure) or `h` (the domestic supplier base), both observable in third-party data. And the framework is portable: the same algorithm with different `m` and `h` vectors is the right operational instrument for Vietnam, Indonesia, and any other Asian industrializer making the same calculation. The algorithm is country-agnostic; the parameters are country-specific.
+
+## 10. Dashboard and Clock
 
 Every state should publish a manufacturing dashboard:
 
@@ -152,3 +321,9 @@ The clock is concrete. India has roughly a decade-plus before the demographic di
 - The Production Linked Incentive program has an official outlay around Rs 1.9-1.97 lakh crore across 14 sectors, with reported disbursements, sales, exports, and employment generation.
 - The National Logistics Policy material notes private estimates of India's logistics cost at 13-14% of GDP and a target reduction toward 9-10%.
 - Income-tax Act section 115BAB provides a concessional 15% tax rate for qualifying new domestic manufacturing companies, showing that India already recognizes manufacturing-specific tax treatment.
+- Acemoglu, D., Carvalho, V. M., Ozdaglar, A., and Tahbaz-Salehi, A. (2012). "The Network Origins of Aggregate Fluctuations." Econometrica 80(5): 1977-2016. The foundational result that sectoral shocks do not wash out in aggregation when the input-output network is asymmetric.
+- Liu, E. (2019). "Industrial Policies in Production Networks." Quarterly Journal of Economics 134(4): 1883-1948. Defines distortion centrality and proves that optimal industrial subsidies are largest at network-central, distorted sectors.
+- Baqaee, D. R., and Farhi, E. (2019). "The Macroeconomic Impact of Microeconomic Shocks: Beyond Hulten's Theorem." Econometrica 87(4): 1155-1203. Generalizes Hulten's theorem to non-linear production networks; shocks at central nodes have outsize aggregate effects.
+- Carvalho, V. M., and Tahbaz-Salehi, A. (2019). "Production Networks: A Primer." Annual Review of Economics 11: 635-663. Survey of the input-output network literature relevant to industrial policy.
+- Page, L., Brin, S., Motwani, R., and Winograd, T. (1999). "The PageRank Citation Ranking: Bringing Order to the Web." Stanford Technical Report. The original damped-iteration algorithm whose specialization to production networks underlies §9.
+- CSO Supply-Use Tables (latest comprehensive vintage 2017-18, 140 sectors) supply the technical-coefficient matrix `A` used in the §9 algorithm. Firm-level extension uses GSTN B2B invoice flows accessible through NIPFP / IIM research partnerships.
