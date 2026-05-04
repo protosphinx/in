@@ -140,7 +140,46 @@ The SEZ history is the warning. Tax-preferred zones can become real-estate plays
 
 ## 11. Corruption as a Manufacturing Tax
 
-Corruption is a manufacturing tax on time, uncertainty, and scale. A bribe paid for a power connection, pollution consent, land conversion, customs clearance, building approval, fire certificate, transport permit, or tax refund is not only a transfer from firm to official. It changes the investment decision before the factory exists. The honest firm prices delay and harassment into its expected return. The dishonest firm learns that political access is a production input. The foreign manufacturer compares the same project across jurisdictions and chooses the place where execution risk is lower.
+Corruption is a manufacturing tax on time, uncertainty, and scale. For this paper, corruption means an unofficial payment, gift, kickback, coerced facilitation payment, politically-mediated favor, or discretionary harassment attached to a state-controlled business transaction. It includes bribes for land conversion, power connection, water connection, pollution consent, construction permit, operating license, fire clearance, customs clearance, tax inspection, government procurement, transport movement, and tax refund. It excludes lawful taxes, published fees, and legitimate safety or environmental compliance.
+
+The narrow direct measure is the bribe tax:
+
+```text
+Direct corruption tax = informal payments / annual sales
+```
+
+The manufacturing-relevant measure is broader:
+
+```text
+Corruption tax equivalent =
+  informal payments / sales
++ cost of discretionary delay / sales
++ cost of harassment compliance / sales
++ expected loss from arbitrary revocation / sales
+```
+
+The delay term is measurable:
+
+```text
+cost of discretionary delay = capital locked x cost of capital x delay days / 365
+```
+
+If a Rs 10 crore project is delayed 180 days by an approval chain and the cost of capital is 12 percent, the delay cost is about Rs 59 lakh. If the first-year expected sales are Rs 20 crore, that delay alone is a 2.95 percent sales tax before any bribe is paid. At a 10 percent operating margin, a 3 percent sales tax is 30 percent of operating profit.
+
+The [World Bank Enterprise Survey for India 2022](https://microdata.worldbank.org/catalog/6500) gives a conservative starting point because it covers formal private establishments and relies on self-reporting. In the raw 2022 India microdata variable for ["Percent of Total Annual Sales Paid In Informal Payments" (`j7a`)](https://microdata.worldbank.org/index.php/catalog/6500/variable/V242), 4,400 of 7,182 non-refusal/non-don't-know responses reported zero informal payments, while the raw mean across those valid responses is about 3.0 percent of annual sales. Among firms reporting any positive informal payment, the raw mean is about 7.8 percent of sales. These are not weighted population estimates, but they define the order of magnitude: even a 1 percent bribe on sales equals 10 percent of profit at a 10 percent margin; a 3 percent bribe on sales is larger than the 2.5 percent-of-sales burden created by a 25 percent corporate tax on a 10 percent margin.
+
+The transaction evidence points to where the tax is levied. In the same 2022 survey data dictionary, informal gifts or payments were reported or requested in 50 of 212 non-refusal/non-don't-know [construction-permit](https://microdata.worldbank.org/index.php/catalog/6500/variable/V152) responses, about 24 percent; 62 of 320 [import-customs](https://microdata.worldbank.org/catalog/6500/variable/V95) responses, about 19 percent; 53 of 486 [operating-license](https://microdata.worldbank.org/catalog/6500/variable/V249) responses, about 11 percent; 31 of 328 [electrical-connection](https://microdata.worldbank.org/catalog/6500/variable/V50) responses, about 9 percent; and 20 of 196 [water-connection](https://microdata.worldbank.org/catalog/6500/variable/V61) responses, about 10 percent. The official [India 2022 country profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) reports bribery incidence as the share of firms experiencing at least one bribe request across six transactions, including taxes, permits or licenses, and utility connections.
+
+| Corruption channel | Objective measure | Raw India 2022 WBES signal | Manufacturing effect |
+|---|---:|---:|---|
+| General informal payments | Informal payments as % of sales (`j7a`) | Raw mean about 3.0% of sales among valid non-refusal responses | At 10% margin, roughly 30% of operating profit |
+| Construction permit | Gift/payment requested (`g4`) | About 24% of valid non-refusal responses | Raises factory setup cost and selects for access |
+| Import customs | Gift/payment requested (`d15a`) | About 19% of valid non-refusal responses | Raises input cost and disrupts export discipline |
+| Operating license | Gift/payment requested (`j15`) | About 11% of valid non-refusal responses | Converts compliance into bargaining |
+| Electrical connection | Gift/payment requested (`c5`) | About 9% of valid non-refusal responses | Delays production start and encourages captive workarounds |
+| Water connection | Gift/payment requested (`c14`) | About 10% of valid non-refusal responses | Matters for textiles, chemicals, food, pharma, and metals |
+
+Those numbers need careful treatment. They are establishment survey responses, not audited corruption accounts. They likely understate coercive payments because firms may fear disclosure or normalize small payments as operating cost. They also do not capture the full deadweight cost: project delay, management time, legal uncertainty, inventory buffers, broker fees, political donations, and projects never attempted. For policy design, the key point is not the exact national average. It is that the corruption tax can be expressed in the same unit as corporate tax: percent of sales and percent of operating profit.
 
 Manufacturing is especially exposed because it has more contact points with the state than services. A software firm can often begin with laptops and rented space. A factory needs land, electricity, water, roads, labor registration, safety approvals, environmental permissions, logistics, customs, and local policing. Each interface can become a toll booth. If the policy merely announces zero tax while leaving these toll booths intact, the state has shifted the rent from the tax department to the permit chain.
 
