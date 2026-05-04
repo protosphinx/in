@@ -71,7 +71,7 @@ That makes manufacturing a coordination problem before it is a subsidy problem. 
 
 The manufacturing question must therefore be argued in numbers, not slogans. The core metric is **days from intent to first production**. The fiscal question is not "can India afford to give manufacturers relief?" but "why is India comfortable financing foreign industrial capacity through a $100 billion-scale China trade deficit while hesitating to forgo a much smaller amount of tax on Indian manufacturing profits?"
 
-The quantitative doctrine is developed in detail here: **[The Industrial Base Math](./manufacturing/industrial-base-math.md)**.
+The quantitative doctrine is developed in a working note here: **[The Industrial Base Math](./manufacturing/industrial-base-math.md)**. The research-grade white-paper architecture is here: **[Manufacturing White Paper Research Program](./manufacturing/research-program.md)**.
 
 ### Ease of Doing Business in Factory-Time
 

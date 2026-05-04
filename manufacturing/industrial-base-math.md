@@ -1,5 +1,7 @@
 # The Industrial Base Math
 
+> Status: working note. This is not yet a research-grade industrial-policy white paper. It states the core arithmetic and policy intuition. The literature, formal model, comparative cases, political-economy apparatus, and sectoral chapters required for a full paper are specified in [Manufacturing White Paper Research Program](./research-program.md).
+
 This is the quantitative case for treating manufacturing as the major exception to a normally libertarian, conservative, market-first state.
 
 The argument is not that the state should run factories. That was the License Raj error. The argument is that manufacturing depends on a physical operating environment the state already controls: land, power, logistics, and courts. A state can make that environment predictable, or it can make every producer pay a hidden tax before the first shipment leaves the factory.
