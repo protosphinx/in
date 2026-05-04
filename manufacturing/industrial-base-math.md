@@ -778,7 +778,7 @@ high friction
 -> strategic vulnerability
 ```
 
-Manufacturing policy is the art of choosing which flywheel runs.
+Policy should be judged by whether the positive loop shows up in measured output, value addition, exports, and jobs.
 
 ## 20. The Doctrine
 
@@ -802,9 +802,7 @@ And five political principles:
 5. Factory-time as the measure of ease of doing business.
 ```
 
-This is statecraft, not socialism.
-
-The clock is concrete. India has roughly a decade-plus before the demographic dividend window tightens, and PLI in its current reported form has produced about Rs 20.41 lakh crore in sales, Rs 8.3 lakh crore in exports, and 14.39 lakh jobs against Rs 28,748 crore disbursed. That is useful, but it is not yet a full industrial operating system. The next step is to make factory-time, value addition, and 100,000 manufacturers the public dashboard.
+The clock is concrete. India has roughly a decade-plus before the demographic dividend window tightens, and PLI in its current reported form has produced about Rs 20.41 lakh crore in sales, Rs 8.3 lakh crore in exports, and 14.39 lakh jobs against Rs 28,748 crore disbursed. The next test is whether policy can move from scheme-wise success to system-wide capacity: shorter factory setup times, higher domestic value addition, faster payments, and a measurable path toward 100,000 manufacturers.
 
 ## Source Anchors
 
