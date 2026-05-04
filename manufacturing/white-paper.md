@@ -14,13 +14,28 @@ The paper develops the argument through five bodies of evidence. Greenwald and S
 
 India needs a small state for daily life and a strong state for industrial capacity. Those two commitments are compatible if the state is disciplined about where it intervenes. The ordinary Indian economy needs less permission, fewer inspectors, lower compliance friction, faster courts, simpler taxes, and more predictable rules. A trader, restaurant, software firm, farm, clinic, school, or small service business ought to operate without negotiating with the state before it can breathe.
 
-Manufacturing is different because the operating environment of a factory is already state-mediated. Land, power, customs, courts, and tax treatment are public or quasi-public constraints. A manufacturer does not merely face the market. It faces the state's physical and administrative quality before the first shipment leaves the gate.
+Manufacturing is different because the operating environment of a factory is already state-mediated. Land, power, customs, courts, and tax treatment are public or quasi-public constraints. Before the first shipment leaves the gate, a manufacturer faces the state's physical and administrative quality as much as the market.
 
 This is why "ease of doing business" must be quantified differently for manufacturing. The generic phrase is too soft. For manufacturing, it means factory-time: days to land possession, power connection, customs clearance, inspection resolution, and payment. Every delay enters working capital. Every unpredictable permission becomes a risk premium. Every state-level variation changes whether a supplier cluster forms in India, Vietnam, or China.
 
 The doctrine is therefore narrow:
 
 India needs a low-discretion, rule-based manufacturing-capacity policy built around zero tax for qualifying new manufacturing profits, factory-time dashboards, export discipline, audited domestic value addition, and state-level competition. The purpose is to make private manufacturing formation easier, faster, and more profitable without returning to state ownership or licensing.
+
+The operational terms need fixed meanings. A firm receives zero-tax treatment only for qualifying new manufacturing profits, not for trading income, land gains, or accounting transfers. A first-pass eligibility rule is:
+
+```text
+qualifies in year t if:
+  India-manufactured product revenue >= X% of total revenue
+  domestic value addition = (gross output - imported inputs) / gross output
+    is audited and transfer-pricing-adjusted
+  formal payroll = EPFO/ESI-linked payroll for eligible workers >= Y% of revenue
+  GST, MCA, customs, and audited financial records reconcile
+  the entity is a new manufacturing undertaking under Section 115BAB
+    or an analogous successor rule
+```
+
+Domestic value addition is a measurement and discipline variable; any hard legal threshold has to be screened for WTO/SCM compatibility. Factory-time is the median time a qualifying manufacturer faces across the binding public transactions: land possession, power connection, customs clearance, inspection resolution, refund or payment, and enforceable dispute resolution. Strategic capacity refers to sectors with high Industrial Centrality as defined in §9 of [Industrial Base Math](./industrial-base-math.md), not to any sector that can claim national importance.
 
 ## 2. Why Manufacturing Deserves a Policy Wedge
 
@@ -36,6 +51,8 @@ That number is a fiscal intuition rather than a full model. The stronger model h
 H_{t+1} = H_t + phi(Q_t, supplier_density_t, export_discipline_t) - delta_H H_t
 ```
 
+Supplier density is endogenous, so the final model should be a coupled firm-network system in which upstream capability affects downstream capability and vice versa. The Industrial Centrality vector in §9 of [Industrial Base Math](./industrial-base-math.md) is the operational approximation to that stationary network problem.
+
 The full technical note must specify `phi`. A plausible first specification is Cobb-Douglas in production volume and supplier density, multiplied by an export-discipline factor, with elasticities calibrated from ASI panels, sector studies, and comparative evidence. The policy comparison simulates baseline, PLI-only, broad zero tax, and zero tax plus narrow strategic-capacity premia over 10-year and 20-year horizons. The outputs are cumulative value added, fiscal cost, formal payroll, and capability stock.
 
 Until that technical note exists, the model remains a sketch. The policy claim does not rest on the equation alone. It rests on a broader proposition from learning economics: when production creates uncaptured learning and capability spillovers, a purely neutral tax state may underproduce industrial capacity.
@@ -44,11 +61,11 @@ Until that technical note exists, the model remains a sketch. The policy claim d
 
 PLI is useful because it admits the right premise: manufacturing formation sometimes needs active policy support. It is also limited because its structure is selective. The state chooses sectors, firms apply, officials verify eligibility, and payments are made against qualifying production. That can work in narrow sectors where the state has good information and a clear strategic objective. It is less suitable as the general operating system for mass manufacturing formation.
 
-Zero tax has a different logic. It does not require the state to pay a subsidy before profit exists. It waives a claim on profit after qualifying production exists. If a firm has no qualifying profit, the tax benefit is zero. If it produces, sells, pays workers formally, meets domestic value-addition thresholds, and earns profit, the state gives up a share of that profit tax for a time.
+Zero tax has a different logic. The state pays no subsidy before profit exists; it waives a claim on profit after qualifying production exists. If a firm has no qualifying profit, the tax benefit is zero. If it produces, sells, pays workers formally, reports audited value addition, and earns profit, the state gives up a share of that profit tax for a time.
 
 Mathematically, the benefit as a share of sales is modest. At a 10 percent margin and 15 percent tax rate, the benefit is 1.5 percent of sales. At a 10 percent margin and 25 percent tax rate, it is 2.5 percent of sales. For a manufacturer facing land delay, power unreliability, logistics costs, working-capital stress, and customs friction, that is not magic. But it is clean, automatic, and aligned with actual production.
 
-The difference is administrative as much as fiscal. PLI is a budget outlay allocated through selection. Zero tax is a future claim waived after qualifying profit exists. PLI may be better for a small set of strategic sectors with high learning spillovers, long gestation, and geopolitical value. Zero tax is better as the default formation policy for new manufacturing capacity because it rewards profitability, domestic production, formal payroll, and scale without requiring officials to decide which firm deserves money.
+The difference is administrative as much as fiscal. The instrument question is cash subsidy versus tax forgiveness. The design question is broad versus narrow, rule-bound versus discretionary. PLI as India currently runs it combines cash outlay with selective program design; a redesigned PLI could be more rule-based, and a badly designed tax holiday could become discretionary. The argument here is narrower: given Indian state-capability constraints, tax forgiveness after audited production is a better default instrument than cash allocation before capability is proven. PLI remains useful for a small set of strategic sectors with high learning spillovers, long gestation, and geopolitical value.
 
 The design must be strict. Incorporation, press releases, land possession, or assembly of imported kits cannot establish eligibility. Eligibility rests on audited production, payroll, domestic value addition, and reinvestment. Transfer pricing and protected domestic margins need scrutiny. Firms that miss thresholds lose benefits. The tax holiday attaches to production, not land, not a zone, and not political access.
 
@@ -72,7 +89,7 @@ This also explains why a zero-tax manufacturing policy can be more rational than
 
 Manufacturing contains many product worlds. The product-space literature from Hausmann, Hidalgo, Klinger, and others matters because countries tend to diversify into products near their existing capabilities. Capabilities live in workers, suppliers, machines, standards, and tacit knowledge. A country that exports garments can more plausibly move into technical textiles than into leading-edge wafer fabrication. A country with auto components and precision forging can more plausibly move into EV components, industrial machinery, and aerospace parts than into every frontier sector at once.
 
-This is where the paper must become empirical. In the [Observatory of Economic Complexity's 2023 ECI trade ranking](https://oec.world/en/rankings/eci/hs6/hs96), India is 39th with an ECI of 0.63; China is 18th, Vietnam 50th, and Bangladesh 93rd. That ranking is not a strategy, but it tells India to avoid both fantasy leapfrogging and low-complexity stagnation. The next step is product density: which nearby unoccupied products are close enough to scale and complex enough to matter?
+This is where the paper must become empirical. In the [Observatory of Economic Complexity's 2023 ECI trade ranking](https://oec.world/en/rankings/eci/hs6/hs96), India is 39th with an ECI of 0.63; China is 18th, Vietnam 50th, and Bangladesh 93rd. This is OEC's HS6 trade-based normalization; the Harvard CID Atlas uses a different normalization and has historically reported India's ECI value as negative, while placing India in a similar rank band. The ranking is not a strategy, but it tells India to avoid both fantasy leapfrogging and low-complexity stagnation. The next step is product density: which nearby unoccupied products are close enough to scale and complex enough to matter?
 
 Sector discipline follows. Electronics assembly, pharma APIs, apparel, auto components, and wafer fabs are different policy problems. Electronics assembly may be close enough if components, testing, tooling, and supplier localization follow. Pharma APIs are molecule-specific and depend on regulatory credibility, quality systems, bulk-drug park execution, and Chinese dependence. Apparel is labor-intensive and time-sensitive, with Bangladesh as the benchmark. Auto components and specialty steel build from existing Indian strengths. Wafer fabs are strategic and capital-heavy, with a different risk profile from ATMP and chip design.
 
@@ -84,7 +101,7 @@ Hsieh and Klenow provide the anchor for India's missing-middle problem. Their QJ
 
 That result changes the argument. India's manufacturing problem is broader than too few people wanting to build factories. Productive factors do not flow smoothly to the plants that can use them best. Firms stay small to avoid thresholds. Informality becomes a rational response to compliance costs. Productive firms face finance constraints. Labor regulation varies by state and can push activity from formal to informal manufacturing. Land, power, customs, and payment delays create working-capital penalties that favor incumbents and politically connected firms.
 
-The 100,000-manufacturer target must therefore be understood carefully. It cannot mean subsidizing smallness. It means creating a thicker middle of firms capable of crossing scale thresholds, formalizing payroll, joining supplier networks, exporting, and raising productivity. India needs more firms that can grow from 50 workers to 500, from local supply to national supply, from assembly to components, from domestic sales to exports.
+The 100,000-manufacturer target must therefore be understood carefully. The goal is a thicker middle of firms capable of crossing scale thresholds, formalizing payroll, joining supplier networks, exporting, and raising productivity, not subsidized smallness. India needs more firms that can grow from 50 workers to 500, from local supply to national supply, from assembly to components, from domestic sales to exports.
 
 The zero-tax proposal helps only if it lowers the penalty for formality and scale. A firm that formalizes payroll and reports profit deserves a better deal than one that stays small, informal, and invisible. A manufacturer that invests in machines and trained labor deserves faster approval than a system where trading imports move quickly while factories wait years. The policy's job is to tilt the margin toward productive scale.
 
@@ -94,9 +111,9 @@ The data work here is non-negotiable. The chapter needs ASI evidence on plant si
 
 Rodrik's premature-deindustrialization frame supplies urgency. Late industrializers are reaching peak manufacturing employment and output shares earlier and at lower income levels than earlier industrializers. That means the East Asian path is harder to repeat. It also means India's demographic dividend cannot be treated as a cushion. A young population becomes an advantage only if productive jobs exist during the window in which workers enter the labor force.
 
-The first comparison is already stark. [World Bank WDI data](https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=IN-KR) put India's manufacturing value added at 12.5 percent of GDP in 2024, down from a 2006 peak of about 17.3 percent. Korea, by contrast, was still at 26.6 percent in 2024 and reached about 29 percent in 2011. If India has already missed part of the classic manufacturing window, then "basics first" becomes too slow as a development strategy. India still needs education, health, courts, power, and urban governance, but it cannot wait for all of them to become perfect before building manufacturing capacity.
+The first comparison is already stark. [World Bank WDI series `NV.IND.MANF.ZS`](https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=IN-KR), accessed May 2026, puts India's manufacturing value added at about 12.5-12.6 percent of GDP in 2024, down from a 2006 peak of about 17.3 percent. Korea, by contrast, was still at 26.6 percent in 2024 and reached about 29 percent in 2011. If India has already missed part of the classic manufacturing window, then "basics first" becomes too slow as a development strategy. India still needs education, health, courts, power, and urban governance, but it cannot wait for all of them to become perfect before building manufacturing capacity.
 
-The manufacturing window and demographic window are closing together. A services-led path can employ high-skill workers, but it does not automatically absorb millions of semi-skilled workers into tradable, productivity-rising work. Construction absorbs labor but is cyclical and often informal. Agriculture cannot carry the labor force. Manufacturing remains one of the few sectors that can combine scale, tradability, learning, formalization, and productivity growth.
+The manufacturing window and demographic window are closing together. A services-led path can employ high-skill workers, but it does not automatically absorb millions of semi-skilled workers into tradable, productivity-rising work. Diao, McMillan, and Rodrik's structural-change work is the strongest caution here: recent growth accelerations in South Asia, Africa, and Latin America have often come without rapid industrialization. That does not weaken the manufacturing case; it raises the burden of proof. The paper has to show where manufacturing is still feasible, not assume that the old East Asian escalator is available at full scale.
 
 This is the conservative case as much as the growth case. Stable industrial work creates households with predictable income, towns with tax bases, and supplier communities. The social-order claim should be argued through those institutions rather than treated as a slogan.
 
@@ -104,7 +121,7 @@ This is the conservative case as much as the growth case. Stable industrial work
 
 The comparative chapter avoids forcing Korea, Taiwan, Vietnam, Bangladesh, and China into a single template. Each case answers a different question.
 
-Korea's heavy and chemical industry drive is the case for persistence. Lane's QJE paper estimates that targeted manufacturers had roughly 128 percent higher output growth than non-targeted manufacturers, value added per worker rose about 17 percent, and employment increased materially in targeted industries. India cannot copy Korea's authoritarian credit allocation or chaebol structure. The transferable point is narrower: temporary, disciplined support can build durable capability when firms face performance pressure and the state can withdraw support.
+Korea's heavy and chemical industry drive is the case for persistence. Lane's 2025 QJE article, Table II, estimates that targeted manufacturers had roughly 128 percent higher output growth than non-targeted manufacturers, value added per worker rose about 17.2 percent, and employment increased materially in targeted industries. India cannot copy Korea's authoritarian credit allocation or chaebol structure. The transferable point is narrower: temporary, disciplined support can build durable capability when firms face performance pressure and the state can withdraw support.
 
 Taiwan's ITRI and TSMC story is a different mechanism. It is about public research, technology transfer, managerial talent, and the creation of a flagship firm in a sector where private capital alone was unlikely to bear the early risk. The Indian question is whether institutions such as ISRO-linked suppliers, IITs, semiconductor missions, public labs, and anchor firms can create a similar pipeline without turning into grant distribution.
 
@@ -196,7 +213,7 @@ Annual profit after corruption becomes:
 Pi_c = S x (m - c) x (1 - tau)
 ```
 
-For investment, the relevant test is not whether the firm is profitable in a clean world. It is whether the present value of corrupted cash flow exceeds the capital cost:
+For investment, clean-world profitability is the wrong test. The relevant question is whether the present value of corrupted cash flow exceeds the capital cost:
 
 ```text
 NPV_c = -K + sum_{t=1}^{T} [S_t x (m_t - c_t) x (1 - tau)] / (1 + r)^t
@@ -273,7 +290,7 @@ refund_t   = time to tax refund
 pay_t      = time to buyer payment
 ```
 
-The key anti-corruption statistic is not only average time. It is dispersion. High variance in approval time, rejection loops, and inspection frequency is a signature of discretion. The target is therefore:
+The key anti-corruption statistic is dispersion as well as average time. High variance in approval time, rejection loops, and inspection frequency is a signature of discretion. The target is therefore:
 
 ```text
 minimize c = b + h + qL/S + Kr d/(365S)
@@ -282,9 +299,13 @@ subject to safety, environmental, labor, and tax compliance
 
 For manufacturing, anti-corruption policy is margin restoration. It takes an informal, discretionary, unpriced burden and converts it into measured transaction costs that can be reduced, compared across states, and tied to eligibility for central infrastructure and manufacturing support.
 
+The magnitude matters for the whole proposal. In the worked example above, the corporate-tax wedge is 2.5 percent of sales, while the direct-bribe-plus-delay corruption wedge is about 5.96 percent of sales. Zero corporate tax removes roughly one-third of the combined tax-plus-corruption burden. The remaining burden is larger, which makes factory-time enforcement, process redesign, infrastructure reliability, and contract enforcement the rest of the policy.
+
 The [World Bank Enterprise Survey for India 2022](https://microdata.worldbank.org/catalog/6500) gives a conservative starting point because it covers formal private establishments and relies on self-reporting. In the raw 2022 India microdata variable for ["Percent of Total Annual Sales Paid In Informal Payments" (`j7a`)](https://microdata.worldbank.org/index.php/catalog/6500/variable/V242), 4,400 of 7,182 non-refusal/non-don't-know responses reported zero informal payments, while the raw mean across those valid responses is about 3.0 percent of annual sales. Among firms reporting any positive informal payment, the raw mean is about 7.8 percent of sales. These are not weighted population estimates, but they define the order of magnitude: even a 1 percent bribe on sales equals 10 percent of profit at a 10 percent margin; a 3 percent bribe on sales is larger than the 2.5 percent-of-sales burden created by a 25 percent corporate tax on a 10 percent margin.
 
-The transaction evidence points to where the tax is levied. In the same 2022 survey data dictionary, informal gifts or payments were reported or requested in 50 of 212 non-refusal/non-don't-know [construction-permit](https://microdata.worldbank.org/index.php/catalog/6500/variable/V152) responses, about 24 percent; 62 of 320 [import-customs](https://microdata.worldbank.org/catalog/6500/variable/V95) responses, about 19 percent; 53 of 486 [operating-license](https://microdata.worldbank.org/catalog/6500/variable/V249) responses, about 11 percent; 31 of 328 [electrical-connection](https://microdata.worldbank.org/catalog/6500/variable/V50) responses, about 9 percent; and 20 of 196 [water-connection](https://microdata.worldbank.org/catalog/6500/variable/V61) responses, about 10 percent. The official [India 2022 country profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) reports bribery incidence as the share of firms experiencing at least one bribe request across six transactions, including taxes, permits or licenses, and utility connections.
+The raw mean should not be confused with the Enterprise Surveys country-profile indicators. The official [India 2022 country profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) reports bribery incidence at 27.2 percent of firms, meaning the share experiencing at least one bribe payment request across six transactions. It also reports that 38.7 percent of firms were expected to give gifts for a construction permit, 45.8 percent for a government contract, and 31.4 percent in meetings with tax officials. The raw `j7a` calculation is used here only to express the sales-wedge order of magnitude from the microdata.
+
+The transaction evidence points to where the tax is levied. In the same 2022 survey data dictionary, informal gifts or payments were reported or requested in 50 of 212 non-refusal/non-don't-know [construction-permit](https://microdata.worldbank.org/index.php/catalog/6500/variable/V152) responses, about 24 percent; 62 of 320 [import-customs](https://microdata.worldbank.org/catalog/6500/variable/V95) responses, about 19 percent; 53 of 486 [operating-license](https://microdata.worldbank.org/catalog/6500/variable/V249) responses, about 11 percent; 31 of 328 [electrical-connection](https://microdata.worldbank.org/catalog/6500/variable/V50) responses, about 9 percent; and 20 of 196 [water-connection](https://microdata.worldbank.org/catalog/6500/variable/V61) responses, about 10 percent.
 
 | Corruption channel | Objective measure | Raw India 2022 WBES signal | Manufacturing effect |
 |---|---:|---:|---|
@@ -295,7 +316,7 @@ The transaction evidence points to where the tax is levied. In the same 2022 sur
 | Electrical connection | Gift/payment requested (`c5`) | About 9% of valid non-refusal responses | Delays production start and encourages captive workarounds |
 | Water connection | Gift/payment requested (`c14`) | About 10% of valid non-refusal responses | Matters for textiles, chemicals, food, pharma, and metals |
 
-Those numbers need careful treatment. They are establishment survey responses, not audited corruption accounts. They likely understate coercive payments because firms may fear disclosure or normalize small payments as operating cost. They also miss deadweight costs such as delay, management time, legal uncertainty, and projects never attempted. For policy design, the key point is not the exact national average. It is that the corruption tax can be expressed in the same unit as corporate tax: percent of sales and percent of operating profit.
+Those numbers need careful treatment. They are establishment survey responses, not audited corruption accounts. They likely understate coercive payments because firms may fear disclosure or normalize small payments as operating cost. They also miss deadweight costs such as delay, management time, legal uncertainty, and projects never attempted. For policy design, the exact national average matters less than the unit of measurement: percent of sales and percent of operating profit, directly comparable to corporate tax.
 
 Manufacturing is especially exposed because it has more contact points with the state than services. A software firm can often begin with laptops and rented space. A factory needs land, power, water, labor registration, environmental permission, customs, and local security. Each interface can become a toll booth. If the policy merely announces zero tax while leaving these toll booths intact, the state has shifted the rent from the tax department to the permit chain.
 
@@ -325,6 +346,8 @@ Contract enforcement is equally central. Manufacturing is a chain of promises: s
 
 Payment delay is one of the clearest examples. A manufacturer can survive a low margin if cash cycles are predictable. It can be killed by delayed receivables even when the order book is strong. MSME payment rules, arbitration, and commercial courts matter only when they change buyer behavior and make awards enforceable at industrial speed.
 
+The empirical anchor is weak enough to matter. In the now-discontinued Doing Business 2020 dataset, India ranked 163rd on enforcing contracts and the standardized commercial dispute took 1,445 days through a local first-instance court. The index should not be treated as current administrative truth, but it remains a useful benchmark for the scale of the contract-enforcement problem.
+
 The policy package therefore needs an industrial rule-of-law component. Industrial clusters need fast-track mechanisms for supplier disputes, payment delays, land-title conflicts, and utility disputes. Standard contracts for industrial land, power, warehousing, and supplier payments need digitized, time-bound enforcement. E-invoicing and GST data can help identify chronic payment delay. Public-sector buyers and large firms face automatic interest and procurement penalties for delayed payment to qualifying manufacturers.
 
 Law and order also belongs in the factory-time dashboard. States are measured on cargo theft, reported extortion, blockade days, police response time in industrial zones, and time to enforce commercial awards. This is uncomfortable but necessary. A state that offers tax incentives while failing to protect factories is asking capital to absorb political risk.
@@ -345,7 +368,7 @@ Some manufacturing capacity has option value beyond current output. APIs, mature
 
 This is a real-options problem. The broad zero-tax regime rewards qualifying manufacturing generally. A separate strategic-capacity premium applies only to narrow categories where volatility and dependence justify extra cost. The premium is transparent, time-bound, and tied to output, readiness, and cost-down milestones.
 
-This distinction matters because strategic capacity can easily become a slogan. Imports become strategic concerns when dependence is concentrated, substitutes are weak, crisis demand is high, and time to scale is long. Sectors with diversified suppliers and low crisis relevance stay inside the broad zero-tax regime.
+This distinction matters because strategic capacity can easily become a slogan. Imports become strategic concerns when dependence is concentrated, substitutes are weak, crisis demand is high, and time to scale is long. Support should go only where that vulnerability overlaps with §5's production criteria: capability adjacency, network centrality, learning spillovers, export potential, and geopolitical option value. Sectors with diversified suppliers and low crisis relevance stay inside the broad zero-tax regime.
 
 ## 16. Effective Protection and Tariff Discipline
 
@@ -355,15 +378,27 @@ This is a known risk in Indian manufacturing. Electronics, solar components, tex
 
 Tariff support only works when paired with input-tariff alignment, logistics improvement, power reliability, and export discipline. Without a cost-down path, protection raises consumer prices while leaving producers weak.
 
+The solar case shows the arithmetic. The International Energy Agency records India's 2022 basic customs duty at 40 percent on solar PV modules and 25 percent on solar PV cells. If a module assembler imports cells worth 65 percent of the module price, Corden's effective-protection formula gives:
+
+```text
+ERP = (t_output - a x t_input) / (1 - a)
+    = (40% - 0.65 x 25%) / 35%
+    = 67.9%
+```
+
+That is high positive protection for module assembly value added, but the same policy is a cost increase for downstream solar-power developers who buy modules as inputs. Nominal tariff rates alone cannot tell whether policy is protecting value added, taxing downstream users, or doing both.
+
 ## 17. The Policy Package
 
-The package begins with zero corporate tax for qualifying new manufacturing profits over a fixed period, likely 10 to 15 years, with five-year reviews. Eligibility depends on audited production, formal payroll, domestic value addition, reinvestment, and compliance. The benefit expires by default and is revoked when conditions fail.
+The Union instruments are zero corporate tax for qualifying new manufacturing profits, customs and tariff alignment, audit architecture, and the national dashboard mandate. The tax benefit runs for a fixed period, likely 10 to 15 years, with five-year reviews. Eligibility depends on audited production, formal payroll, value-added accounting, reinvestment, and compliance. The benefit expires by default and is revoked when conditions fail.
 
-The operating layer is the factory-time dashboard. States are measured on land, power, approvals, customs, payment, law-and-order incidents, and contract enforcement. Deeper benefits require discipline: export performance in traded sectors, and domestic output, readiness, cost-down milestones, or import-dependence reduction in strategic sectors.
+The state instruments are factory-time, infrastructure delivery, industrial policing, local approvals, power reliability, and dispute resolution. States are measured on land, power, approvals, customs, payment, law-and-order incidents, and contract enforcement. Deeper benefits require discipline: export performance in traded sectors, and domestic output, readiness, cost-down milestones, or import-dependence reduction in strategic sectors.
+
+Strategic-capacity premia are the next-generation PLI in this proposal. They remain separate from the broad zero-tax rule, but sector selection is tied to Industrial Centrality, vulnerability, and capability-thickness tests rather than ministerial preference alone.
 
 Corruption control is embedded into process design through service-level agreements, electronic file trails, deemed approvals for low-risk permissions, risk-scored inspections, independent audit, and appealable revocation. Infrastructure funds follow operational reliability: power quality, water, last-mile roads, port and rail time, and time to first shipment.
 
-Industrial law and order becomes a measured state responsibility through cargo theft, extortion, blockade days, payment delays, and commercial-award enforcement. The Manufacturing Council coordinates the federal layer: common metrics, audit rules, land and power transparency, logistics corridors, industrial policing standards, and destructive incentive competition.
+Industrial law and order becomes a measured state responsibility through cargo theft, extortion, blockade days, payment delays, and commercial-award enforcement. The Manufacturing Council bridges the Union-state split: it sets common metrics and audit rules while ranking states on the delivery functions only states can control.
 
 This is a conservative and market-first industrial policy. The state leaves production to firms, stops making factories slow and uncertain, stops taxing qualifying formation, and measures the public bottlenecks it already controls.
 
@@ -371,7 +406,7 @@ This is a conservative and market-first industrial policy. The state leaves prod
 
 Liberal critics argue that India ought to focus on broad reform: trade liberalization, infrastructure, education, courts, and simpler regulation. That objection is partly right. Manufacturing policy cannot substitute for broad reform. But broad reform alone may underprovide manufacturing when learning spillovers, coordination failures, strategic capacity, and premature deindustrialization are present. The right answer is market-first reform with a narrow manufacturing exception.
 
-On public-choice grounds, the obvious danger is rent seeking. India has enough experience with licenses, subsidies, zones, and procurement politics to take this seriously. The answer is design: automatic eligibility, published criteria, sunset, domestic value-addition audit, formal payroll, export or strategic-output discipline, and revocation. No design eliminates capture. A design can make capture harder, more visible, and less permanent.
+On public-choice grounds, the obvious danger is rent seeking. India has enough experience with licenses, subsidies, zones, and procurement politics to take this seriously. The answer is design: automatic eligibility, published criteria, sunset, value-added audit, formal payroll, export or strategic-output discipline, and revocation. No design eliminates capture. A design can make capture harder, more visible, and less permanent.
 
 The state-capability worry runs deeper. India may not be able to execute complex industrial policy. That is why the proposal avoids discretionary winner-picking as the default. It relies on capabilities India already uses imperfectly but can strengthen: tax records, GST data, customs data, MCA filings, EPFO payroll, ASI data, and public dashboards. The state needs to know which firms are actually producing, paying workers formally, adding domestic value, exporting or meeting strategic milestones, and complying with the rules.
 
@@ -379,11 +414,15 @@ Labor advocates worry that manufacturing competitiveness can become a race to th
 
 Fiscal hawks ask whether zero tax simply loses revenue. The answer is arithmetic and timing. Zero tax waives a claim on profit that may not otherwise exist. Wage-side taxes, GST, supplier profits, electricity duties, port fees, rail freight, household consumption, and future firm growth can offset part of the cost. Where they do not, the policy must be defended as a strategic-capacity and employment investment, not hidden as fake fiscal neutrality.
 
+The fiscal scale can be stated plainly. If eligible new manufacturing revenue is `R`, operating margin is 10 percent, and the corporate tax rate is 25 percent, gross revenue foregone is `0.10 x 0.25 x R = 0.025R`. A Rs 50,000 crore annual corporate-tax cost therefore corresponds to about Rs 20 lakh crore of eligible manufacturing revenue. That is the right comparison class for PLI, whose approved outlay is roughly Rs 2 lakh crore over scheme lifetimes, not an abstract claim that tax holidays are free.
+
 The corruption objection is direct: any manufacturing exception can become a new rent channel. That is the reason for designing the benefit around data exhaust rather than official favor. A corrupt state wants discretion. A manufacturing policy that minimizes discretion, publishes time metrics, relies on existing transaction data, and revokes benefits through auditable rules is still vulnerable to capture, but it gives firms and citizens evidence with which to fight it.
 
-Infrastructure critics are right that India cannot tax-cut its way around bad roads, bad power, and slow ports. Zero tax is not a substitute for infrastructure. It is one part of a package where infrastructure reliability is measured, ranked, funded, and tied to industrial outcomes.
+Infrastructure critics are right that India cannot tax-cut its way around bad roads, bad power, and slow ports. Zero tax belongs inside a package where infrastructure reliability is measured, ranked, funded, and tied to industrial outcomes.
 
 The rule-of-law objection is also correct: contracts, policing, and courts are too slow for manufacturing. A manufacturing policy without contract enforcement will favor incumbents and relationship networks. The answer is to make industrial contract enforcement, payment discipline, cargo security, and local policing part of the manufacturing policy itself rather than treating them as generic governance problems.
+
+The WTO objection is a legal constraint on design. The WTO Agreement on Subsidies and Countervailing Measures treats revenue foregone as a possible subsidy and prohibits subsidies contingent on export performance or on the use of domestic over imported goods. That makes a blunt domestic-content threshold legally exposed. The safer design is to define eligibility around substantial manufacturing activity in India, audited production, payroll, investment, and value-added accounting without conditioning the benefit on substituting domestic inputs for imported inputs. Strategic premia also need WTO review before implementation, especially where import-dependence reduction is used as a performance metric.
 
 ## 19. Data and Replication Standard
 

@@ -22,6 +22,18 @@ Use: industrial policy can work better when paired with competition rather than 
 
 Paper role: justify export discipline and anti-incumbent capture design.
 
+### Murphy, Shleifer, and Vishny, ["Why Is Rent-Seeking So Costly to Growth?"](https://ideas.repec.org/a/aea/aecrev/v83y1993i2p409-14.html), AER Papers and Proceedings, 1993
+
+Use: formal political-economy intuition that rent-seeking can redirect talent and resources away from productive activity.
+
+Paper role: support the §11 selection-effects model where firms with political access survive over higher-productivity firms.
+
+### Shleifer and Vishny, ["Corruption"](https://academic.oup.com/qje/article/108/3/599/1881822), QJE, 1993
+
+Use: corruption can be more distortionary than taxation because secrecy, illegality, and weak agency control change the structure of costs.
+
+Paper role: support the claim that corruption is not just a transfer but a production and selection wedge.
+
 ### Liu, ["Industrial Policies in Production Networks"](https://academic.oup.com/qje/article/134/4/1883/5549850), QJE, 2019
 
 Use: formal production-network logic for upstream sector targeting. Liu's distortion-centrality result provides a way to think about sector priority beyond political preference.
@@ -132,6 +144,12 @@ Use: developing countries are reaching peak industrialization earlier and at low
 
 Paper role: analytical frame for urgency and demographic-window argument.
 
+### Diao, McMillan, and Rodrik, ["The Recent Growth Boom in Developing Economies: A Structural-Change Perspective"](https://www.nber.org/papers/w23132), NBER WP 23132, 2017; Palgrave chapter, 2019
+
+Use: recent developing-country growth accelerations often occurred without rapid industrialization, especially outside East Asia.
+
+Paper role: strongest caution against assuming the manufacturing escalator remains available at full historical scale.
+
 ## Comparative Industrialization
 
 ### Studwell, *How Asia Works*, 2013
@@ -185,3 +203,35 @@ Paper role: objection/background; should not dominate the paper.
 Use: effective rate of protection.
 
 Paper role: replace nominal tariff arguments with value-added protection analysis.
+
+### WTO, [Agreement on Subsidies and Countervailing Measures](https://www.wto.org/english/docs_e/legal_e/scm_e.htm)
+
+Use: legal constraint on subsidies, including revenue foregone and prohibited local-content or export-contingent subsidies.
+
+Paper role: discipline the design of zero-tax eligibility and strategic-capacity premia.
+
+### International Energy Agency, [2022 Increase in Basic Customs Duty on Solar PV Cell and Module Imports](https://www.iea.org/policies/18753-2022-increase-in-basic-custom-duty-on-solar-pv-cell-and-module-imports)
+
+Use: solar module and cell tariff rates for the effective-protection worked example.
+
+Paper role: convert §16 from named trade theory into applied tariff arithmetic.
+
+## Data and Institutional Benchmarks
+
+### World Bank, [World Development Indicators: Manufacturing, Value Added (% of GDP), `NV.IND.MANF.ZS`](https://data.worldbank.org/indicator/NV.IND.MANF.ZS)
+
+Use: India and Korea manufacturing-share comparisons.
+
+Paper role: empirical anchor for the premature-deindustrialization chapter.
+
+### World Bank Enterprise Surveys, [India 2022 Country Profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) and [India 2022 Microdata](https://microdata.worldbank.org/catalog/6500)
+
+Use: bribery incidence, transaction-level gift expectations, and raw informal-payments variables.
+
+Paper role: empirical anchor for the corruption-as-manufacturing-tax model.
+
+### World Bank, [Doing Business 2020 India Press Release](https://www.worldbank.org/en/news/press-release/2019/10/24/doing-business-india-top-10-improver-business-climate-ranking)
+
+Use: enforcing-contracts rank and commercial-dispute duration benchmark.
+
+Paper role: empirical anchor for the law, order, and contract-enforcement chapter.
