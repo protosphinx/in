@@ -98,7 +98,7 @@ The first comparison is already stark. [World Bank WDI data](https://data.worldb
 
 The manufacturing window and demographic window are closing together. A services-led path can employ high-skill workers, but it does not automatically absorb millions of semi-skilled workers into tradable, productivity-rising work. Construction absorbs labor but is cyclical and often informal. Agriculture cannot carry the labor force. Manufacturing remains one of the few sectors that can combine scale, tradability, learning, formalization, and productivity growth.
 
-This is the conservative case as much as the growth case. Stable industrial work creates households with predictable income, towns with tax bases, and supplier communities. A country that fails to create productive work for its young population imports social volatility.
+This is the conservative case as much as the growth case. Stable industrial work creates households with predictable income, towns with tax bases, and supplier communities. The social-order claim should be argued through those institutions rather than treated as a slogan.
 
 ## 8. Comparative Cases
 
@@ -136,7 +136,7 @@ This objection is decisive against classic winner-picking. If the proposal requi
 
 Khan's political-settlement framework sharpens the capture problem. Rents are not automatically destructive. The issue is whether rents are linked to capability acquisition and whether non-performers can lose access. Korea disciplined chaebols through export targets, credit control, and credible punishment. Vietnam has party-state mechanisms that India cannot copy. India needs a mechanism suited to democratic federalism: low-discretion eligibility, automatic sunset, public metrics, independent audit, judicially reviewable revocation, and inter-state comparison.
 
-The SEZ history is the warning. Tax-preferred zones can become real-estate plays, enclave politics, and permanent exemptions. A manufacturing zero-tax regime therefore attaches benefits to production, not land. It sunsets by default, stays open to new entrants, and publishes value-addition and payroll performance. Labor flexibility must come with formal payroll, safety enforcement, and portable benefits. Otherwise the state will have subsidized precariousness rather than industrial capability.
+The SEZ history is the warning. Tax-preferred zones can become real-estate plays, enclave politics, and permanent exemptions. A manufacturing zero-tax regime therefore attaches benefits to production, not land. It sunsets by default, stays open to new entrants, and publishes value-addition and payroll performance. Labor flexibility must come with formal payroll, safety enforcement, and portable benefits, so the state does not subsidize weak jobs under the name of industrial capability.
 
 ## 11. Corruption as a Manufacturing Tax
 
@@ -234,7 +234,7 @@ Pi_c / S = (10% - 5.96%) x (1 - 25%) = 3.03%
 profit loss / clean profit = (7.5 - 3.03) / 7.5 = 59.6%
 ```
 
-At that point, corruption has not merely "increased cost." It has converted a normal 10 percent operating-margin manufacturer into a low-return project. If infrastructure unreliability or payment delay adds even 2-3 more percentage points of sales cost, the investment fails.
+At that point, corruption converts a normal 10 percent operating-margin manufacturer into a low-return project. If infrastructure unreliability or payment delay adds even 2-3 more percentage points of sales cost, the investment fails.
 
 The policy conclusion is mathematical. A 25 percent corporate tax on a 10 percent margin is a 2.5 percent sales wedge. A corruption process with `b = 3%` already exceeds that wedge. Add delay and it becomes two to three times larger than the corporate-tax burden. Zero tax cannot rescue manufacturing if the corruption wedge remains larger than the tax wedge.
 
@@ -280,7 +280,7 @@ minimize c = b + h + qL/S + Kr d/(365S)
 subject to safety, environmental, labor, and tax compliance
 ```
 
-This is why anti-corruption policy for manufacturing is not generic ethics reform. It is margin restoration. It takes an informal, discretionary, unpriced burden and converts it into measured transaction costs that can be reduced, compared across states, and tied to eligibility for central infrastructure and manufacturing support.
+For manufacturing, anti-corruption policy is margin restoration. It takes an informal, discretionary, unpriced burden and converts it into measured transaction costs that can be reduced, compared across states, and tied to eligibility for central infrastructure and manufacturing support.
 
 The [World Bank Enterprise Survey for India 2022](https://microdata.worldbank.org/catalog/6500) gives a conservative starting point because it covers formal private establishments and relies on self-reporting. In the raw 2022 India microdata variable for ["Percent of Total Annual Sales Paid In Informal Payments" (`j7a`)](https://microdata.worldbank.org/index.php/catalog/6500/variable/V242), 4,400 of 7,182 non-refusal/non-don't-know responses reported zero informal payments, while the raw mean across those valid responses is about 3.0 percent of annual sales. Among firms reporting any positive informal payment, the raw mean is about 7.8 percent of sales. These are not weighted population estimates, but they define the order of magnitude: even a 1 percent bribe on sales equals 10 percent of profit at a 10 percent margin; a 3 percent bribe on sales is larger than the 2.5 percent-of-sales burden created by a 25 percent corporate tax on a 10 percent margin.
 
@@ -307,23 +307,23 @@ The zero-tax benefit itself also needs anti-corruption design. Eligibility becom
 
 ## 12. Infrastructure Is the Industrial Policy
 
-Bad infrastructure is not background noise. It is the industrial policy India already has. Expensive power, weak roads to industrial land, port dwell time, water uncertainty, and slow rail freight all tax production before statutory tax begins. A manufacturer does not experience infrastructure as an abstract public good. It appears as inventory buffers, generator costs, missed shipments, larger warehouses, longer cash cycles, and lower margins.
+Bad infrastructure functions as the industrial policy India already has. Expensive power, weak roads to industrial land, port dwell time, water uncertainty, and slow rail freight all tax production before statutory tax begins. A manufacturer does not experience infrastructure as an abstract public good. It appears as inventory buffers, generator costs, missed shipments, larger warehouses, longer cash cycles, and lower margins.
 
-This is why tax policy alone cannot carry the manufacturing argument. A zero-tax regime improves post-profit returns. Bad infrastructure can prevent profit from appearing in the first place. If logistics costs are several percentage points higher than competitor countries, and operating margins are often single-digit, the infrastructure gap can wipe out the value of the tax benefit. If power quality forces captive generation or equipment damage, the factory is paying an invisible tariff. If port dwell time is unpredictable, export discipline becomes harder because delivery reliability collapses.
+This is why tax policy alone cannot carry the manufacturing argument. A zero-tax regime improves post-profit returns, while bad infrastructure can prevent profit from appearing in the first place. Higher logistics costs, captive generation, equipment damage, and unpredictable port dwell time can wipe out the tax benefit by raising delivered cost and weakening export reliability.
 
-The manufacturing state therefore has to treat infrastructure as part of the production function. Industrial parks must be judged by delivered power quality, water reliability, road access, effluent treatment, and time to first shipment, not by acres announced. Corridors matter only if they connect actual production nodes to ports, railheads, warehouses, and suppliers. A highway near a factory is useful; a highway unrelated to freight movement is a monument.
+The manufacturing state therefore has to treat infrastructure as part of the production function. Industrial parks must be judged by delivered power quality, water reliability, road access, effluent treatment, and time to first shipment, not by acres announced. Corridors matter only if they connect actual production nodes to ports, railheads, warehouses, and suppliers.
 
-The policy instrument is the factory-time dashboard plus hard infrastructure audits. Each industrial node publishes outage hours, voltage reliability, industrial power tariff, land allotment time, road freight time to port, customs clearance time, container dwell time, water availability, and last-mile road condition. These measures decide priority for central infrastructure funds. States that cut factory-time and improve reliability get more support. States that announce parks without power, water, roads, and clearances do not.
+The policy instrument is the factory-time dashboard plus hard infrastructure audits. Each industrial node publishes outage hours, power reliability, land allotment time, road freight time to port, customs clearance time, and container dwell time. These measures decide priority for central infrastructure funds. States that cut factory-time and improve reliability get more support. States that announce parks without power, water, roads, and clearances do not.
 
 Private participation matters here. The state can leave warehouses, testing labs, logistics parks, and captive renewable plants to private capital where contracts and permits are predictable enough. Its job is coordination where networks are public and competition where private provision can work.
 
 ## 13. Law, Order, and Contract Enforcement
 
-Manufacturing requires more law and order than most service activity because the capital is fixed. A factory cannot disappear overnight when local extortion, land disputes, theft, blockade, or arbitrary enforcement begins. Machines are sunk capital. Land is immobile. Inventory is visible. Workers and managers have to travel through the same local environment every day. If the local state cannot provide basic security, the investor prices that risk into the project or chooses another location.
+Manufacturing requires more law and order than most service activity because the capital is fixed. A factory cannot disappear overnight when local extortion, land disputes, theft, blockade, or arbitrary enforcement begins. Machines, land, inventory, and worker routes are exposed to the same local environment every day. If the local state cannot provide basic security, the investor prices that risk into the project or chooses another location.
 
 Contract enforcement is equally central. Manufacturing is a chain of promises: supplier delivery, buyer payment, lease terms, power purchase, transport service, maintenance contracts, export orders, and bank credit. When contracts are slow to enforce, the system shifts from legal trust to relationship trust. Firms buy from known networks, demand more collateral, avoid new suppliers, keep production in-house, and stay smaller than they otherwise would. The missing middle is partly a contract-enforcement problem.
 
-Payment delay is one of the clearest examples. A manufacturer can survive a low margin if cash cycles are predictable. It can be killed by delayed receivables even when the order book is strong. MSME payment rules matter only if enforcement is fast enough to change buyer behavior. Arbitration matters only if awards are enforceable. Commercial courts matter only if interim relief, evidence, and execution happen at industrial speed.
+Payment delay is one of the clearest examples. A manufacturer can survive a low margin if cash cycles are predictable. It can be killed by delayed receivables even when the order book is strong. MSME payment rules, arbitration, and commercial courts matter only when they change buyer behavior and make awards enforceable at industrial speed.
 
 The policy package therefore needs an industrial rule-of-law component. Industrial clusters need fast-track mechanisms for supplier disputes, payment delays, land-title conflicts, and utility disputes. Standard contracts for industrial land, power, warehousing, and supplier payments need digitized, time-bound enforcement. E-invoicing and GST data can help identify chronic payment delay. Public-sector buyers and large firms face automatic interest and procurement penalties for delayed payment to qualifying manufacturers.
 
