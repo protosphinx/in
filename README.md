@@ -57,7 +57,9 @@ In an ideal world, these holistic metrics replace the outsized significance curr
 
 ---
 
-## Manufacturing Statecraft
+## Manufacturing
+
+### Manufacturing Statecraft
 
 The in/acc state should be libertarian by default, conservative in social foundations, and industrial in manufacturing.
 
