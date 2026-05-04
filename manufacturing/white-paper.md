@@ -22,11 +22,16 @@ India needs a low-discretion, rule-based manufacturing-capacity policy built aro
 
 The operational terms need fixed meanings. A firm receives zero-tax treatment only for qualifying new manufacturing profits, not for trading income, land gains, or accounting transfers. A first-pass eligibility rule is:
 
-- Qualifies in year t if India-manufactured product revenue is at least X percent of total revenue.
-- Domestic value addition equals (gross output minus imported inputs) divided by gross output, audited and transfer-pricing-adjusted.
-- Formal payroll means EPFO/ESI-linked payroll for eligible workers and must clear a Y percent of revenue threshold.
-- GST, MCA, customs, and audited financial records must reconcile.
-- The entity must be a new manufacturing undertaking under Section 115BAB or an analogous successor rule.
+```text
+qualifies in year t if:
+  India-manufactured product revenue >= X% of total revenue
+  domestic value addition = (gross output - imported inputs) / gross output
+    is audited and transfer-pricing-adjusted
+  formal payroll = EPFO/ESI-linked payroll for eligible workers >= Y% of revenue
+  GST, MCA, customs, and audited financial records reconcile
+  the entity is a new manufacturing undertaking under Section 115BAB
+    or an analogous successor rule
+```
 
 Domestic value addition is a measurement and discipline variable; any hard legal threshold has to be screened for WTO/SCM compatibility. Factory-time is the median time a qualifying manufacturer faces across the binding public transactions: land possession, power connection, customs clearance, inspection resolution, refund or payment, and enforceable dispute resolution. Strategic capacity refers to sectors with high Industrial Centrality as defined in §9 of [Industrial Base Math](./industrial-base-math.md), not to any sector that can claim national importance.
 
@@ -36,15 +41,17 @@ The welfare case begins with learning. Greenwald and Stiglitz argue that develop
 
 That is the central distinction between private return and social return. A firm sees the current-period profit from a production line. The economy receives current-period profit plus worker learning, supplier upgrading, process knowledge, and crisis optionality. If those spillovers are large and private appropriation is incomplete, underinvestment follows. A policy wedge can be justified when the social return to manufacturing exceeds the private return by more than the administrative and fiscal cost of the intervention.
 
-The existing arithmetic in [Industrial Base Math](./industrial-base-math.md) is a static version of this point. If a portion of India's import bill is localized, the domestic value added can exceed the corporate tax foregone by a large multiple. With domestic value addition at 40 percent, manufacturer profit margin at 10 percent, and the corporate tax rate at 25 percent, the ratio of domestic value added created to tax foregone is 0.40 / (0.10 x 0.25) = 16. Under the 15 percent concessional manufacturing tax rate, the ratio is about 26.7.
+The existing arithmetic in [Industrial Base Math](./industrial-base-math.md) is a static version of this point. If a portion of India's import bill is localized, the domestic value added can exceed the corporate tax foregone by a large multiple. With domestic value addition at 40 percent, manufacturer profit margin at 10 percent, and the corporate tax rate at 25 percent, the ratio of domestic value added created to tax foregone is `0.40 / (0.10 x 0.25) = 16`. Under the 15 percent concessional manufacturing tax rate, the ratio is about 26.7.
 
-That number is a fiscal intuition rather than a full model. The stronger model has to ask how capability accumulates over time. Physical capital K_t is only one stock. Manufacturing capability H_t is another. It grows through production volume, supplier density, export discipline, trained labor, and repetition under real constraints. The provisional law of motion is:
+That number is a fiscal intuition rather than a full model. The stronger model has to ask how capability accumulates over time. Physical capital `K_t` is only one stock. Manufacturing capability `H_t` is another. It grows through production volume, supplier density, export discipline, trained labor, and repetition under real constraints. The provisional law of motion is:
 
+```text
 H_{t+1} = H_t + phi(Q_t, supplier_density_t, export_discipline_t) - delta_H H_t
+```
 
 Supplier density is endogenous, so the final model should be a coupled firm-network system in which upstream capability affects downstream capability and vice versa. The Industrial Centrality vector in §9 of [Industrial Base Math](./industrial-base-math.md) is the operational approximation to that stationary network problem.
 
-The full technical note must specify phi. A plausible first specification is Cobb-Douglas in production volume and supplier density, multiplied by an export-discipline factor, with elasticities calibrated from ASI panels, sector studies, and comparative evidence. The policy comparison simulates baseline, PLI-only, broad zero tax, and zero tax plus narrow strategic-capacity premia over 10-year and 20-year horizons. The outputs are cumulative value added, fiscal cost, formal payroll, and capability stock.
+The full technical note must specify `phi`. A plausible first specification is Cobb-Douglas in production volume and supplier density, multiplied by an export-discipline factor, with elasticities calibrated from ASI panels, sector studies, and comparative evidence. The policy comparison simulates baseline, PLI-only, broad zero tax, and zero tax plus narrow strategic-capacity premia over 10-year and 20-year horizons. The outputs are cumulative value added, fiscal cost, formal payroll, and capability stock.
 
 Until that technical note exists, the model remains a sketch. The policy claim does not rest on the equation alone. It rests on a broader proposition from learning economics: when production creates uncaptured learning and capability spillovers, a purely neutral tax state may underproduce industrial capacity.
 
@@ -66,9 +73,11 @@ The trade deficit with China is often treated as a macro statistic or a national
 
 Industrial policy does not mean localizing everything. Some imports are efficient. Some inputs remain global. Some sectors are too capability-distant to localize quickly. The relevant question is which part of the import basket is competitively localizable over time, with real domestic value addition and a path to export discipline.
 
-The zero-tax math clarifies the fiscal comparison. Suppose a localizable import category becomes domestic production. Let v be domestic value added, m manufacturer margin, and tau corporate tax. The ratio of domestic value added created to corporate tax foregone is:
+The zero-tax math clarifies the fiscal comparison. Suppose a localizable import category becomes domestic production. Let `v` be domestic value added, `m` manufacturer margin, and `tau` corporate tax. The ratio of domestic value added created to corporate tax foregone is:
 
+```text
 v / (m x tau)
+```
 
 This ratio improves when domestic value addition is high, margins are normal, and tax rates are high. It worsens when firms merely assemble imported kits, shift profit artificially, or rely on protected pricing. That is why the policy must prefer sectors where domestic value addition can rise, supplier depth can form, and export competitiveness is plausible.
 
@@ -100,7 +109,7 @@ The data work here is non-negotiable. The chapter needs ASI evidence on plant si
 
 Rodrik's premature-deindustrialization frame supplies urgency. Late industrializers are reaching peak manufacturing employment and output shares earlier and at lower income levels than earlier industrializers. That means the East Asian path is harder to repeat. It also means India's demographic dividend cannot be treated as a cushion. A young population becomes an advantage only if productive jobs exist during the window in which workers enter the labor force.
 
-The first comparison is already stark. [World Bank WDI series NV.IND.MANF.ZS](https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=IN-KR), accessed May 2026, puts India's manufacturing value added at about 12.5-12.6 percent of GDP in 2024, down from a 2006 peak of about 17.3 percent. Korea, by contrast, was still at 26.6 percent in 2024 and reached about 29 percent in 2011. If India has already missed part of the classic manufacturing window, then "basics first" becomes too slow as a development strategy. India still needs education, health, courts, power, and urban governance, but it cannot wait for all of them to become perfect before building manufacturing capacity.
+The first comparison is already stark. [World Bank WDI series `NV.IND.MANF.ZS`](https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=IN-KR), accessed May 2026, puts India's manufacturing value added at about 12.5-12.6 percent of GDP in 2024, down from a 2006 peak of about 17.3 percent. Korea, by contrast, was still at 26.6 percent in 2024 and reached about 29 percent in 2011. If India has already missed part of the classic manufacturing window, then "basics first" becomes too slow as a development strategy. India still needs education, health, courts, power, and urban governance, but it cannot wait for all of them to become perfect before building manufacturing capacity.
 
 The manufacturing window and demographic window are closing together. A services-led path can employ high-skill workers, but it does not automatically absorb millions of semi-skilled workers into tradable, productivity-rising work. Diao, McMillan, and Rodrik's structural-change work is the strongest caution here: recent growth accelerations in South Asia, Africa, and Latin America have often come without rapid industrialization. That does not weaken the manufacturing case; it raises the burden of proof. The paper has to show where manufacturing is still feasible, not assume that the old East Asian escalator is available at full scale.
 
@@ -150,88 +159,115 @@ Corruption is a manufacturing tax on time, uncertainty, and scale. For this pape
 
 The narrow direct measure is the bribe tax:
 
+```text
 Direct corruption tax = informal payments / annual sales
+```
 
 The manufacturing-relevant measure is broader:
 
+```text
 Corruption tax equivalent =
-
-- informal payments / sales
-- cost of discretionary delay / sales
-- cost of harassment compliance / sales
-- expected loss from arbitrary revocation / sales
+  informal payments / sales
++ cost of discretionary delay / sales
++ cost of harassment compliance / sales
++ expected loss from arbitrary revocation / sales
+```
 
 The delay term is measurable:
 
+```text
 cost of discretionary delay = capital locked x cost of capital x delay days / 365
+```
 
 If a Rs 10 crore project is delayed 180 days by an approval chain and the cost of capital is 12 percent, the delay cost is about Rs 59 lakh. If the first-year expected sales are Rs 20 crore, that delay alone is a 2.95 percent sales tax before any bribe is paid. At a 10 percent operating margin, a 3 percent sales tax is 30 percent of operating profit.
 
 ### 11.1. A Firm-Level Corruption Model
 
-Model a manufacturer deciding whether to invest K in a plant that produces annual sales S, has operating margin m, faces corporate tax tau, and discounts future cash flows at r. Without corruption, annual after-tax operating profit is:
+Model a manufacturer deciding whether to invest `K` in a plant that produces annual sales `S`, has operating margin `m`, faces corporate tax `tau`, and discounts future cash flows at `r`. Without corruption, annual after-tax operating profit is:
 
+```text
 Pi_0 = S x m x (1 - tau)
+```
 
 Let corruption enter through four channels:
 
-- b = direct bribe rate as share of sales
-- d = discretionary delay days
-- h = harassment/compliance cost as share of sales
-- q = probability of arbitrary disruption or revocation
-- L = loss if disruption/revocation happens
+```text
+b = direct bribe rate as share of sales
+d = discretionary delay days
+h = harassment/compliance cost as share of sales
+q = probability of arbitrary disruption or revocation
+L = loss if disruption/revocation happens
+```
 
 The annualized corruption wedge is:
 
+```text
 c = b + h + (q x L / S) + (K x r x d / 365) / S
+```
 
 Annual profit after corruption becomes:
 
+```text
 Pi_c = S x (m - c) x (1 - tau)
+```
 
 For investment, clean-world profitability is the wrong test. The relevant question is whether the present value of corrupted cash flow exceeds the capital cost:
 
+```text
 NPV_c = -K + sum_{t=1}^{T} [S_t x (m_t - c_t) x (1 - tau)] / (1 + r)^t
+```
 
 The factory is killed when:
 
+```text
 c >= m - K x CRF(r, T) / S
+```
 
-where CRF(r, T) = r(1+r)^T / ((1+r)^T - 1) is the capital recovery factor. This condition is useful because it shows why corruption is more damaging to manufacturing than to trading. Manufacturing has high K/S during setup, so the delay term and capital recovery term are large. Trading has lower fixed capital and can exit faster.
+where `CRF(r, T) = r(1+r)^T / ((1+r)^T - 1)` is the capital recovery factor. This condition is useful because it shows why corruption is more damaging to manufacturing than to trading. Manufacturing has high `K/S` during setup, so the delay term and capital recovery term are large. Trading has lower fixed capital and can exit faster.
 
-A simple one-year margin example shows the severity. If m = 10 percent, tau = 25 percent, and direct informal payments are b = 3 percent of sales, then:
+A simple one-year margin example shows the severity. If `m = 10%`, `tau = 25%`, and direct informal payments are `b = 3%` of sales, then:
 
+```text
 Pi_0 / S = 10% x (1 - 25%) = 7.5%
 Pi_c / S = (10% - 3%) x (1 - 25%) = 5.25%
 profit loss = 2.25 percentage points of sales
 profit loss / clean profit = 2.25 / 7.5 = 30%
+```
 
-If the same firm also faces a 180-day approval delay on K = Rs 10 crore, S = Rs 20 crore, and r = 12 percent, then the delay wedge is:
+If the same firm also faces a 180-day approval delay on `K = Rs 10 crore`, `S = Rs 20 crore`, and `r = 12%`, then the delay wedge is:
 
+```text
 c_delay = (10 crore x 12% x 180/365) / 20 crore
         = 2.96% of sales
+```
 
 The combined direct bribe plus delay wedge is roughly:
 
+```text
 c = 3.00% + 2.96% = 5.96% of sales
 Pi_c / S = (10% - 5.96%) x (1 - 25%) = 3.03%
 profit loss / clean profit = (7.5 - 3.03) / 7.5 = 59.6%
+```
 
 At that point, corruption converts a normal 10 percent operating-margin manufacturer into a low-return project. If infrastructure unreliability or payment delay adds even 2-3 more percentage points of sales cost, the investment fails.
 
-The policy conclusion is mathematical. A 25 percent corporate tax on a 10 percent margin is a 2.5 percent sales wedge. A corruption process with b = 3 percent already exceeds that wedge. Add delay and it becomes two to three times larger than the corporate-tax burden. Zero tax cannot rescue manufacturing if the corruption wedge remains larger than the tax wedge.
+The policy conclusion is mathematical. A 25 percent corporate tax on a 10 percent margin is a 2.5 percent sales wedge. A corruption process with `b = 3%` already exceeds that wedge. Add delay and it becomes two to three times larger than the corporate-tax burden. Zero tax cannot rescue manufacturing if the corruption wedge remains larger than the tax wedge.
 
 ### 11.2. Selection Effects
 
-Corruption also changes which firms enter. Let a_i denote firm productivity and p_i denote political-access capability. In a clean regime, entry depends mainly on:
+Corruption also changes which firms enter. Let `a_i` denote firm productivity and `p_i` denote political-access capability. In a clean regime, entry depends mainly on:
 
+```text
 expected return = f(a_i, K_i, S_i, m_i)
+```
 
 In a corrupt regime, entry depends on:
 
+```text
 expected return = f(a_i, K_i, S_i, m_i) - c_i + g(p_i)
+```
 
-where g(p_i) is the advantage from access: faster approvals, lower harassment, tolerance of violations, or privileged dispute resolution. The economy then selects for the wrong trait. High-productivity firms without access exit or stay small. Lower-productivity firms with access survive. This is the political-economy channel through which corruption becomes misallocation, not merely theft.
+where `g(p_i)` is the advantage from access: faster approvals, lower harassment, tolerance of violations, or privileged dispute resolution. The economy then selects for the wrong trait. High-productivity firms without access exit or stay small. Lower-productivity firms with access survive. This is the political-economy channel through which corruption becomes misallocation, not merely theft.
 
 That matters for the Hsieh-Klenow missing-middle argument. If corruption raises the effective fixed cost of formality and scale, firms remain below thresholds, avoid visible investment, use cash, split entities, or rely on relationship networks. The measurable symptom is not just bribe payment. It is a distorted firm-size distribution.
 
@@ -239,39 +275,44 @@ That matters for the Hsieh-Klenow missing-middle argument. If corruption raises 
 
 The corruption model implies specific variables for the factory-time dashboard:
 
-- b_hat = reported informal payments / sales
-- d_p50 = median approval time by transaction
-- d_p90 = 90th percentile approval time by transaction
-- sigma_d = dispersion of approval time across districts
-- rho_reject = rejection rate
-- rho_loop = resubmission-loop rate
-- i_rate = inspection frequency per firm-year
-- appeal_t = time to appeal resolution
-- refund_t = time to tax refund
-- pay_t = time to buyer payment
+```text
+b_hat      = reported informal payments / sales
+d_p50      = median approval time by transaction
+d_p90      = 90th percentile approval time by transaction
+sigma_d    = dispersion of approval time across districts
+rho_reject = rejection rate
+rho_loop   = resubmission-loop rate
+i_rate     = inspection frequency per firm-year
+appeal_t   = time to appeal resolution
+refund_t   = time to tax refund
+pay_t      = time to buyer payment
+```
 
 The key anti-corruption statistic is dispersion as well as average time. High variance in approval time, rejection loops, and inspection frequency is a signature of discretion. The target is therefore:
 
-Minimize c = b + h + qL/S + Kr d/(365S), subject to safety, environmental, labor, and tax compliance.
+```text
+minimize c = b + h + qL/S + Kr d/(365S)
+subject to safety, environmental, labor, and tax compliance
+```
 
 For manufacturing, anti-corruption policy is margin restoration. It takes an informal, discretionary, unpriced burden and converts it into measured transaction costs that can be reduced, compared across states, and tied to eligibility for central infrastructure and manufacturing support.
 
 The magnitude matters for the whole proposal. In the worked example above, the corporate-tax wedge is 2.5 percent of sales, while the direct-bribe-plus-delay corruption wedge is about 5.96 percent of sales. Zero corporate tax removes roughly one-third of the combined tax-plus-corruption burden. The remaining burden is larger, which makes factory-time enforcement, process redesign, infrastructure reliability, and contract enforcement the rest of the policy.
 
-The [World Bank Enterprise Survey for India 2022](https://microdata.worldbank.org/catalog/6500) gives a conservative starting point because it covers formal private establishments and relies on self-reporting. In the raw 2022 India microdata variable for ["Percent of Total Annual Sales Paid In Informal Payments" (j7a)](https://microdata.worldbank.org/index.php/catalog/6500/variable/V242), 4,400 of 7,182 non-refusal/non-don't-know responses reported zero informal payments, while the raw mean across those valid responses is about 3.0 percent of annual sales. Among firms reporting any positive informal payment, the raw mean is about 7.8 percent of sales. These are not weighted population estimates, but they define the order of magnitude: even a 1 percent bribe on sales equals 10 percent of profit at a 10 percent margin; a 3 percent bribe on sales is larger than the 2.5 percent-of-sales burden created by a 25 percent corporate tax on a 10 percent margin.
+The [World Bank Enterprise Survey for India 2022](https://microdata.worldbank.org/catalog/6500) gives a conservative starting point because it covers formal private establishments and relies on self-reporting. In the raw 2022 India microdata variable for ["Percent of Total Annual Sales Paid In Informal Payments" (`j7a`)](https://microdata.worldbank.org/index.php/catalog/6500/variable/V242), 4,400 of 7,182 non-refusal/non-don't-know responses reported zero informal payments, while the raw mean across those valid responses is about 3.0 percent of annual sales. Among firms reporting any positive informal payment, the raw mean is about 7.8 percent of sales. These are not weighted population estimates, but they define the order of magnitude: even a 1 percent bribe on sales equals 10 percent of profit at a 10 percent margin; a 3 percent bribe on sales is larger than the 2.5 percent-of-sales burden created by a 25 percent corporate tax on a 10 percent margin.
 
-The raw mean should not be confused with the Enterprise Surveys country-profile indicators. The official [India 2022 country profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) reports bribery incidence at 27.2 percent of firms, meaning the share experiencing at least one bribe payment request across six transactions. It also reports that 38.7 percent of firms were expected to give gifts for a construction permit, 45.8 percent for a government contract, and 31.4 percent in meetings with tax officials. The raw j7a calculation is used here only to express the sales-wedge order of magnitude from the microdata.
+The raw mean should not be confused with the Enterprise Surveys country-profile indicators. The official [India 2022 country profile](https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf) reports bribery incidence at 27.2 percent of firms, meaning the share experiencing at least one bribe payment request across six transactions. It also reports that 38.7 percent of firms were expected to give gifts for a construction permit, 45.8 percent for a government contract, and 31.4 percent in meetings with tax officials. The raw `j7a` calculation is used here only to express the sales-wedge order of magnitude from the microdata.
 
 The transaction evidence points to where the tax is levied. In the same 2022 survey data dictionary, informal gifts or payments were reported or requested in 50 of 212 non-refusal/non-don't-know [construction-permit](https://microdata.worldbank.org/index.php/catalog/6500/variable/V152) responses, about 24 percent; 62 of 320 [import-customs](https://microdata.worldbank.org/catalog/6500/variable/V95) responses, about 19 percent; 53 of 486 [operating-license](https://microdata.worldbank.org/catalog/6500/variable/V249) responses, about 11 percent; 31 of 328 [electrical-connection](https://microdata.worldbank.org/catalog/6500/variable/V50) responses, about 9 percent; and 20 of 196 [water-connection](https://microdata.worldbank.org/catalog/6500/variable/V61) responses, about 10 percent.
 
-The main WBES corruption signals are:
-
-- General informal payments: informal payments as percent of sales, j7a. Raw mean about 3.0 percent of sales among valid non-refusal responses. At a 10 percent margin, this is roughly 30 percent of operating profit.
-- Construction permit: gift or payment requested, g4. About 24 percent of valid non-refusal responses. This raises factory setup cost and selects for access.
-- Import customs: gift or payment requested, d15a. About 19 percent of valid non-refusal responses. This raises input cost and disrupts export discipline.
-- Operating license: gift or payment requested, j15. About 11 percent of valid non-refusal responses. This converts compliance into bargaining.
-- Electrical connection: gift or payment requested, c5. About 9 percent of valid non-refusal responses. This delays production start and encourages captive workarounds.
-- Water connection: gift or payment requested, c14. About 10 percent of valid non-refusal responses. This matters for textiles, chemicals, food, pharma, and metals.
+| Corruption channel | Objective measure | Raw India 2022 WBES signal | Manufacturing effect |
+|---|---:|---:|---|
+| General informal payments | Informal payments as % of sales (`j7a`) | Raw mean about 3.0% of sales among valid non-refusal responses | At 10% margin, roughly 30% of operating profit |
+| Construction permit | Gift/payment requested (`g4`) | About 24% of valid non-refusal responses | Raises factory setup cost and selects for access |
+| Import customs | Gift/payment requested (`d15a`) | About 19% of valid non-refusal responses | Raises input cost and disrupts export discipline |
+| Operating license | Gift/payment requested (`j15`) | About 11% of valid non-refusal responses | Converts compliance into bargaining |
+| Electrical connection | Gift/payment requested (`c5`) | About 9% of valid non-refusal responses | Delays production start and encourages captive workarounds |
+| Water connection | Gift/payment requested (`c14`) | About 10% of valid non-refusal responses | Matters for textiles, chemicals, food, pharma, and metals |
 
 Those numbers need careful treatment. They are establishment survey responses, not audited corruption accounts. They likely understate coercive payments because firms may fear disclosure or normalize small payments as operating cost. They also miss deadweight costs such as delay, management time, legal uncertainty, and projects never attempted. For policy design, the exact national average matters less than the unit of measurement: percent of sales and percent of operating profit, directly comparable to corporate tax.
 
@@ -337,9 +378,11 @@ Tariff support only works when paired with input-tariff alignment, logistics imp
 
 The solar case shows the arithmetic. The International Energy Agency records India's 2022 basic customs duty at 40 percent on solar PV modules and 25 percent on solar PV cells. If a module assembler imports cells worth 65 percent of the module price, Corden's effective-protection formula gives:
 
+```text
 ERP = (t_output - a x t_input) / (1 - a)
-
-ERP = (40% - 0.65 x 25%) / 35% = 67.9%
+    = (40% - 0.65 x 25%) / 35%
+    = 67.9%
+```
 
 That is high positive protection for module assembly value added, but the same policy is a cost increase for downstream solar-power developers who buy modules as inputs. Nominal tariff rates alone cannot tell whether policy is protecting value added, taxing downstream users, or doing both.
 
@@ -369,7 +412,7 @@ Labor advocates worry that manufacturing competitiveness can become a race to th
 
 Fiscal hawks ask whether zero tax simply loses revenue. The answer is arithmetic and timing. Zero tax waives a claim on profit that may not otherwise exist. Wage-side taxes, GST, supplier profits, electricity duties, port fees, rail freight, household consumption, and future firm growth can offset part of the cost. Where they do not, the policy must be defended as a strategic-capacity and employment investment, not hidden as fake fiscal neutrality.
 
-The fiscal scale can be stated plainly. If eligible new manufacturing revenue is R, operating margin is 10 percent, and the corporate tax rate is 25 percent, gross revenue foregone is 0.10 x 0.25 x R = 0.025R. A Rs 50,000 crore annual corporate-tax cost therefore corresponds to about Rs 20 lakh crore of eligible manufacturing revenue. That is the right comparison class for PLI, whose approved outlay is roughly Rs 2 lakh crore over scheme lifetimes, not an abstract claim that tax holidays are free.
+The fiscal scale can be stated plainly. If eligible new manufacturing revenue is `R`, operating margin is 10 percent, and the corporate tax rate is 25 percent, gross revenue foregone is `0.10 x 0.25 x R = 0.025R`. A Rs 50,000 crore annual corporate-tax cost therefore corresponds to about Rs 20 lakh crore of eligible manufacturing revenue. That is the right comparison class for PLI, whose approved outlay is roughly Rs 2 lakh crore over scheme lifetimes, not an abstract claim that tax holidays are free.
 
 The corruption objection is direct: any manufacturing exception can become a new rent channel. That is the reason for designing the benefit around data exhaust rather than official favor. A corrupt state wants discretion. A manufacturing policy that minimizes discretion, publishes time metrics, relies on existing transaction data, and revokes benefits through auditable rules is still vulnerable to capture, but it gives firms and citizens evidence with which to fight it.
 
