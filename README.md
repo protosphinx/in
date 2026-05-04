@@ -17,7 +17,7 @@
 
 We live in a time of extraordinary potential. Technology, when harnessed effectively, can radically transform societies and uplift the quality of life for billions. For India - with its cultural diversity, rich heritage, and untapped human potential - the advent of digital transformation holds remarkable promise.
 
-**Indic Acceleration** represents our commitment to employ the profound power of technology and first principles for accelerating India's progress, thereby elevating our society to new heights. It is not enough to capitalize on the potential inherent in current times - we must do it in a manner that is not a mindless copy of existing playbooks. The insights from past experience and civilizational learning must be treated with the same seriousness as new ideas, all directed toward progress and growth in the real sense.
+**Indic Acceleration** represents our commitment to employ the profound power of technology and first principles for accelerating India's progress, thereby elevating our society to new heights. It is not enough to capitalize on the potential inherent in current times - we must do it in a manner that is not a mindless copy of existing playbooks. The insights from past experience and historical learning must be treated with the same seriousness as new ideas, all directed toward progress and growth in the real sense.
 
 Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other innovations to speed up India's socio-economic growth, reduce corruption, streamline the judicial system, and encourage holistic development.
 
@@ -59,25 +59,27 @@ In an ideal world, these holistic metrics replace the outsized significance curr
 
 ## Manufacturing
 
-### Manufacturing Statecraft
+Manufacturing is the exception to the otherwise permission-light state.
 
-The in/acc state should be libertarian by default, conservative in social foundations, and industrial in manufacturing.
+The in/acc state should be libertarian by default, conservative in social foundations, and industrial in manufacturing. For most of economic and social life, the state should protect property, enforce contracts, reduce licenses, cut compliance, lower taxes where possible, and let families, firms, communities, markets, and civil society organize themselves.
 
-For most of life, the state should step back: protect property, enforce contracts, reduce licenses, cut compliance, lower taxes where possible, and let families, firms, communities, markets, and civil society organize themselves. The default posture should be market-first and permission-light.
+But manufacturing is not just another sector. It converts capital, energy, logistics, and labor into national productive capacity. Software can scale with talent and distribution. Manufacturing cannot scale unless the physical base layer works.
 
-Manufacturing is the exception.
-
-Manufacturing is not just private commerce. It is national capacity. A factory cannot be conjured by deregulation alone. It needs land, power, water, roads, rail, ports, warehouses, customs, standards, credit, tooling, testing, worker housing, supplier clusters, and predictable dispute resolution. These are not things a single entrepreneur can solve from first principles. They are coordination problems at civilizational scale.
-
-So the state should be small where society can self-organize, but strong where only the state can build the base layer. The state should not run factories, pick every product, set every price, or recreate the License Raj. It should build the conditions in which factories can multiply.
+That makes manufacturing a coordination problem before it is a subsidy problem. The state should not run factories, set prices, or recreate the License Raj. It should build the industrial platform: plug-and-play land, reliable power, logistics links, and fast commercial courts.
 
 **Small state for daily life. Strong state for industrial capacity. Free markets on top of national infrastructure.**
+
+The manufacturing question must therefore be argued in numbers, not vibes. The core metric is **days from intent to first production**. The fiscal question is not "can India afford to give manufacturers relief?" but "why is India comfortable financing foreign industrial capacity through a $100 billion-scale China trade deficit while hesitating to forgo a much smaller amount of tax on Indian manufacturing profits?"
+
+The quantitative doctrine is developed in detail here: **[The Industrial Base Math](./manufacturing/industrial-base-math.md)**.
 
 ### Ease of Doing Business in Factory-Time
 
 For manufacturing, ease of doing business cannot remain a slogan or a ranking. It must be measured in factory-time: the time, cost, uncertainty, and friction required to turn capital into production.
 
 Every state should compete on one master metric: **days from intent to first production**.
+
+A Foxconn-scale electronics plant makes the point clearly: if land, power, customs, and worker housing move on separate clocks, the factory is late before production starts. The table below turns that problem into state-level operating targets.
 
 | Metric | Target |
 |--------|--------|
@@ -96,45 +98,6 @@ Every state should compete on one master metric: **days from intent to first pro
 | Company incorporation to first production run | 90-120 days |
 
 A factory does not care whether a portal exists. A factory cares whether it can start producing. If an entrepreneur has capital, designs, workers, machines, and customers, the state's job is to make sure nothing artificial blocks the path from land to machine installation to first shipment.
-
-### Zero Tax for New Manufacturing Capacity
-
-India is already paying a manufacturing subsidy. It is just paying it to foreign industrial bases.
-
-India's goods trade deficit with China has hovered around the $100 billion scale, with recent estimates ranging from roughly $99 billion in FY 2024-25 to over $110 billion by calendar-year measures. This is not only a trade number. It is a measure of factories not built in India, workers not trained in India, suppliers not created in India, and industrial learning not accumulated in India.
-
-Against that scale, zero tax for new manufacturing capacity is rational arithmetic. Suppose India replaces $20 billion of imports with domestic manufacturing. If manufacturers earn a 10% profit margin and the otherwise applicable corporate tax rate is 25%, the corporate tax foregone is:
-
-```text
-$20B domestic production x 10% profit x 25% tax = $500M tax foregone
-```
-
-The state gives up $500 million of tax only after $20 billion of domestic production exists. That is a 40:1 ratio between production created and corporate tax foregone. Even if domestic value addition is only 40%, India still creates $8 billion of domestic value for $500 million of forgone corporate tax, a 16:1 ratio.
-
-Production-linked incentives are better than neglect, but they are selective, bureaucratic, and budget-funded. PLI says: apply, qualify, comply, wait, prove incremental production, then receive the incentive. Zero tax says: manufacture, sell, earn, keep the profit, and reinvest.
-
-For 10-15 years, manufacturing profits should be tax-free where firms meet clear conditions:
-
-- physical production in India
-- audited payroll and formal employment
-- minimum domestic value addition thresholds
-- digital compliance
-- labor and environmental standards
-- reinvestment into capacity, tooling, R&D, exports, or worker training
-
-Tax consumption, land speculation, monopoly rents, and luxury extraction if needed. Do not tax new manufacturing capacity. If a firm manufactures in India, employs Indians, builds supply chains, and reduces strategic imports, its profit should be its own. Scale first. Tax later.
-
-### The Manufacturing Target
-
-The goal should be explicit: seed 10,000 manufacturers, then grow them into 100,000. If each manufacturer supports 100 direct jobs, that is 10 million productive, tax-paying jobs, and many more indirect jobs across suppliers, logistics, repair, packaging, distribution, design, maintenance, and services.
-
-Every physical product is not merely an object. It is a node in an industrial culture.
-
-The state should help small manufacturers with serviced land, reliable power, shared testing facilities, common tooling centers, working-capital access, export support, fast clearances, logistics corridors, digital compliance, supplier discovery, and procurement guarantees. Build the roads, but also make sure there are goods to move on them. Expressways without factories become monuments. Expressways connected to manufacturers become industrial arteries.
-
-This is not socialism. It is statecraft.
-
-Without manufacturing, India has consumers but not enough producers. It has roads but not enough goods. It has talent but not enough industrial absorption. It has ambition but not enough strategic depth. A civilization that does not manufacture is dependent on those that do.
 
 ---
 
@@ -382,7 +345,7 @@ This is not laissez-faire. It is an active, engaged, infrastructure-building sta
 
 ---
 
-## Chapter 6: Digital Public Infrastructure as Civilizational Scaffolding
+## Chapter 6: Digital Public Infrastructure as Public Scaffolding
 
 ### What DPI Is and Why It Matters
 
@@ -410,9 +373,9 @@ The India Stack has evolved in layers over the past fifteen years:
 
 **Commerce Layer (ONDC, 2022-present):** The Open Network for Digital Commerce is the most ambitious extension of the India Stack philosophy. It applies the UPI model to e-commerce: an open, interoperable protocol that allows any buyer app to connect with any seller app, breaking the platform monopoly model. A buyer searching on one app can find and purchase from a seller listed on a different app, because both speak the ONDC protocol. If it works at scale, it could fundamentally change the economics of digital commerce in India.
 
-### DPI as Civilizational Infrastructure
+### DPI as Public Infrastructure
 
-The in/acc claim is that DPI is not just a technology layer - it is civilizational infrastructure in the same sense that the Roman road network, the British railway system in India, or the American interstate highway system were civilizational infrastructure. These systems did not just move goods and people. They restructured economic geography, enabled new forms of organization, and created the conditions for subsequent waves of innovation that their builders could not have anticipated.
+The in/acc claim is that DPI is not just a technology layer - it is public infrastructure in the same sense that the Roman road network, the British railway system in India, or the American interstate highway system were public infrastructure. These systems did not just move goods and people. They restructured economic geography, enabled new forms of organization, and created the conditions for subsequent waves of innovation that their builders could not have anticipated.
 
 India Stack is doing the same thing. UPI did not just digitize payments - it created the conditions for an explosion of fintech innovation, from buy-now-pay-later products to micro-insurance to AI-driven credit scoring for previously unbanked populations. Aadhaar did not just provide identity - it created the conditions for direct benefit transfers that bypass the leakage-prone intermediary chain. ONDC, if successful, will not just create an alternative to Amazon and Flipkart - it will create the conditions for a new model of digital commerce in which the network effects accrue to the protocol rather than to a single platform.
 
@@ -440,7 +403,7 @@ India's federal structure is often discussed as a problem - a source of coordina
 
 The case for federalism rests on several pillars.
 
-**Diversity requires devolution.** India's states are not administrative conveniences. They are, in many cases, distinct civilizational units with their own languages, cultural traditions, historical trajectories, and development challenges. Kerala's health outcomes are vastly different from Uttar Pradesh's, not because of a different climate or geography, but because of different institutional histories, political movements, and policy choices made over decades. A policy that works in Tamil Nadu may fail in Jharkhand, and vice versa. Centralized, one-size-fits-all approaches are particularly ill-suited to India's diversity.
+**Diversity requires devolution.** India's states are not administrative conveniences. They are, in many cases, distinct historical and cultural units with their own languages, traditions, trajectories, and development challenges. Kerala's health outcomes are vastly different from Uttar Pradesh's, not because of a different climate or geography, but because of different institutional histories, political movements, and policy choices made over decades. A policy that works in Tamil Nadu may fail in Jharkhand, and vice versa. Centralized, one-size-fits-all approaches are particularly ill-suited to India's diversity.
 
 **Federalism enables experimentation.** The United States Supreme Court Justice Louis Brandeis famously described states as "laboratories of democracy." Indian states have played exactly this role. Gujarat's Jyotigram Yojana - which separated agricultural and domestic power supply to enable 24/7 power for homes while rationing agricultural power - was a policy innovation that emerged from state-level experimentation. Kerala's decentralized planning and local governance model, implemented through the People's Plan Campaign in the 1990s, has influenced thinking about panchayati raj nationally. Tamil Nadu's midday meal scheme, one of the most successful nutrition interventions in the developing world, began as a state program decades before it was adopted nationally. Rajasthan's right to information movement gave birth to the national RTI Act.
 
@@ -1078,7 +1041,7 @@ in/acc's position on technology sovereignty is pragmatic rather than nationalist
 
 India's linguistic diversity is staggering: 22 languages in the Eighth Schedule of the Constitution, over 100 languages with more than 10,000 speakers, and hundreds more with smaller speaker populations. The 2011 Census recorded 19,500 languages and dialects spoken as mother tongues, grouped into 121 languages with 10,000 or more speakers.
 
-This diversity is a civilizational asset but a governance challenge. The language question has been politically sensitive since before independence - the anti-Hindi agitation in Tamil Nadu in the 1960s demonstrated that language policy can be existential for regional identity. The three-language formula (mother tongue, Hindi, English) is a pragmatic compromise that is implemented inconsistently.
+This diversity is a national asset but a governance challenge. The language question has been politically sensitive since before independence - the anti-Hindi agitation in Tamil Nadu in the 1960s demonstrated that language policy can be existential for regional identity. The three-language formula (mother tongue, Hindi, English) is a pragmatic compromise that is implemented inconsistently.
 
 In the digital realm, language diversity creates both a challenge and an opportunity. The challenge: the vast majority of digital content, software, and AI training data is in English. Indians who do not read English fluently are at a significant disadvantage in the digital economy. The opportunity: India's language diversity, if served by digital infrastructure, represents a massive addressable market for vernacular content, services, and products.
 
@@ -1114,7 +1077,7 @@ in/acc advocates for a national digital heritage mission that:
 - Digitizes manuscripts, inscriptions, and artifacts across all Indian languages and traditions
 - Creates open, searchable databases accessible to scholars and the public
 - Documents intangible heritage - performing arts, craft traditions, oral histories - through high-quality audio and video
-- Makes cultural heritage a component of digital education, so that students encounter India's civilizational depth as part of their learning
+- Makes cultural heritage a component of digital education, so that students encounter India's historical depth as part of their learning
 
 ---
 
