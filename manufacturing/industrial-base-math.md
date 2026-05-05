@@ -2,9 +2,11 @@
 
 > Status: working note. This is not yet a research-grade industrial-policy white paper. It states the core arithmetic and policy intuition. The literature, formal model, comparative cases, political-economy apparatus, and sectoral chapters required for a full paper are specified in [Manufacturing White Paper Research Program](./research-program.md).
 
-This is the quantitative case for treating manufacturing as the major exception to a normally libertarian, conservative, market-first state.
+**Claim:** India should treat manufacturing as the major exception to a normally libertarian, conservative, market-first state. Not because the state should run factories, pick national champions, or recreate the License Raj, but because manufacturing depends on state-controlled inputs: land, power, logistics, customs, courts, and payment discipline. When those inputs are slow, expensive, or unpredictable, the state has already chosen an industrial policy. It has chosen an anti-manufacturing one.
 
-The argument is not that the state should run factories. That was the License Raj error. The argument is that manufacturing depends on a physical operating environment the state already controls: land, power, logistics, and courts. A state can make that environment predictable, or it can make every producer pay a hidden tax before the first shipment leaves the factory.
+The policy conclusion is narrow: India should build a rule-based manufacturing exception that makes new production capacity cheap to start, cheap to operate, and hard to fake. That means faster land and power approvals, lower logistics and working-capital friction, a broad zero-tax regime for qualifying new manufacturing, selective PLI where learning spillovers are large, and an auditable sector-targeting rule based on supply-chain centrality rather than lobbying.
+
+The paper's core arithmetic is simple. If import replacement creates domestic value added, wages, suppliers, process learning, and crisis capacity, then the relevant comparison is not tax revenue versus no tax revenue. It is domestic value added created versus corporate tax foregone. Under plausible assumptions, every $1 of corporate tax foregone can correspond to roughly $16 of domestic value added. The rest of the paper tests when that claim is strong, when it is weak, and what institutional safeguards are needed to keep the exception from becoming a rent machine.
 
 ## 1. Imports, Value Added, and the China Deficit
 
