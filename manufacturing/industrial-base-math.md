@@ -2,7 +2,7 @@
 
 **Claim:** India's China import dependence is a larger industrial-capacity problem than the corporate tax revenue India would forgo by making qualifying new manufacturing tax-free for a fixed 10-15 year window.
 
-The claim is mathematical, not rhetorical. If some share of imports from China can be competitively produced in India, the country gains domestic value added, wages, suppliers, process learning, and crisis capacity. The fiscal cost of a manufacturing tax holiday is only the corporate tax that would have been collected on the manufacturer's profit. Since value added is much larger than profit tax, the industrial gain can dominate the tax cost by an order of magnitude.
+If some share of imports from China can be competitively produced in India, the country gains domestic value added, wages, suppliers, process learning, and crisis capacity. The fiscal cost of a manufacturing tax holiday is only the corporate tax that would have been collected on the manufacturer's profit. Since value added is much larger than profit tax, the industrial gain can dominate the tax cost by an order of magnitude.
 
 Under a baseline set of assumptions:
 
@@ -362,7 +362,7 @@ If the policy relies on tariffs to force consumers to buy expensive domestic goo
 
 ## 9. Jobs, Supplier Depth, and Capacity
 
-The employment case follows from the value-added case, but it should be stated with assumptions rather than slogans.
+The employment case follows from the value-added case.
 
 If import replacement is $20B and domestic value addition is 40%, then domestic value added is:
 
