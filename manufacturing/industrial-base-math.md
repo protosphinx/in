@@ -41,7 +41,7 @@ Imports from China: $113.45B
 Deficit:             $99.20B
 ```
 
-That deficit is not only a trade statistic. It is a rough annual measure of industrial demand that is being satisfied by foreign production capacity. Some of it should continue to be imported because China is cheaper, better, or more specialized. The claim does not require full import substitution. It only requires that a non-trivial share can be competitively localized over time.
+That deficit is a rough annual measure of industrial demand currently satisfied by foreign production capacity. Some of it should continue to be imported because China is cheaper, better, or more specialized. The claim does not require full import substitution. It only requires that a non-trivial share can be competitively localized over time.
 
 Define:
 
@@ -200,7 +200,7 @@ This is why the policy should not be defended as a subsidy to corporate profit. 
 
 ## 4. The Fiscal Objection
 
-The strongest fiscal objection is that the state gives up real revenue. That is true. The corporate tax foregone is not zero. The point is that the direct corporate tax is the wrong denominator for judging an industrial-capacity policy.
+The strongest fiscal objection is that the state gives up real revenue. The corporate tax foregone is not zero. But the direct corporate tax is the wrong denominator for judging an industrial-capacity policy.
 
 There are three fiscal channels.
 
@@ -380,7 +380,7 @@ Indirect jobs in suppliers, logistics, maintenance, packaging, and services can 
 
 This is the first non-tax benefit of the policy: manufacturing converts import demand into a domestic wage pool. Under the import baseline, Indian consumers get the product but the production wages accrue elsewhere. Under the localization case, part of the same demand becomes Indian payroll.
 
-The second benefit is supplier depth. A finished-good factory creates demand for tooling, packaging, maintenance, testing, logistics, machine repair, components, industrial services, and quality certification. These suppliers are not a side effect. They are the industrial base. The more supplier-dense the economy becomes, the easier it is for the next manufacturer to start.
+The second benefit is supplier depth. A finished-good factory creates demand for tooling, packaging, maintenance, testing, logistics, machine repair, components, industrial services, and quality certification. Those suppliers are the industrial base. The more supplier-dense the economy becomes, the easier it is for the next manufacturer to start.
 
 The third benefit is learning. Manufacturing capability improves through repeated production: yield improvement, defect reduction, process control, vendor qualification, inventory discipline, and export certification. These gains are not captured by the corporate tax foregone formula, but they are central to why industrial capacity compounds.
 
@@ -442,7 +442,7 @@ For export-oriented or import-replacing manufacturing, `P_c` becomes decisive. A
 
 UP should be a major manufacturing platform because it combines population, labor depth, demand, and nodes on the eastern freight spine. The first-order candidates are not random cities; they are places with rail, road, power, universities, existing industry, and access to large markets: Noida-Greater Noida, Ghaziabad, Meerut, Aligarh, Kanpur, Lucknow-Kanpur, Prayagraj, Varanasi, and Gorakhpur.
 
-Bihar should be treated as the labor-and-assembly bridge of the eastern arc. Its advantage is not only cheap labor. It sits between the dense northern market and the Bengal port gateway. Patna, Bihta, Gaya, Muzaffarpur, Darbhanga, Begusarai, and Bhagalpur are plausible manufacturing nodes if power, land, skilling, and rail-road links are made reliable.
+Bihar should be treated as the labor-and-assembly bridge of the eastern arc: cheap labor plus a position between the dense northern market and the Bengal port gateway. Patna, Bihta, Gaya, Muzaffarpur, Darbhanga, Begusarai, and Bhagalpur are plausible manufacturing nodes if power, land, skilling, and rail-road links are made reliable.
 
 Bengal should be the eastern gateway. Kolkata-Dankuni-Durgapur-Asansol-Haldia should function as the port-linked industrial belt for the arc. Bengal already has Kolkata/Haldia port infrastructure, but the policy question is whether eastern manufacturing has enough reliable port capacity, container handling, draft, customs speed, and last-mile rail-road connectivity. If UP and Bihar become serious manufacturing hubs, Bengal must have port capacity that behaves like part of the factory system, not like a separate bottleneck.
 
@@ -536,7 +536,7 @@ w_C + w_L + w_P + w_S + w_A + w_D + w_G = 1
 
 For export-oriented manufacturing, increase `w_A` and `w_C`. For labor-intensive assembly, increase `w_S` and `w_L`. For power-intensive manufacturing, increase `w_P`. This is less elegant than multiplying everything together, but it is dimensionally honest and inspectable.
 
-Cities with high `GeoScore` are not merely large. They are places where production, labor, suppliers, markets, and ports connect with low friction.
+A high `GeoScore` identifies cities where production, labor, suppliers, markets, and ports connect with low friction.
 
 An illustrative eastern ranking would likely put the following nodes high, subject to real data:
 
@@ -633,7 +633,7 @@ The claim is falsifiable. It fails if any of the following are true:
 7. Domestic supply is created only behind consumer-price inflation, rather than through lower production cost and competitive output.
 8. Factories are placed in politically convenient locations where labor savings are erased by port distance, logistics delay, power unreliability, or supplier thinness.
 
-These are not minor caveats. They are the design constraints. A tax-free manufacturing regime should be conditional, audited, temporary, and tied to domestic value addition. Without those safeguards, the policy becomes a rent machine. With them, the arithmetic is strong.
+These are the design constraints. A tax-free manufacturing regime should be conditional, audited, temporary, and tied to domestic value addition. Without those safeguards, the policy becomes a rent machine. With them, the arithmetic is strong.
 
 ## Conclusion
 
