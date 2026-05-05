@@ -9,7 +9,7 @@
 
 <h1 align="center">The Indic Accelerationism Manifesto</h1>
 
-<p align="center"><em>Accelerate. Include. Sustain.</em></p>
+<p align="center"><em>Accelerate. Industrialize. Govern.</em></p>
 
 ---
 
@@ -17,67 +17,63 @@
 
 We live in a time of extraordinary potential. Technology, when harnessed effectively, can radically transform societies and uplift the quality of life for billions. For India - with its cultural diversity, rich heritage, and untapped human potential - the advent of digital transformation holds remarkable promise.
 
-**Indic Acceleration** represents our commitment to employ the profound power of technology and first principles for accelerating India's progress, thereby elevating our society to new heights. It is not enough to capitalize on the potential inherent in current times - we must do it in a manner that is not a mindless copy of existing playbooks. The insights from past experience and civilizational learning must be treated with the same seriousness as new ideas, all directed toward progress and growth in the real sense.
+**Indic Acceleration** represents our commitment to employ the profound power of technology and first principles for accelerating India's progress, thereby elevating our society to new heights. It is not enough to capitalize on the potential inherent in current times - we must do it in a manner that is not a mindless copy of existing playbooks. The insights from past experience and historical learning must be treated with the same seriousness as new ideas, all directed toward progress and growth in the real sense.
 
-Our aim is to utilize advancements in artificial intelligence, machine learning, blockchain, big data, and other innovations to speed up India's socio-economic growth, reduce corruption, streamline the judicial system, and encourage holistic development.
+Our aim is to apply advancements in artificial intelligence, machine learning, modern data systems, and verifiable digital infrastructure to speed up India's economic growth, reduce corruption, streamline the judicial system, and build the physical and institutional substrate that scaling production requires.
 
 India's market liberalization in 1991 was only the beginning. We as a nation are still grappling with the spaghetti code of conduct from the central planner's era. Refactoring has only just begun. Indic Acceleration will therefore also involve research mediation, policy advocacy, and technocratic solution building - not just technology for technology's sake.
 
 ---
 
-## The False Dichotomy: Degrowth vs. Acceleration
+## What in/acc Builds
 
-The dichotomy of degrowth versus accelerationism is a forced one. What we want is to **degrow our impact on ecology, while accelerating civilization**.
+The in/acc thesis is narrow. India's progress depends on three things the state already controls or can shape: hard infrastructure, manufacturing capacity, and the integrity of public institutions. Most other reforms either follow from these or are blocked by their absence.
 
-We need to do so **sustainably** - not to serve hedonistic consumerism. We must respect ecology and internalize the "externalities."
+Roads, ports, power, water, urban governance, and digital public infrastructure determine whether private effort produces output. Manufacturing converts that infrastructure into national productive capacity, jobs, exports, and strategic autonomy. Anti-corruption discipline determines whether time, capital, and trust accumulate or evaporate.
 
-We need to do so **inclusively** - with as much federated ownership of capital as possible. Either bring the rate of return to parity between labor and capital, or allow labor to translate into capital ownership as early as possible.
+We need to **free the free markets** from the clutches of crony incumbents and discretionary administrative power. More transparency. More accountability. Open, sovereign, and modular tools - identity, payments, records, dashboards, audit - that strip discretion out of the daily experience of building and running productive enterprises.
 
-We need to improve the velocity of money for sponsoring more opportunities to turn labor into inclusive capital - sustainably, avoiding the trap of consumerism.
-
-We need to **free the free markets** from the clutches of crony consumerists, sometimes masquerading as central planners, other times as sales and marketing professionals. More transparency. More accountability.
-
-We need to respect the uncertainty of complexity and adopt simpler, interoperable heuristics for human coordination and consensus.
-
-Political will and technocratic infrastructure for any policy are like chicken and egg. One can manifest the other into existence for real change. Managing that change is equally crucial.
+We need to respect the uncertainty of complexity and adopt simpler, interoperable heuristics for human coordination and consensus. Political will and technocratic infrastructure are like chicken and egg. One can manifest the other into existence for real change. Managing that change is equally crucial.
 
 ---
 
 ## Mission
 
-Accelerate the following metrics as holistically, inclusively, and sustainably as possible:
+Build the conditions under which India's productive capacity compounds. The mission is operational, not abstract:
 
-| Metric | Dimension | What It Measures |
-|--------|-----------|------------------|
-| **GDP Growth** | Accelerate | Economic output and productive capacity |
-| **Gini Coefficient** | Include | Income and wealth equality |
-| **Doughnut Metrics** | Sustain | Ecological and social boundary health |
+| Pillar | What It Means |
+|--------|---------------|
+| **Hard Infrastructure** | Power, water, logistics, ports, urban governance, and digital public infrastructure delivered at the cost and predictability of competitor economies |
+| **Manufacturing Capacity** | Time, tax, and friction settings that let private firms turn capital and labor into goods and exports at scale |
+| **Anti-Corruption Institutions** | Audit, registration, dashboards, and rule-based eligibility that replace discretionary administrative power with measurable transactions |
 
-In an ideal world, these holistic metrics replace the outsized significance currently enjoyed by GDP alone. We want to align national and private capacity building toward all three north-stars simultaneously.
+These are not separate goals. Weak infrastructure makes manufacturing uncompetitive and creates rent points for corruption. Corruption raises infrastructure project costs and taxes manufacturing margins. Manufacturing demand finances infrastructure and pressures institutions to perform.
 
 ---
 
 ## Manufacturing
 
-### Manufacturing Statecraft
+Manufacturing is the exception to the otherwise permission-light state.
 
-The in/acc state should be libertarian by default, conservative in social foundations, and industrial in manufacturing.
+The in/acc state should be libertarian by default, conservative in social foundations, and industrial in manufacturing. For most of economic and social life, the state should protect property, enforce contracts, reduce licenses, cut compliance, lower taxes where possible, and let families, firms, communities, markets, and civil society organize themselves.
 
-For most of life, the state should step back: protect property, enforce contracts, reduce licenses, cut compliance, lower taxes where possible, and let families, firms, communities, markets, and civil society organize themselves. The default posture should be market-first and permission-light.
+But manufacturing is not just another sector. It converts capital, energy, logistics, and labor into national productive capacity. Software can scale with talent and distribution. Manufacturing cannot scale unless the physical base layer works.
 
-Manufacturing is the exception.
-
-Manufacturing is not just private commerce. It is national capacity. A factory cannot be conjured by deregulation alone. It needs land, power, water, roads, rail, ports, warehouses, customs, standards, credit, tooling, testing, worker housing, supplier clusters, and predictable dispute resolution. These are not things a single entrepreneur can solve from first principles. They are coordination problems at civilizational scale.
-
-So the state should be small where society can self-organize, but strong where only the state can build the base layer. The state should not run factories, pick every product, set every price, or recreate the License Raj. It should build the conditions in which factories can multiply.
+That makes manufacturing a coordination problem before it is a subsidy problem. The state should not run factories, set prices, or recreate the License Raj. It should build the industrial platform: plug-and-play land, reliable power, logistics links, and fast commercial courts.
 
 **Small state for daily life. Strong state for industrial capacity. Free markets on top of national infrastructure.**
+
+The manufacturing question must therefore be argued in numbers, not slogans. The core metric is **days from intent to first production**. The fiscal question is not "can India afford to give manufacturers relief?" but "why is India comfortable financing foreign industrial capacity through a $100 billion-scale China trade deficit while hesitating to forgo a much smaller amount of tax on Indian manufacturing profits?"
+
+The full argument lives in the working-draft white paper: **[Manufacturing Policy for India](./manufacturing/white-paper.md)**. The quantitative companion **[Industrial Base Math](./manufacturing/industrial-base-math.md)** carries the zero-tax fiscal arithmetic, a firm-level corruption-wedge model, and a PageRank-style Industrial Centrality algorithm for rule-based sector targeting. Supporting notes: [literature review](./manufacturing/literature-review.md), [annotated bibliography](./manufacturing/bibliography.md), and [research-program backlog](./manufacturing/research-program.md).
 
 ### Ease of Doing Business in Factory-Time
 
 For manufacturing, ease of doing business cannot remain a slogan or a ranking. It must be measured in factory-time: the time, cost, uncertainty, and friction required to turn capital into production.
 
 Every state should compete on one master metric: **days from intent to first production**.
+
+A Foxconn-scale electronics plant makes the point clearly: if land, power, customs, and worker housing move on separate clocks, the factory is late before production starts. The table below turns that problem into state-level operating targets.
 
 | Metric | Target |
 |--------|--------|
@@ -95,74 +91,29 @@ Every state should compete on one master metric: **days from intent to first pro
 | Inspection or rejection dispute resolution | Under 15 days |
 | Company incorporation to first production run | 90-120 days |
 
-A factory does not care whether a portal exists. A factory cares whether it can start producing. If an entrepreneur has capital, designs, workers, machines, and customers, the state's job is to make sure nothing artificial blocks the path from land to machine installation to first shipment.
-
-### Zero Tax for New Manufacturing Capacity
-
-India is already paying a manufacturing subsidy. It is just paying it to foreign industrial bases.
-
-India's goods trade deficit with China has hovered around the $100 billion scale, with recent estimates ranging from roughly $99 billion in FY 2024-25 to over $110 billion by calendar-year measures. This is not only a trade number. It is a measure of factories not built in India, workers not trained in India, suppliers not created in India, and industrial learning not accumulated in India.
-
-Against that scale, zero tax for new manufacturing capacity is rational arithmetic. Suppose India replaces $20 billion of imports with domestic manufacturing. If manufacturers earn a 10% profit margin and the otherwise applicable corporate tax rate is 25%, the corporate tax foregone is:
-
-```text
-$20B domestic production x 10% profit x 25% tax = $500M tax foregone
-```
-
-The state gives up $500 million of tax only after $20 billion of domestic production exists. That is a 40:1 ratio between production created and corporate tax foregone. Even if domestic value addition is only 40%, India still creates $8 billion of domestic value for $500 million of forgone corporate tax, a 16:1 ratio.
-
-Production-linked incentives are better than neglect, but they are selective, bureaucratic, and budget-funded. PLI says: apply, qualify, comply, wait, prove incremental production, then receive the incentive. Zero tax says: manufacture, sell, earn, keep the profit, and reinvest.
-
-For 10-15 years, manufacturing profits should be tax-free where firms meet clear conditions:
-
-- physical production in India
-- audited payroll and formal employment
-- minimum domestic value addition thresholds
-- digital compliance
-- labor and environmental standards
-- reinvestment into capacity, tooling, R&D, exports, or worker training
-
-Tax consumption, land speculation, monopoly rents, and luxury extraction if needed. Do not tax new manufacturing capacity. If a firm manufactures in India, employs Indians, builds supply chains, and reduces strategic imports, its profit should be its own. Scale first. Tax later.
-
-### The Manufacturing Target
-
-The goal should be explicit: seed 10,000 manufacturers, then grow them into 100,000. If each manufacturer supports 100 direct jobs, that is 10 million productive, tax-paying jobs, and many more indirect jobs across suppliers, logistics, repair, packaging, distribution, design, maintenance, and services.
-
-Every physical product is not merely an object. It is a node in an industrial culture.
-
-The state should help small manufacturers with serviced land, reliable power, shared testing facilities, common tooling centers, working-capital access, export support, fast clearances, logistics corridors, digital compliance, supplier discovery, and procurement guarantees. Build the roads, but also make sure there are goods to move on them. Expressways without factories become monuments. Expressways connected to manufacturers become industrial arteries.
-
-This is not socialism. It is statecraft.
-
-Without manufacturing, India has consumers but not enough producers. It has roads but not enough goods. It has talent but not enough industrial absorption. It has ambition but not enough strategic depth. A civilization that does not manufacture is dependent on those that do.
+A factory does not care whether a portal exists. A factory cares whether it can start producing. If an entrepreneur has capital, machines, and customers, the state's job is to make sure nothing artificial blocks the path from land to machine installation to first shipment.
 
 ---
 
 ## Goals
 
-### 1. Improve Governance
-Mitigate the three great drags on progress:
-- **Corruption** - through transparency infrastructure and accountability systems
-- **Complexity** - through simpler, composable regulation and digital-first processes
-- **Rent-Seeking** - through open markets, open data, and competitive fairness
+### 1. Build Hard Infrastructure
+Deliver the physical and digital substrate that turns private effort into output:
+- **Power, Water, Logistics, Ports, Urban Governance** - at competitor-economy reliability and cost
+- **Digital Public Infrastructure** - identity, payments, e-invoicing, GST, MCA, court records, and land records as sovereign, interoperable layers
+- **Connected Industrial Nodes** - corridors, parks, and last-mile links built to serve actual production, not announced capacity
 
-### 2. Accelerate Civilization
-Move forward on three fronts simultaneously:
-- **Sustainably** - within planetary boundaries
-- **Inclusively** - with federated ownership and broad access
-- **Openly** - with transparent, interoperable, sovereign systems
+### 2. Build Manufacturing Capacity
+Move from announcement-driven industrial policy to rule-based capability formation:
+- **Factory-Time as the Master Metric** - days from intent to first production, measured and ranked by state
+- **Zero Tax for Qualifying New Manufacturing Profits** - a low-discretion default instrument with strict eligibility and automatic sunset
+- **Industrial Centrality** - sector targeting via observable production-network and dependence weights, not ministerial preference
 
-### 3. Build Civility
-Ensure the foundations of a functioning society:
-- **Trust & Safety** - protect people and institutions from bad actors
-- **Contract Enforcement** - make agreements reliable and efficient
-- **Timely Delivery of Justice** - clear the backlog, modernize the courts
-
-### 4. Universalize Opportunity
-Level the playing field through:
-- **Open Education & Skill Development** - quality learning for every Indian
-- **Digital & Public Infrastructure** - connectivity, identity, payments for all
-- **Entrepreneurial Ecosystem & Capacity Building** - make it easy to build and create
+### 3. Fight Corruption and Restore Contract Enforcement
+Replace discretionary administrative power with measurable transactions:
+- **Process Redesign** - service-level agreements, deemed approvals, named officers, electronic file trails, appealable revocation
+- **Anti-Corruption Dashboards** - dispersion in approval times, rejection rates, inspection frequency, refund delays, litigation backlog by state and department
+- **Industrial Rule of Law** - fast-track commercial dispute resolution, MSME payment discipline, cargo security, and time-bound contract enforcement
 
 ---
 
@@ -210,7 +161,7 @@ The India Stack - comprising Aadhaar (biometric identity), UPI (payments), DigiL
 
 The numbers are staggering. Aadhaar covers over 1.3 billion residents. UPI processed over 13 billion transactions in a single month by late 2023, with a total value exceeding $200 billion monthly. The Jan Dhan-Aadhaar-Mobile (JAM) trinity enabled direct benefit transfers that have saved the government an estimated ₹2.7 lakh crore in leakage reduction since 2014, according to government estimates. The CoWIN platform, built on Aadhaar infrastructure, administered over 2 billion vaccine doses during the COVID-19 pandemic and was offered to other countries as an open-source solution.
 
-India Stack matters for in/acc because it demonstrates a thesis that is central to our movement: that well-designed digital public infrastructure can simultaneously serve the goals of acceleration (by reducing transaction costs and enabling new business models), inclusion (by giving the poorest citizens access to formal financial services), and sustainability (by reducing waste and leakage in government spending). It is proof of concept that technology and institutional innovation can work together at population scale.
+India Stack matters for in/acc because it demonstrates a thesis that is central to our movement: that well-designed digital public infrastructure can simultaneously cut transaction costs and friction, formalize commerce at population scale, and reduce administrative discretion in everyday public services. It is proof of concept that technology and institutional innovation can work together at population scale.
 
 But India Stack also illustrates the limits of technology without institutional reform. Aadhaar-based authentication failures still exclude vulnerable populations from welfare entitlements. UPI's success has created market concentration concerns, with two apps controlling the vast majority of transactions. The data protection framework - the Digital Personal Data Protection Act, passed in 2023 - remains a work in progress. And the most important question about India Stack may be the one that is hardest to answer: whether the efficiency gains it enables in government service delivery will translate into improved state capacity more broadly, or whether they will remain islands of competence in an ocean of dysfunction.
 
@@ -218,7 +169,7 @@ But India Stack also illustrates the limits of technology without institutional 
 
 India in the mid-2020s is a country of extraordinary capability and extraordinary constraint. We have the engineers, the entrepreneurs, the institutional memory, and - critically - a population young enough to build the future rather than simply manage the legacy of the past. The median age is still under 29. The demographic dividend is real, but it is not permanent. The window in which India can leverage its young population to build the physical, digital, and institutional infrastructure for sustained prosperity is perhaps two to three decades. After that, the dependency ratio begins to rise, and the opportunity cost of inaction becomes permanent.
 
-The question is not whether India can grow. It is whether India can grow in a way that is inclusive enough to prevent social fracture, sustainable enough to avoid ecological catastrophe, and governed well enough to sustain public trust in democratic institutions. That is the question this manifesto attempts to answer.
+The question is not whether India can grow. It is whether India can build the hard infrastructure, manufacturing capacity, and institutional discipline that turn growth into compounding national capability. That is the question this manifesto attempts to answer.
 
 ---
 
@@ -264,7 +215,7 @@ Education, the traditional engine of upward mobility, is not delivering. India p
 
 The spatial dimension of the opportunity deficit is important. India's economic geography is characterized by enormous variation. Per capita income in Goa or Delhi is several times that of Bihar or Jharkhand. The southern and western states have broadly achieved middle-income levels of development; parts of the northern and eastern heartland remain at low-income levels. Internal migration - from Bihar to Maharashtra, from Uttar Pradesh to Gujarat, from Odisha to Kerala - is a massive, under-governed phenomenon that provides livelihoods but also creates social and political tensions.
 
-**What in/acc proposes:** Closing the opportunity deficit requires action on multiple fronts simultaneously. There is no single intervention that will create 10 million jobs a year. What is needed is a portfolio approach: investments in infrastructure that reduce logistics costs and enable manufacturing; reforms in labor law that encourage formalization without removing worker protections; a skills ecosystem that is responsive to employer needs; financial inclusion that gives small entrepreneurs access to credit; and digital infrastructure that enables new forms of economic activity - from e-commerce to remote work to creator economies - that were not possible a decade ago.
+**What in/acc proposes:** Closing the opportunity deficit requires action on multiple fronts simultaneously. There is no single intervention that will create 10 million jobs a year. What is needed is a portfolio approach: investments in infrastructure that reduce logistics costs and enable manufacturing; labor-code implementation that encourages formal employment without removing worker protections; a skills ecosystem that is responsive to employer needs; cash-flow-based credit access for small enterprises; and digital infrastructure that enables new forms of economic activity - from e-commerce to remote work to creator economies - that were not possible a decade ago.
 
 ---
 
@@ -312,33 +263,37 @@ This is not abstract. A child born in India today will enter the workforce aroun
 
 ---
 
-## Chapter 4: Beyond GDP - The Case for Triadic Metrics
+## Chapter 4: Metrics That Compound - Capacity, Time, and Trust
 
-The in/acc framework rests on a simple but consequential claim: that GDP growth, while necessary, is not sufficient, and that a civilization serious about its future must track at least three dimensions of progress simultaneously.
+GDP is not the wrong target; it is the incomplete one. Per-capita income captures average productivity but cannot tell whether the productivity is concentrated in extractive activity, whether the public goods that future production depends on are being delivered, or whether the conditions of growth itself are being built or eroded. India needs a small set of additional indicators that, together with GDP, describe whether the substrate of compounding growth is thickening or thinning.
 
-This is not an anti-growth position. India needs growth - sustained, rapid, broad-based growth - to fund the public goods, infrastructure, and human capital investments that its population requires. A country with India's per capita income cannot afford to be cavalier about economic growth. The degrowth movement, as articulated by thinkers like Jason Hickel, contains valid critiques of the ecological unsustainability of high-income consumption patterns, but its prescriptions are designed for societies that have already achieved high living standards. Applying degrowth logic to a country where hundreds of millions still lack adequate nutrition, housing, healthcare, and education is not progressive - it is a prescription for continued deprivation dressed up in ecological virtue.
+The three indicators are infrastructure reliability, manufacturing depth, and institutional time. They cover the same conceptual space as the three pillars of in/acc, and they translate into specific, comparable, measurable numbers across states and over time. Their value is not philosophical. It is operational: a policy that does not move at least one of them is unlikely to be doing what it claims.
 
-But growth alone is not enough, and India has sufficient evidence of this from its own experience. The period from 2004 to 2014 saw India achieve some of its highest GDP growth rates ever - yet the benefits were unevenly distributed, jobless growth became a political talking point, and environmental degradation accelerated. High growth with persistent inequality, ecological destruction, and institutional decay is not progress in any meaningful sense. It is wealth accumulation that is brittle, contested, and ultimately unsustainable.
+GDP remains in the picture. Without growth, none of the rest is fundable. India's growth target should be 7-8% sustained over the next two decades, which requires continued structural reform, investment in infrastructure and human capital, and a policy environment conducive to enterprise. But growth that does not compound through capacity, time, and trust is wealth accumulation that is brittle, contested, and reversible.
 
-### The Three North Stars
+### Infrastructure Reliability
 
-**GDP Growth** measures the economy's aggregate productive capacity. It matters because it determines the total resources available for investment, consumption, and public goods. India's GDP growth target should be 7-8% sustained over the next two decades - which requires continued structural reform, investment in infrastructure and human capital, and a policy environment conducive to enterprise and innovation.
+Infrastructure reliability captures whether the public layer that private production depends on actually works. Headline measures: industrial power uptime and voltage variance; logistics cost as a share of GDP; port dwell time and customs clearance time; municipal water reliability; broadband uptime and median speed by district; commute time and intra-city freight time in major metros.
 
-**The Gini Coefficient** measures income and wealth inequality. India's consumption Gini is estimated at around 0.35-0.36 - moderate by international standards, but likely understated because the consumption expenditure surveys miss the top of the distribution. Wealth inequality is significantly higher. The top 10% of Indians hold over 65% of total wealth, and the top 1% hold over 40%. These levels of concentration are problematic for several reasons: they undermine equality of opportunity, they concentrate political power, they reduce the marginal utility of economic growth (a dollar of growth that accrues to someone already wealthy produces less welfare than one that accrues to someone poor), and they erode social cohesion.
+The aim is not perfection. It is convergence with comparator countries (Vietnam, China, Bangladesh, Indonesia) and convergence across Indian states. Dispersion is itself an outcome variable. A country where Tamil Nadu clears containers in 24 hours and another state takes a week has an industrial policy whether or not it intends one.
 
-**Doughnut Metrics** - inspired by Kate Raworth's doughnut economics framework - track whether a society is operating within ecological ceilings (climate change, ocean acidification, chemical pollution, biodiversity loss, land use change, freshwater use, nitrogen and phosphorus loading, air pollution, ozone layer depletion) while meeting social foundations (food, health, education, income, political voice, social equity, gender equality, housing, networks, energy, water, jobs). The doughnut framework is useful because it makes explicit the dual constraint that India faces: a social floor that has not yet been universally achieved, and an ecological ceiling that is already being breached in several dimensions.
+### Manufacturing Depth
 
-India's ecological situation is serious. Air pollution in the Indo-Gangetic plain is among the worst in the world. Groundwater is being depleted at unsustainable rates in Punjab, Haryana, Rajasthan, and parts of Tamil Nadu. River pollution remains severe despite decades of clean-up programs. Biodiversity is under pressure from habitat loss, urbanization, and agricultural intensification. India is the third-largest emitter of greenhouse gases in absolute terms, though its per capita emissions remain well below the global average.
+Manufacturing depth tracks whether physical production is turning into compounding capability or staying at thin assembly. Headline measures: manufacturing share of GDP; manufacturing share of formal employment; domestic value-addition ratio by sector; export share of manufacturing output; days from intent to first production at state level; sectoral Industrial Centrality scores (see [Industrial Base Math §9](./manufacturing/industrial-base-math.md)).
 
-The in/acc position is that India cannot afford to choose between growth and sustainability. It must find growth pathways that are ecologically viable - which means investing heavily in renewable energy, sustainable agriculture, circular economy practices, and ecological restoration, even as it accelerates economic growth. The good news is that many of these investments are now economically rational: solar power is cheaper than coal in most of India, electric vehicles are approaching cost parity with internal combustion engines, and regenerative agriculture practices can improve yields while reducing input costs.
+These measures are sector-disaggregated by design. National manufacturing share aggregates can hide that India is good at pharma and weak at electronics components. Sector-level depth metrics make the policy targeting question concrete.
 
-### Why Three Metrics, Not One
+### Institutional Time
 
-The reason for tracking three metrics rather than one is that they create a system of checks and balances. Optimizing for GDP alone leads to growth that is extractive, unequal, and ecologically destructive. Optimizing for equality alone can lead to redistribution without wealth creation - the trap that many post-colonial economies fell into. Optimizing for sustainability alone - without growth and inclusion - is a luxury that only wealthy societies can afford.
+Institutional time measures whether the state's administrative and judicial functions deliver at the speed industrial production requires. Headline measures: median commercial dispute resolution time; MSME payment delay; refund and rebate processing time; permit and approval times by transaction; rejection-loop and appeal-backlog rates; variance in any of these across districts.
 
-The three metrics function as a trilemma navigator. Any policy proposal can be evaluated against all three dimensions. A highway project increases GDP (good for acceleration) but may displace communities (bad for inclusion) and destroy ecosystems (bad for sustainability). The triadic framework forces the question: can the highway be built in a way that compensates displaced communities fairly, provides them with better opportunities, and minimizes ecological damage through better routing and design? Often the answer is yes, but only if the question is asked at the design stage rather than as an afterthought.
+Variance is the anti-corruption signal. When one district issues power connections in 20 days and another takes 180, the gap is administrative discretion without accountability. Reducing the variance is reducing the corruption surface area.
 
-This is not about perfection. There will be trade-offs. There will be cases where acceleration and sustainability are in genuine tension, where inclusion and efficiency pull in different directions. The point of the triadic framework is not to eliminate trade-offs but to make them visible and explicit, so that they can be debated, negotiated, and decided through democratic processes rather than resolved by default in favor of whichever interest has the most power.
+### Why These Three
+
+These three indicators function as a system. Growth without infrastructure is fragile. Infrastructure without manufacturing demand is monumental but underused. Manufacturing without institutional time becomes lobby-dependent. Institutional time without manufacturing has nothing to enforce.
+
+Track all three together and policy proposals become evaluable: a highway that improves infrastructure reliability but is built through a corrupt procurement process trades one indicator for another. A factory subsidy that improves manufacturing depth but creates a new permit chain trades one for another. The point is not to eliminate trade-offs. It is to make them visible and decidable through democratic processes rather than resolved by default in favor of whichever interest has the most administrative power.
 
 ---
 
@@ -372,7 +327,7 @@ The complexity perspective argues against grand, top-down redesigns and in favor
 
 The in/acc approach to policy is therefore:
 
-1. **Set clear directional goals** (the three north stars) without prescribing the specific path
+1. **Set clear directional goals** (infrastructure reliability, manufacturing depth, institutional time) without prescribing the specific path
 2. **Build infrastructure** (digital and physical) that enables many different actors to pursue those goals
 3. **Measure relentlessly** - with real-time data where possible, with periodic evaluation where not
 4. **Iterate quickly** - change what isn't working, scale what is, and accept that the optimal solution will emerge from experimentation rather than design
@@ -382,7 +337,7 @@ This is not laissez-faire. It is an active, engaged, infrastructure-building sta
 
 ---
 
-## Chapter 6: Digital Public Infrastructure as Civilizational Scaffolding
+## Chapter 6: Digital Public Infrastructure as Public Scaffolding
 
 ### What DPI Is and Why It Matters
 
@@ -410,9 +365,9 @@ The India Stack has evolved in layers over the past fifteen years:
 
 **Commerce Layer (ONDC, 2022-present):** The Open Network for Digital Commerce is the most ambitious extension of the India Stack philosophy. It applies the UPI model to e-commerce: an open, interoperable protocol that allows any buyer app to connect with any seller app, breaking the platform monopoly model. A buyer searching on one app can find and purchase from a seller listed on a different app, because both speak the ONDC protocol. If it works at scale, it could fundamentally change the economics of digital commerce in India.
 
-### DPI as Civilizational Infrastructure
+### DPI as Public Infrastructure
 
-The in/acc claim is that DPI is not just a technology layer - it is civilizational infrastructure in the same sense that the Roman road network, the British railway system in India, or the American interstate highway system were civilizational infrastructure. These systems did not just move goods and people. They restructured economic geography, enabled new forms of organization, and created the conditions for subsequent waves of innovation that their builders could not have anticipated.
+The in/acc claim is that DPI is not just a technology layer - it is public infrastructure in the same sense that the Roman road network, the British railway system in India, or the American interstate highway system were public infrastructure. These systems did not just move goods and people. They restructured economic geography, enabled new forms of organization, and created the conditions for subsequent waves of innovation that their builders could not have anticipated.
 
 India Stack is doing the same thing. UPI did not just digitize payments - it created the conditions for an explosion of fintech innovation, from buy-now-pay-later products to micro-insurance to AI-driven credit scoring for previously unbanked populations. Aadhaar did not just provide identity - it created the conditions for direct benefit transfers that bypass the leakage-prone intermediary chain. ONDC, if successful, will not just create an alternative to Amazon and Flipkart - it will create the conditions for a new model of digital commerce in which the network effects accrue to the protocol rather than to a single platform.
 
@@ -440,7 +395,7 @@ India's federal structure is often discussed as a problem - a source of coordina
 
 The case for federalism rests on several pillars.
 
-**Diversity requires devolution.** India's states are not administrative conveniences. They are, in many cases, distinct civilizational units with their own languages, cultural traditions, historical trajectories, and development challenges. Kerala's health outcomes are vastly different from Uttar Pradesh's, not because of a different climate or geography, but because of different institutional histories, political movements, and policy choices made over decades. A policy that works in Tamil Nadu may fail in Jharkhand, and vice versa. Centralized, one-size-fits-all approaches are particularly ill-suited to India's diversity.
+**Diversity requires devolution.** India's states are not administrative conveniences. They are, in many cases, distinct historical and cultural units with their own languages, traditions, trajectories, and development challenges. Kerala's health outcomes are vastly different from Uttar Pradesh's, not because of a different climate or geography, but because of different institutional histories, political movements, and policy choices made over decades. A policy that works in Tamil Nadu may fail in Jharkhand, and vice versa. Centralized, one-size-fits-all approaches are particularly ill-suited to India's diversity.
 
 **Federalism enables experimentation.** The United States Supreme Court Justice Louis Brandeis famously described states as "laboratories of democracy." Indian states have played exactly this role. Gujarat's Jyotigram Yojana - which separated agricultural and domestic power supply to enable 24/7 power for homes while rationing agricultural power - was a policy innovation that emerged from state-level experimentation. Kerala's decentralized planning and local governance model, implemented through the People's Plan Campaign in the 1990s, has influenced thinking about panchayati raj nationally. Tamil Nadu's midday meal scheme, one of the most successful nutrition interventions in the developing world, began as a state program decades before it was adopted nationally. Rajasthan's right to information movement gave birth to the national RTI Act.
 
@@ -832,19 +787,17 @@ in/acc advocates for:
 
 ---
 
-## Chapter 16: Energy Transition and Ecological Boundaries
+## Chapter 16: Power, Water, and the Industrial Resource Stack
 
-### India's Energy Dilemma
+### India's Energy Demand
 
-India's energy challenge is perhaps the most vivid example of the triadic tension between acceleration, inclusion, and sustainability.
+India's energy challenge is fundamentally industrial. Per capita electricity consumption is roughly 1,200 kWh per year - about one-third of the world average and one-tenth of the US average. Manufacturing scale, urbanization, and basic productive use all require multiples of current generation. The constraint is reliability and cost as much as capacity. Industrial users that face voltage variance, scheduled cuts, or unscheduled outages price captive generation into every project, which raises delivered cost for everything India makes.
 
-On one hand, India needs massively more energy. Per capita electricity consumption is roughly 1,200 kWh per year - about one-third of the world average and one-tenth of the US average. Hundreds of millions of Indians still use biomass (wood, dung, crop residues) for cooking, with devastating health consequences - indoor air pollution from biomass cooking is estimated to cause hundreds of thousands of premature deaths annually. Universal access to modern energy services - reliable electricity, clean cooking fuel, and adequate heating and cooling - is a prerequisite for human development.
+Coal remains the backbone of India's electricity system, accounting for roughly 70% of generation. India's installed capacity must grow substantially over the next two decades to meet manufacturing, urban, and basic-access demand. The question is what mix delivers reliability at the lowest delivered cost - not as a virtue position, but as the input cost structure of every Indian factory and city.
 
-On the other hand, India is already the world's third-largest emitter of greenhouse gases, and emissions are growing. Coal remains the backbone of India's electricity system, accounting for roughly 70% of generation. India's nationally determined contribution under the Paris Agreement commits to 50% non-fossil fuel installed capacity by 2030 and net-zero emissions by 2070. These targets are ambitious in the context of India's development needs but insufficient in the context of global climate science.
+### Renewables as the Cheapest New Generation
 
-### The Renewable Opportunity
-
-The good news is that the economics of renewable energy have shifted dramatically in India's favor. Solar power tariffs have fallen from ₹17/kWh in 2010 to under ₹3/kWh in recent auctions - making solar the cheapest source of new electricity generation in most of India. Wind power is similarly competitive. India has over 180 GW of installed renewable energy capacity (including large hydro) and has set targets of 500 GW of non-fossil fuel capacity by 2030.
+The economics of renewable energy have shifted dramatically in India's favor. Solar power tariffs have fallen from ₹17/kWh in 2010 to under ₹3/kWh in recent auctions - making solar the cheapest source of new electricity generation in most of India. Wind power is similarly competitive. India has over 180 GW of installed renewable energy capacity (including large hydro) and has set targets of 500 GW of non-fossil fuel capacity by 2030. The case for renewables here is industrial procurement at falling cost, not virtue.
 
 The challenge is integration. Solar and wind are intermittent - they generate power when the sun shines and the wind blows, not necessarily when demand peaks. Managing this intermittency requires a combination of:
 
@@ -862,44 +815,41 @@ The energy transition extends well beyond electricity. Key dimensions include:
 
 **Industrial decarbonization.** India's industrial sector - steel, cement, chemicals, aluminum - is energy-intensive and heavily dependent on fossil fuels. Decarbonizing these sectors will require a combination of electrification (where possible), green hydrogen (for high-temperature processes), carbon capture (for unavoidable emissions), and circular economy approaches (reducing demand for primary materials through recycling and reuse).
 
-### Ecological Boundaries
+### Resource Constraints on Industrial Operation
 
-Energy and climate are the most prominent environmental challenges, but India faces pressure on multiple ecological boundaries:
+Beyond electricity, manufacturing and urban scale are constrained by water, air, land, and waste systems. These are industrial-input concerns, not ecological abstractions:
 
 **Water.** India is water-stressed, and the stress is worsening. Groundwater, which supplies roughly 80% of domestic water and 60% of irrigation, is being depleted faster than it is recharged in many regions. The Central Ground Water Board classifies a significant number of assessment units as overexploited. River pollution remains severe despite decades of clean-up programs (Namami Gange, National River Conservation Plan). Water allocation conflicts between states (Cauvery, Krishna, Narmada) and between agriculture, industry, and urban use are intensifying.
 
 **Air quality.** Fourteen of the world's fifteen most polluted cities (by PM2.5 concentration) are in India. Air pollution is estimated to reduce average life expectancy in India by several years. The sources are multiple: vehicular emissions, industrial pollution, construction dust, crop residue burning, and coal-fired power plants. The National Clean Air Programme (NCAP) has set targets for reduction in particulate matter concentrations in 131 cities, but progress has been uneven.
 
-**Biodiversity.** India is one of the world's 17 megadiverse countries, home to roughly 7-8% of all recorded species. But biodiversity is under pressure from habitat loss, urbanization, agricultural intensification, and climate change. Protected areas cover roughly 5% of India's land area - below the global average and far below the 30% target proposed under the Kunming-Montreal Global Biodiversity Framework.
+**Land and waste.** Industrial parks need effluent treatment, hazardous-waste management, and reliable solid-waste handling, or compliance becomes a permit chain rather than an operating standard. India generates roughly 62 million tonnes of solid waste annually, of which only about 40% is processed. Solid-waste capacity is an industrial siting variable, not just a municipal one.
 
-**Waste.** India generates roughly 62 million tonnes of solid waste annually, of which only about 40% is processed. Plastic waste, e-waste, and biomedical waste management remain inadequate. The Swachh Bharat Mission has made significant progress on sanitation, but solid waste management in cities remains a challenge.
+### The in/acc Energy and Resource Agenda
 
-### The in/acc Energy and Environment Agenda
-
-in/acc takes the position that India's energy transition and ecological challenges are not constraints on development but opportunities for leapfrogging. Just as India leapfrogged landline telephony to go straight to mobile, and leapfrogged branch banking to go straight to digital payments, India can leapfrog fossil-fuel-intensive industrial development to build a cleaner, more efficient economy.
+The brief is industrial: deliver power, water, and waste handling at the cost and reliability required for manufacturing scale, and use the renewables price collapse to build domestic industrial capacity in batteries, modules, electrolyzers, and grid equipment.
 
 This requires:
-- **Massive investment in renewable energy and storage** - continued policy support, grid modernization, and industrial policy for domestic manufacturing of solar panels, batteries, and electrolyzers
-- **Rational pricing of environmental externalities** - carbon pricing, water pricing, and pollution charges that reflect true costs
-- **Circular economy policies** - extended producer responsibility, recycling mandates, and incentives for waste reduction
-- **Nature-based solutions** - afforestation, wetland restoration, sustainable agriculture practices that sequester carbon while improving livelihoods
-- **Just transition** - ensuring that coal-dependent workers and communities are not left behind as the energy system transitions
+- **Investment in generation, storage, and grid flexibility** - solar, wind, pumped hydro, battery storage, smart-grid infrastructure, and demand response, with industrial policy aimed at domestic manufacturing of panels, cells, batteries, and electrolyzers
+- **Rational pricing of industrial inputs** - cost-reflective tariffs for power and water that fund the next round of capacity rather than subsidize waste
+- **Hard infrastructure for water and waste** - groundwater management, effluent treatment, and waste processing built into industrial-park planning
+- **Industrial decarbonization where it pays** - electrification, green hydrogen for high-temperature processes, and process upgrades where total delivered cost falls
 
 ---
 
-## Chapter 17: Financial Inclusion and Capital Formation
+## Chapter 17: Capital Formation and the Credit Gap
 
-### The JAM Trinity and Beyond
+### The JAM Trinity as Financial Stack
 
-India's financial inclusion story is one of its most impressive development achievements. The Jan Dhan-Aadhaar-Mobile (JAM) trinity has brought hundreds of millions of previously unbanked Indians into the formal financial system:
+India's financial stack is one of its most impressive development achievements. The Jan Dhan-Aadhaar-Mobile (JAM) trinity has brought hundreds of millions of previously unbanked Indians into the formal financial system:
 
 - **Jan Dhan Yojana (2014):** Over 50 crore bank accounts opened under the scheme, with total deposits exceeding ₹2 lakh crore. While some accounts are dormant, the vast majority are active and used for receiving government transfers.
 - **Aadhaar:** Enables eKYC (electronic Know Your Customer), reducing the cost and time of account opening from days to minutes.
 - **Mobile:** Smartphone penetration in India has crossed 700 million, and mobile internet users number over 800 million. This is the interface through which financial services reach the last mile.
 
-UPI has added a payments layer on top of this foundation. The combination of universal bank accounts, digital identity, mobile connectivity, and instant digital payments has created a financial inclusion infrastructure that is the envy of the developing world.
+UPI has added a payments layer on top of this foundation. The combination of universal bank accounts, digital identity, mobile connectivity, and instant digital payments has created a financial infrastructure that is the envy of the developing world.
 
-But inclusion in the basic sense - having a bank account and being able to make digital payments - is only the beginning. The deeper dimensions of financial inclusion - access to credit, insurance, investment, and pension products - remain significantly underdeveloped.
+Account access and digital payments are only the entry point. The deeper layer - access to credit, insurance, investment, and pension products - remains significantly underdeveloped, and that gap is what limits capital formation for both households and small enterprises.
 
 ### The Credit Gap
 
@@ -988,6 +938,8 @@ Land is India's most unreformed factor market. The problems are interrelated:
 ---
 
 ## Chapter 19: Manufacturing and Industrial Policy
+
+The manufacturing section near the top of this manifesto states the current doctrine. This chapter is background: it surveys the older policy landscape, the missing middle, PLI, and the China+1 opportunity.
 
 ### The Missing Middle of Indian Manufacturing
 
@@ -1078,7 +1030,7 @@ in/acc's position on technology sovereignty is pragmatic rather than nationalist
 
 India's linguistic diversity is staggering: 22 languages in the Eighth Schedule of the Constitution, over 100 languages with more than 10,000 speakers, and hundreds more with smaller speaker populations. The 2011 Census recorded 19,500 languages and dialects spoken as mother tongues, grouped into 121 languages with 10,000 or more speakers.
 
-This diversity is a civilizational asset but a governance challenge. The language question has been politically sensitive since before independence - the anti-Hindi agitation in Tamil Nadu in the 1960s demonstrated that language policy can be existential for regional identity. The three-language formula (mother tongue, Hindi, English) is a pragmatic compromise that is implemented inconsistently.
+This diversity is a national asset but a governance challenge. The language question has been politically sensitive since before independence - the anti-Hindi agitation in Tamil Nadu in the 1960s demonstrated that language policy can be existential for regional identity. The three-language formula (mother tongue, Hindi, English) is a pragmatic compromise that is implemented inconsistently.
 
 In the digital realm, language diversity creates both a challenge and an opportunity. The challenge: the vast majority of digital content, software, and AI training data is in English. Indians who do not read English fluently are at a significant disadvantage in the digital economy. The opportunity: India's language diversity, if served by digital infrastructure, represents a massive addressable market for vernacular content, services, and products.
 
@@ -1100,7 +1052,7 @@ in/acc advocates for a comprehensive effort to build the digital commons in Indi
 
 **Vernacular content creation.** Incentivizing the creation of high-quality educational, informational, and cultural content in Indian languages - on platforms like YouTube, Wikipedia, and government portals - through fellowships, competitions, and institutional support. The Wikipedia editing community in languages like Tamil, Telugu, Malayalam, and Bengali is active, but many languages have sparse coverage.
 
-**Voice interfaces.** For the hundreds of millions of Indians who are more comfortable speaking than typing - and for the significant population that is not literate - voice-based interfaces to digital services are critical. Voice-based UPI payments, voice-based government service access, and voice-based information retrieval could dramatically expand digital inclusion.
+**Voice interfaces.** For the hundreds of millions of Indians who are more comfortable speaking than typing - and for the significant population that is not literate - voice-based interfaces to digital services are critical. Voice-based UPI payments, voice-based government service access, and voice-based information retrieval could dramatically expand digital service reach.
 
 **Script and input technology.** Typing in Indian scripts on smartphones and computers has improved significantly with better keyboards and input methods (Google Indic Keyboard, Swiftkey, and others), but there is still room for improvement, particularly for less common scripts and for handwriting recognition.
 
@@ -1114,7 +1066,7 @@ in/acc advocates for a national digital heritage mission that:
 - Digitizes manuscripts, inscriptions, and artifacts across all Indian languages and traditions
 - Creates open, searchable databases accessible to scholars and the public
 - Documents intangible heritage - performing arts, craft traditions, oral histories - through high-quality audio and video
-- Makes cultural heritage a component of digital education, so that students encounter India's civilizational depth as part of their learning
+- Makes cultural heritage a component of digital education, so that students encounter India's historical depth as part of their learning
 
 ---
 
@@ -1204,7 +1156,7 @@ Build projects might include:
 - AI models for Indian language NLP, trained on open datasets
 - Platforms for farmer-producer organizations to connect with buyers
 - Mobile apps for citizen engagement with local government
-- Data analysis tools for tracking in/acc metrics (GDP growth, Gini coefficient, Doughnut metrics) at the state and district level
+- Data analysis tools for tracking in/acc metrics (GDP, infrastructure reliability, manufacturing depth, institutional time) at the state and district level
 
 **Deployment & Operations (Vyavahara):** Running infrastructure, maintaining systems, ensuring reliability. This is the unglamorous but essential work of keeping things running. In the open-source and civic tech world, many promising projects die not because the code is bad but because no one maintains them. Deployment and operations contributors ensure that what gets built stays built.
 
@@ -1266,24 +1218,27 @@ in/acc operates as a decentralized network, not as a hierarchical organization. 
 
 ### Measuring What Matters
 
-If in/acc takes its three north stars seriously - GDP growth, Gini coefficient, Doughnut metrics - then it must be able to measure progress on all three. This requires:
+If in/acc takes its three pillars seriously - infrastructure reliability, manufacturing depth, and institutional time - then it has to measure progress on each, alongside GDP. This requires:
 
-**GDP and economic metrics:** These are well-measured by national statistical agencies (CSO/NSO, RBI). in/acc does not need to create new GDP data. What it can do is track disaggregated economic data - by state, by sector, by firm size - that reveals patterns invisible in national aggregates.
+**GDP and economic metrics:** Well-measured by national statistical agencies (CSO/NSO, RBI). in/acc does not need to create new GDP data. What it can do is track disaggregated economic data - by state, by sector, by firm size - that reveals patterns invisible in national aggregates.
 
-**Inequality metrics:** The Gini coefficient is measured through consumption expenditure surveys (NSSO/NSO) and, increasingly, through tax data (for income inequality). in/acc should track both consumption and income inequality, as well as wealth inequality (which is less well-measured in India). Spatial inequality (between states, between urban and rural areas) should be tracked alongside individual inequality.
+**Infrastructure reliability:** Industrial power uptime and voltage variance; logistics cost as a share of GDP; port dwell time and customs clearance time; municipal water reliability; broadband uptime and median speed by district. Sources include CEA / power-sector statistics, port and customs data, NLP performance reports, and TRAI broadband data. Dispersion across districts is part of the metric.
 
-**Doughnut metrics:** These require a broader data effort. On the ecological side: greenhouse gas emissions, air quality, water quality and availability, biodiversity indicators, waste generation and processing rates, land use change. On the social side: poverty rates, nutrition indicators, educational attainment, health outcomes, employment rates, housing quality, access to energy, digital connectivity, political participation, social equity indicators. Many of these are already tracked by various government agencies, but the data is scattered across different sources, published with varying frequency, and not integrated into a coherent dashboard.
+**Manufacturing depth:** Manufacturing share of GDP; manufacturing share of formal employment; domestic value-addition ratio by sector; export share of manufacturing output; days from intent to first production at state level; sectoral Industrial Centrality scores. Sources include MoSPI ASI, DGCI&S trade data, PLI scheme records, GSTN B2B flows, and CSO supply-use tables.
+
+**Institutional time:** Median commercial dispute resolution time; MSME payment delay; refund and rebate processing time; permit and approval times by transaction; rejection-loop and appeal-backlog rates; district-level variance in any of these. Sources include eCourts, MSME Samadhaan, GST and customs systems, and state-level industrial-approval data.
 
 ### The in/acc Dashboard
 
-in/acc proposes to build an open, publicly accessible dashboard that tracks progress on all three north stars, disaggregated by state and, where possible, by district. The dashboard would draw on publicly available data from:
-- National Statistical Office (GDP, consumption, employment, poverty)
+in/acc proposes to build an open, publicly accessible dashboard that tracks GDP alongside infrastructure reliability, manufacturing depth, and institutional time, disaggregated by state and, where possible, by district. The dashboard would draw on publicly available data from:
+- National Statistical Office (GDP, ASI, consumption, employment)
 - Reserve Bank of India (financial data, credit, inflation)
-- Central Pollution Control Board (air quality, water quality)
-- Ministry of Health and Family Welfare (health indicators from NFHS, HMIS)
-- Ministry of Education (educational data from UDISE+, AISHE)
-- National Crime Records Bureau (crime, justice system data)
-- Satellite and remote sensing data (land use, forest cover, agricultural conditions)
+- DGCI&S (bilateral trade by HS code)
+- Central Electricity Authority (generation, outage, voltage data)
+- Ministry of Commerce / DPIIT (logistics, port, customs metrics)
+- eCourts and MSME Samadhaan (dispute resolution and payment-delay data)
+- GSTN, MCA, and EPFO (production, registration, and payroll signals)
+- Ministry of Road Transport and Highways, Indian Railways (corridor and freight data)
 
 The dashboard would serve multiple purposes: as a tool for tracking national progress, as a basis for comparing state performance, as a resource for researchers and policy advocates, and as an accountability mechanism for in/acc itself - is the movement's work contributing to measurable improvement?
 
@@ -1325,7 +1280,7 @@ We do not ask for perfection. We ask for iteration. We do not ask for consensus 
 
 ### The Bet
 
-The in/acc bet is simple: that a civilization with India's human capital, cultural depth, institutional resilience, and technological capability can, within a generation, achieve a quality of life for its citizens that is qualitatively better than what exists today - more prosperous, more equal, more sustainable, more just. That this is not a fantasy but a realistic possibility, if the work is done well.
+The in/acc bet is simple: that a civilization with India's human capital, cultural depth, institutional resilience, and technological capability can, within a generation, deliver hard infrastructure, manufacturing capacity, and institutional integrity at the scale its population requires. That this is not a fantasy but a realistic possibility, if the work is done well.
 
 We are not naive about the obstacles. We know that vested interests will resist reforms that threaten their rents. We know that institutional change is slow, that democratic politics is messy, that implementation is harder than design, and that good intentions are not enough. We know that many movements before this one have started with ambition and ended with disillusionment.
 
@@ -1344,11 +1299,8 @@ in/acc builds upon the philosophy and infrastructure of:
 - **[India Stack](https://indiastack.org/) & Digital Public Infrastructure (DPI)** - The model of population-scale digital public goods
 - **[Cosmos / Interchain](https://cosmos.network/)** - Federated, sovereign, interoperable systems architecture
 - **[Complexity Economics](https://en.wikipedia.org/wiki/Complexity_economics)** - Embracing uncertainty and emergent order over top-down control
-- **[Doughnut Economics](https://doughnuteconomics.org/)** - Operating within ecological ceilings and social foundations
-
-Inspired by the Bharat G20 2023 motto, we want to:
-
-> **Accelerate / One Earth. Include / One Family. Sustain / One Future.**
+- **East Asian Industrial Policy** - Korea (Lane 2025), Taiwan (ITRI/TSMC), and Vietnam as comparative cases for capability formation
+- **Production-Network Economics** - Acemoglu et al. (2012), Liu (2019), Baqaee-Farhi (2019) on input-output centrality and the targeting of industrial policy
 
 ---
 
@@ -1370,13 +1322,13 @@ Pillars represent the kinds of work you can contribute to. Together, they cover 
 
 ## Conclusion
 
-Technology should be seen not just as a tool but as a fundamental building block for the future of India. Indic Acceleration is our pledge to build an India that is modern, inclusive, and sustainable - a nation that balances technological advancement with its rich cultural heritage.
+Technology is a building block, not a substitute for hard infrastructure, productive industry, and disciplined institutions. Indic Acceleration is the project of building those three layers together: a physical and digital substrate that works, a manufacturing base that compounds, and an administrative state whose discretion has been replaced by measured, auditable transactions.
 
-This is our manifesto for an enlightened and empowered India. An India that leads the world not just in technology, but in wisdom, compassion, and progress.
+This is the manifesto for an India that takes capacity seriously. An India that competes on factory-time, on logistics cost, on contract enforcement speed, and on the integrity of the rules under which capital and labor are allocated.
 
 **We want to build a fraternity of collaborators and builders.**
 
-We want to contribute toward a more open, interoperable, sovereign, federated, inclusive, sustainable, marketable, and monetizable infrastructure for capital building by human coordination and consensus.
+The contribution is toward open, interoperable, sovereign, federated infrastructure for industrial capacity formation, anti-corruption institutions, and the rule of law that productive enterprise requires.
 
 ---
 
