@@ -438,7 +438,145 @@ Did the sector graduate from support?
 
 If the answer to those questions is weak, the firm or sector should lose eligibility.
 
-## 11. Sector Targeting: Where the Tax Holiday Should Be Strongest
+## 11. Geography: Where the Manufacturing Hubs Should Go
+
+The tax-holiday proof says manufacturing can be worth much more than the corporate tax waived. It does not say where factories should be located. Geography matters because manufacturing is a logistics problem before it is a tax problem.
+
+The eastern manufacturing arc should be built around Uttar Pradesh, Bihar, and West Bengal:
+
+```text
+UP      = large labor pool + large domestic market + freight corridor nodes
+Bihar   = low-cost labor + central position on the eastern corridor
+Bengal  = eastern port gateway + access to Northeast, Bangladesh, Nepal, Bhutan, and Bay of Bengal trade
+```
+
+The logic is not sentimental federalism. It is transport math. A factory has two shipment directions:
+
+```text
+Inbound cost  = cost of moving inputs to the factory
+Outbound cost = cost of moving finished goods to customers or ports
+```
+
+For a candidate city `c`, define:
+
+```text
+L_c = annual labor-cost advantage
+I_c = annual input-logistics cost
+O_c = annual output-logistics cost
+P_c = annual port-access cost for traded goods
+K_c = annual delay and working-capital cost
+```
+
+The city is attractive when:
+
+```text
+L_c > I_c + O_c + P_c + K_c
+```
+
+For export-oriented or import-replacing manufacturing, `P_c` becomes decisive. A low-wage inland factory can lose its entire labor advantage if inputs and finished goods spend too much time moving to and from a port. This is why eastern manufacturing needs a corridor-and-port design, not isolated industrial parks.
+
+### 11.1. The UP-Bihar-Bengal Corridor
+
+UP should be a major manufacturing platform because it combines population, labor depth, demand, and nodes on the eastern freight spine. The first-order candidates are not random cities; they are places with rail, road, power, universities, existing industry, and access to large markets: Noida-Greater Noida, Ghaziabad, Meerut, Aligarh, Kanpur, Lucknow-Kanpur, Prayagraj, Varanasi, and Gorakhpur.
+
+Bihar should be treated as the labor-and-assembly bridge of the eastern arc. Its advantage is not only cheap labor. It sits between the dense northern market and the Bengal port gateway. Patna, Bihta, Gaya, Muzaffarpur, Darbhanga, Begusarai, and Bhagalpur are plausible manufacturing nodes if power, land, skilling, and rail-road links are made reliable.
+
+Bengal should be the eastern gateway. Kolkata-Dankuni-Durgapur-Asansol-Haldia should function as the port-linked industrial belt for the arc. Bengal already has Kolkata/Haldia port infrastructure, but the policy question is whether eastern manufacturing has enough reliable port capacity, container handling, draft, customs speed, and last-mile rail-road connectivity. If UP and Bihar become serious manufacturing hubs, Bengal must have port capacity that behaves like part of the factory system, not like a separate bottleneck.
+
+The economic test for Bengal's port role is:
+
+```text
+Port value = inland logistics savings + export revenue enabled + import-input reliability + avoided delay cost
+```
+
+If a Bengal port upgrade cuts the weighted average port-access cost for UP-Bihar-Bengal manufacturers by even 1% of shipment value, then on $100B of annual goods movement the saving is:
+
+```text
+$100B x 1% = $1B per year
+```
+
+That is before counting faster inventory turns, lower working capital, lower rejection risk from delayed delivery, and export growth. The port is therefore not a Bengal-only project. It is the eastern arc's shared manufacturing infrastructure.
+
+### 11.2. The City PageRank
+
+City selection should not be left to politics. It can be scored with a PageRank-style geography algorithm.
+
+Build a directed weighted graph:
+
+```text
+G = (V, E, W)
+```
+
+where:
+
+```text
+V = cities, ports, industrial clusters, logistics nodes
+E = freight, supplier, labor, and market links between nodes
+W_ij = strength of the link from node i to node j
+```
+
+The edge weight can combine:
+
+```text
+W_ij =
+  alpha x freight flow from i to j
++ beta  x supplier-buyer transactions from i to j
++ gamma x travel-time reliability from i to j
++ delta x labor catchment overlap
++ eta   x market access from i to j
+```
+
+Normalize `W` into a row-stochastic transition matrix `P`. Then solve:
+
+```text
+x = (1 - d) v + d P x
+```
+
+where:
+
+```text
+x = city industrial centrality score
+d = damping factor, default 0.85
+v = personalization vector
+```
+
+The personalization vector changes by policy goal:
+
+```text
+Import substitution: weight ports, customs nodes, and China-heavy input sectors
+Jobs:                weight labor-abundant districts
+Exports:             weight ports, airports, testing labs, and high-reliability freight nodes
+Supplier depth:      weight existing industrial clusters and MSME density
+```
+
+The final city score should combine centrality with cost and feasibility:
+
+```text
+GeoScore_c =
+  PageRank_c
+x Industrial land readiness_c
+x Power reliability_c
+x Skill availability_c
+x Port or market access_c
+/ (Delay cost_c x Congestion cost_c x Governance risk_c)
+```
+
+Cities with high `GeoScore` are not merely large. They are places where production, labor, suppliers, markets, and ports connect with low friction.
+
+An illustrative eastern ranking would likely put the following nodes high, subject to real data:
+
+| Role | Likely Nodes | Why They Matter |
+|---|---|---|
+| National capital manufacturing interface | Noida-Greater Noida, Ghaziabad | Demand, electronics, suppliers, Delhi NCR access |
+| Western UP corridor | Meerut, Aligarh | Labor, existing industry, freight access |
+| Central UP production belt | Kanpur, Lucknow-Kanpur, Prayagraj | Labor, universities, market access |
+| Eastern UP bridge | Varanasi, Gorakhpur | Links UP to Bihar and eastern markets |
+| Bihar assembly and labor bridge | Patna-Bihta, Gaya, Muzaffarpur, Begusarai | Labor, corridor position, emerging industrial land |
+| Bengal port-industrial belt | Dankuni, Kolkata, Haldia, Durgapur, Asansol | Port access, rail convergence, heavy industry |
+
+The algorithm should be recomputed annually. If a city improves power reliability, land availability, port access, or customs speed, its score should rise. If congestion, delay, or governance risk worsens, its score should fall.
+
+## 12. Sector Targeting: Where the Tax Holiday Should Be Strongest
 
 The math proves that real domestic value addition can dominate tax foregone. It does not prove that every sector deserves the same treatment. The highest priority sectors are those where three conditions coincide:
 
@@ -470,7 +608,15 @@ Qualitatively, the top tier for India is likely to include active pharma ingredi
 
 The sector list should be recomputed and published. Graduation should be automatic. If import vulnerability falls or domestic supplier thickness rises, the sector exits the top tier. The concession ends when capability is built, not when lobbying fails.
 
-## 12. The Dashboard
+The sector score and geography score should be multiplied, not considered separately:
+
+```text
+Priority_{sector, city} = IndustrialCentrality_sector x GeoScore_city
+```
+
+That is how policy avoids two mistakes: giving incentives to the right sector in the wrong location, or building industrial parks in good locations for sectors that do not matter strategically.
+
+## 13. The Dashboard
 
 Every state should publish a manufacturing dashboard that measures the variables that determine whether the tax holiday can actually create capacity:
 
@@ -489,11 +635,14 @@ Every state should publish a manufacturing dashboard that measures the variables
 | Output per worker | Productivity |
 | Defect or rejection rates | Quality |
 | Top sectors by Industrial Centrality | Sector targeting |
+| Top cities by GeoScore | Geography targeting |
+| Port-access cost by manufacturing belt | Export and input competitiveness |
+| Average time from factory gate to port gate | Working-capital and reliability |
 | Sectors graduating from support | Anti-capture test |
 
 The tax holiday is not a substitute for state capacity. It is a forcing function. If a state wants manufacturing, it should be able to show how quickly a firm can acquire land, receive power, clear inputs, hire formally, ship goods, collect payment, and reinvest.
 
-## 13. What Would Disprove the Claim
+## 14. What Would Disprove the Claim
 
 The claim is falsifiable. It fails if any of the following are true:
 
@@ -504,6 +653,7 @@ The claim is falsifiable. It fails if any of the following are true:
 5. The regime becomes a land or incorporation arbitrage instead of a production incentive.
 6. The operating environment remains so costly that the tax benefit cannot offset logistics, delay, power, and working-capital disadvantages.
 7. Domestic supply is created only behind consumer-price inflation, rather than through lower production cost and competitive output.
+8. Factories are placed in politically convenient locations where labor savings are erased by port distance, logistics delay, power unreliability, or supplier thinness.
 
 These are not minor caveats. They are the design constraints. A tax-free manufacturing regime should be conditional, audited, temporary, and tied to domestic value addition. Without those safeguards, the policy becomes a rent machine. With them, the arithmetic is strong.
 
@@ -521,7 +671,9 @@ Ratio                        = v / (m x tau)
 
 With `v = 40%`, `m = 10%`, and `tau = 25%`, the ratio is 16.0x. At the 15% concessional manufacturing tax rate, it is 26.7x. The ratio persists over a 10-15 year tax holiday because time scales both sides.
 
-That is why the policy should be judged against the right counterfactual. The alternative to tax-free manufacturing is not a world where India collects corporate tax on factories that never get built. The alternative is continued import dependence, weaker supplier depth, fewer manufacturing jobs, less process learning, and lower crisis capacity. If India can localize even a modest share of its China deficit through real, audited, competitive manufacturing, the tax holiday is cheap relative to the industrial capacity it buys.
+That is why the policy should be judged against the right counterfactual. The alternative to tax-free manufacturing is not a world where India collects corporate tax on factories that never get built. The alternative is continued import dependence, weaker supplier depth, fewer manufacturing jobs, less process learning, higher exposure to imported inflation shocks, and lower crisis capacity. If India can localize even a modest share of its China deficit through real, audited, competitive manufacturing, the tax holiday is cheap relative to the industrial capacity it buys.
+
+The geography follows from the same arithmetic. Manufacturing should go where labor advantage, supplier depth, freight access, power reliability, and port access survive the full cost equation. For the eastern arc, that points to UP as a large production and demand platform, Bihar as the labor-and-assembly bridge, and Bengal as the port-industrial gateway. The right instrument is not a political list of favored cities. It is a recomputable PageRank-style geography score that ranks cities by their position in the production, labor, supplier, market, and port network.
 
 ## Source Anchors
 
@@ -531,6 +683,8 @@ That is why the policy should be judged against the right counterfactual. The al
 - The Production Linked Incentive program has an official outlay around Rs 1.9-1.97 lakh crore across 14 sectors, with reported disbursements, sales, exports, and employment generation.
 - The National Logistics Policy material notes private estimates of India's logistics cost at 13-14% of GDP and a target reduction toward 9-10%.
 - Income-tax Act section 115BAB provides a concessional 15% tax rate for qualifying new domestic manufacturing companies, showing that India already recognizes manufacturing-specific tax treatment.
+- DFCCIL / Eastern Dedicated Freight Corridor material describes the eastern freight spine running to Dankuni in West Bengal through major north Indian and eastern states, making it the natural rail backbone for a UP-Bihar-Bengal manufacturing arc.
+- Syama Prasad Mookerjee Port, Kolkata material identifies Kolkata/Haldia as West Bengal's major port system and the natural eastern gateway for the hinterland; the policy question is port capacity, reliability, draft, container handling, customs speed, and last-mile connectivity.
 - Acemoglu, D., Carvalho, V. M., Ozdaglar, A., and Tahbaz-Salehi, A. (2012). "The Network Origins of Aggregate Fluctuations." Econometrica 80(5): 1977-2016. The foundational result that sectoral shocks do not wash out in aggregation when the input-output network is asymmetric.
 - Liu, E. (2019). "Industrial Policies in Production Networks." Quarterly Journal of Economics 134(4): 1883-1948. Defines distortion centrality and proves that optimal industrial subsidies are largest at network-central, distorted sectors.
 - Baqaee, D. R., and Farhi, E. (2019). "The Macroeconomic Impact of Microeconomic Shocks: Beyond Hulten's Theorem." Econometrica 87(4): 1155-1203. Generalizes Hulten's theorem to non-linear production networks; shocks at central nodes have outsize aggregate effects.
