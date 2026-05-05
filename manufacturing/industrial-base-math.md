@@ -1,16 +1,45 @@
 # The Industrial Base Math
 
-> Status: working note. This is not yet a research-grade industrial-policy white paper. It states the core arithmetic and policy intuition. The literature, formal model, comparative cases, political-economy apparatus, and sectoral chapters required for a full paper are specified in [Manufacturing White Paper Research Program](./research-program.md).
+**Claim:** Instead of sending the next marginal dollar of import demand to Chinese factories, India can make qualifying new manufacturing tax-free for 10-15 years and let that demand pull factories into India. The policy works if the total incentive bill required to make domestic production competitive is smaller than the domestic value added, jobs, supplier depth, learning, and resilience created by replacing part of the China import bill.
 
-This is the quantitative case for treating manufacturing as the major exception to a normally libertarian, conservative, market-first state.
+India is already paying foreign producers for goods it consumes. If some share of those goods can be competitively produced in India, the relevant comparison is:
 
-The argument is not that the state should run factories. That was the License Raj error. The argument is that manufacturing depends on a physical operating environment the state already controls: land, power, logistics, and courts. A state can make that environment predictable, or it can make every producer pay a hidden tax before the first shipment leaves the factory.
+```text
+Pay China for imported goods
+vs.
+make Indian production tax-free and reduce enough input costs for Indian firms to win the order
+```
 
-## 1. Imports, Value Added, and the China Deficit
+The fiscal cost of a manufacturing tax holiday is only the corporate tax that would have been collected on the manufacturer's profit. Since domestic value added is much larger than profit tax, the industrial gain can dominate the tax cost by an order of magnitude. Additional incentives such as power rebates or logistics support should be added to the bill explicitly and judged against the same domestic value-added base.
 
-Start with the national income identity: `Y = C + I + G + X - M`. For manufacturing, the issue is not the accounting identity alone. The issue is whether Indian demand turns into Indian production capacity or foreign production capacity.
+Under a baseline set of assumptions:
 
-If a product is imported instead of produced domestically, the consumer still gets the product. What India does not get is the domestic value added, the wage pool, the supplier base, the process learning, and the option to produce the same good in a crisis.
+```text
+Annual India-China goods deficit:      $99.20B
+Domestic value-added ratio:                40%
+Manufacturer profit margin:                10%
+Corporate tax rate:                        25%
+```
+
+the ratio is:
+
+```text
+Domestic value added created / Corporate tax foregone
+= 0.40 / (0.10 x 0.25)
+= 16.0x
+```
+
+At India's 15% concessional manufacturing tax rate under Section 115BAB, the same ratio is:
+
+```text
+0.40 / (0.10 x 0.15) = 26.7x
+```
+
+That is the core of the paper. For every $1 of corporate tax waived on real qualifying manufacturing, the policy can create roughly $16 to $27 of domestic value added before counting wage taxes, GST, supplier profits, freight revenue, electricity payments, job creation, lower supply-side inflation pressure, learning effects, or strategic resilience.
+
+The policy conclusion is specific: for goods now imported from China that India can plausibly produce, offer a time-bound manufacturing package consisting of zero corporate tax, fast land and power, power-cost support where needed, logistics and working-capital support where measurable, and strict eligibility rules. The subsidy should attach to verified new production that replaces imports, raises domestic value added, puts workers on formal payroll, and reinvests into production capability.
+
+## 1. The China Deficit Is the Scale Variable
 
 India's merchandise trade with China in FY 2024-25 was approximately:
 
@@ -20,69 +49,547 @@ Imports from China: $113.45B
 Deficit:             $99.20B
 ```
 
-That gap is not only a trade statistic. It is an annual measure of industrial capacity accumulating elsewhere.
+That deficit is a rough annual measure of industrial demand currently satisfied by foreign production capacity. Some of it should continue to be imported because China is cheaper, better, or more specialized. The claim requires only that a non-trivial share can be competitively localized over time.
 
-Let `D_CN` be the annual goods deficit with China, `r` the share that can be competitively localized over time, `v` the domestic value-added ratio, `m` the manufacturer profit margin, and `tau` the profit tax rate. The domestic value created by localization is `D_CN x r x v`. The corporate tax foregone under a zero-tax manufacturing policy is `D_CN x r x m x tau`.
-
-The useful ratio is:
+Define:
 
 ```text
-Domestic VA created / Tax foregone
-= (D_CN x r x v) / (D_CN x r x m x tau)
+D = annual goods deficit with China
+r = share of the deficit that can be competitively localized
+Q = annual localized output = D x r
+v = domestic value-added ratio
+m = manufacturer profit margin
+tau = corporate tax rate
+T = tax-holiday duration in years
+```
+
+Domestic value added created each year is:
+
+```text
+VA = Q x v
+```
+
+Corporate tax foregone each year is:
+
+```text
+Tax foregone = Q x m x tau
+```
+
+The ratio is:
+
+```text
+VA / Tax foregone
+= (Q x v) / (Q x m x tau)
 = v / (m x tau)
 ```
 
-With `v = 40%`, `m = 10%`, and `tau = 25%`, the ratio is `0.40 / (0.10 x 0.25) = 16`. Every $1 of corporate tax foregone corresponds to $16 of domestic value added under those assumptions. If the comparison is the 15% concessional rate available to qualifying new manufacturing companies under Section 115BAB, the ratio rises to about 26.7.
+The China deficit `D` and localization share `r` cancel out of the ratio. They determine the absolute scale of the program, not whether the arithmetic is favorable. The tax holiday duration `T` also cancels out if the same output, value-added ratio, margin, and tax rate apply each year:
 
-The size of the localization program cancels out. What matters is value addition, margin, and tax rate.
+```text
+T-year VA / T-year Tax foregone
+= (T x Q x v) / (T x Q x m x tau)
+= v / (m x tau)
+```
 
-## 2. Zero Tax Sensitivity
+With discounting, the same result holds if the same discount factor is applied to both annual value added and annual tax foregone. The proof is therefore simple: the manufacturing tax holiday is arithmetically attractive whenever:
 
-The earlier version used a localization table where every row repeated the same 16.0x ratio. That table was false rigor. The ratio only changes when value addition, margin, or tax rate changes.
+```text
+v > m x tau
+```
+
+For a 10% margin and 25% tax rate, the break-even domestic value-added ratio is only:
+
+```text
+0.10 x 0.25 = 2.5%
+```
+
+Real manufacturing should clear that threshold easily. Activity below that threshold is probably pass-through trading, screwdriver assembly, or profit shifting.
+
+## 2. The 10-15 Year Tax Holiday Example
+
+Take a modest localization target: 10% of the annual China goods deficit.
+
+```text
+D = $99.20B
+r = 10%
+Q = $9.92B of annual localized output
+v = 40%
+m = 10%
+tau = 25%
+T = 10 years
+```
+
+Annual domestic value added:
+
+```text
+$9.92B x 40% = $3.97B
+```
+
+Annual corporate tax foregone:
+
+```text
+$9.92B x 10% x 25% = $0.25B
+```
+
+Ten-year domestic value added:
+
+```text
+$3.97B x 10 = $39.68B
+```
+
+Ten-year corporate tax foregone:
+
+```text
+$0.25B x 10 = $2.48B
+```
+
+The 10-year policy creates roughly $39.7B of domestic value added while waiving roughly $2.5B of corporate tax. The ratio is still 16.0x.
+
+At the 15% concessional manufacturing tax rate:
+
+```text
+Annual tax foregone = $9.92B x 10% x 15% = $0.15B
+Ten-year tax foregone = $1.49B
+VA / Tax foregone = 26.7x
+```
+
+The same logic scales across localization shares:
+
+| Localized Share of China Deficit | Annual Output Localized | 10-Year VA at 40% | 10-Year Tax Foregone at 25% | VA / Tax Foregone |
+|---------------------------------:|------------------------:|------------------:|----------------------------:|------------------:|
+| 5% | $4.96B | $19.84B | $1.24B | 16.0x |
+| 10% | $9.92B | $39.68B | $2.48B | 16.0x |
+| 20% | $19.84B | $79.36B | $4.96B | 16.0x |
+| 30% | $29.76B | $119.04B | $7.44B | 16.0x |
+
+The policy is attractive because value added is much larger than profit tax. The target size determines whether the result is small, medium, or nationally material.
+
+A 15-year window multiplies both value added and tax foregone by 1.5 relative to the 10-year table, so the ratio remains 16.0x under the same assumptions.
+
+The same 10% localization example also creates a domestic income flow absent from the import baseline:
+
+```text
+Annual domestic value added = $3.97B
+Annual direct corporate tax foregone at 25% = $0.25B
+Annual domestic income before indirect effects = $3.72B net of foregone corporate tax
+```
+
+That net figure is the domestic income pool created before counting multiplier effects, supplier formation, wage taxes, consumption taxes, or lower import vulnerability.
+
+## 3. How Manufacturing Rises Year by Year
+
+Tax-free manufacturing works through firm economics. A firm builds capacity when expected domestic production economics beat the import alternative.
+
+For a product currently imported from China:
+
+```text
+P_CN = landed China price in India
+C_IN = Indian production cost before incentives
+s_tax = tax-holiday value as share of sales
+s_power = power incentive as share of sales
+s_log = logistics / freight support as share of sales
+s_wc = working-capital support as share of sales
+q = quality and delivery penalty, if Indian production is worse
+```
+
+Domestic production wins the order when:
+
+```text
+C_IN x (1 + required margin) + q - (s_tax + s_power + s_log + s_wc) <= P_CN
+```
+
+The tax holiday is one part of the bridge. At a 10% profit margin and 25% tax rate:
+
+```text
+s_tax = 10% x 25% = 2.5% of sales
+```
+
+At the 15% concessional manufacturing tax rate:
+
+```text
+s_tax = 10% x 15% = 1.5% of sales
+```
+
+If the India-China cost gap for a product is 8% of sales, tax relief alone leaves a remaining gap. The policy needs some combination of power reliability, cheaper power, logistics speed, scale, and working-capital relief:
+
+```text
+Required non-tax bridge = cost gap - s_tax
+```
+
+For an 8% gap and a 2.5% tax-holiday value:
+
+```text
+Required non-tax bridge = 8.0% - 2.5% = 5.5% of sales
+```
+
+That bridge can be temporary if production learning reduces cost over time. Let `Q_t` be localized annual output in year `t`, `g` the organic growth rate from new orders, `m` the profit margin, `rho` the share of tax-free profit reinvested, and `kappa` the capital-output ratio: dollars of capital required for $1 of annual output capacity.
+
+Annual output capacity evolves as:
+
+```text
+Q_{t+1} = Q_t x (1 + g) + (rho x m x Q_t) / kappa
+```
+
+With:
+
+```text
+g = 8% organic demand growth from import substitution
+rho = 50% of profit reinvested
+m = 10% profit margin
+kappa = 0.50 capital-output ratio
+```
+
+the reinvestment channel adds:
+
+```text
+(0.50 x 0.10) / 0.50 = 10% annual capacity growth
+```
+
+So the total annual output growth rate is roughly:
+
+```text
+8% + 10% = 18%
+```
+
+If the program starts with $5B of localized output, 18% annual growth produces:
+
+| Year | Localized Output | Domestic VA at 40% | Tax Foregone at 25%, 10% Margin |
+|-----:|-----------------:|-------------------:|--------------------------------:|
+| 1 | $5.00B | $2.00B | $0.13B |
+| 2 | $5.90B | $2.36B | $0.15B |
+| 3 | $6.96B | $2.78B | $0.17B |
+| 4 | $8.22B | $3.29B | $0.21B |
+| 5 | $9.70B | $3.88B | $0.24B |
+| 6 | $11.45B | $4.58B | $0.29B |
+| 7 | $13.51B | $5.40B | $0.34B |
+| 8 | $15.94B | $6.38B | $0.40B |
+| 9 | $18.81B | $7.52B | $0.47B |
+| 10 | $22.19B | $8.88B | $0.55B |
+
+Over 10 years, this path creates about $47.1B of domestic value added and waives about $2.94B of corporate tax. The ratio remains 16.0x because the year-by-year growth scales both value added and tax foregone.
+
+The mechanism is important. If eligibility requires reinvestment, tax-free profit becomes internal capital for more machines, tooling, working capital, supplier development, and export certification. That is how manufacturing rises year by year: import demand creates orders, orders create profit, tax-free retained profit funds capacity, capacity lowers cost through scale and learning, and lower cost wins more import-replacement orders.
+
+## 4. The Full Incentive Bill
+
+The tax holiday should not be analyzed alone if the actual policy package also includes free or rebated power, logistics support, land-price support, or working-capital support. Add those costs explicitly.
+
+Let:
+
+```text
+b_power = power subsidy as share of sales
+b_log = logistics support as share of sales
+b_land = annualized land / infrastructure support as share of sales
+b_wc = working-capital support as share of sales
+```
+
+Total annual incentive cost is:
+
+```text
+Incentive bill = Q x (m x tau + b_power + b_log + b_land + b_wc)
+```
+
+The benefit-cost ratio against domestic value added is:
+
+```text
+VA / Incentive bill
+= (Q x v) / (Q x (m x tau + b_power + b_log + b_land + b_wc))
+= v / (m x tau + b_power + b_log + b_land + b_wc)
+```
+
+This is the real test. With the baseline:
+
+```text
+v = 40%
+m x tau = 10% x 25% = 2.5%
+b_power = 2.0%
+b_log = 1.0%
+b_land = 0.5%
+b_wc = 0.5%
+```
+
+the total incentive bill is:
+
+```text
+2.5% + 2.0% + 1.0% + 0.5% + 0.5% = 6.5% of sales
+```
+
+and the ratio is:
+
+```text
+40% / 6.5% = 6.15x
+```
+
+Even after adding a fairly large non-tax incentive package, every $1 of incentive cost corresponds to about $6.15 of domestic value added. The policy remains attractive only when support creates real domestic production and avoids permanent dependence.
+
+For the year-10 output path above, cumulative output is about $117.7B. The 10-year incentive bill at 6.5% of sales is:
+
+```text
+$117.7B x 6.5% = $7.65B
+```
+
+Cumulative domestic value added is:
+
+```text
+$117.7B x 40% = $47.1B
+```
+
+That is the concrete "instead of paying China" claim. If India can redirect about $117.7B of 10-year import demand into domestic production, a package costing roughly $7.65B can create roughly $47.1B of domestic value added before indirect benefits.
+
+The incentive package should decline with learning. For example:
+
+| Years | Corporate Tax | Power Support | Logistics / WC Support | Reason |
+|------:|--------------:|--------------:|-----------------------:|---|
+| 1-5 | 0% | High | High | Close initial China cost gap |
+| 6-10 | 0% | Medium | Medium | Scale and supplier depth should reduce cost |
+| 11-15 | 0% or phased | Low | Low | Only sectors still strategically thin remain |
+| After sunset | Normal tax | None | Normal infrastructure only | Capability should stand on its own |
+
+Free power should be used carefully. Reliable power is more important than free power. A blanket free-power regime can become a fiscal hole and distort energy use. A better design is a capped power-cost rebate tied to verified production, energy efficiency, and formal employment:
+
+```text
+Power support = min(actual power cost gap, capped % of eligible sales)
+```
+
+If power support is capped at 2% of eligible sales, then on $10B of output the maximum bill is:
+
+```text
+$10B x 2% = $0.20B
+```
+
+That number belongs in the incentive bill. It should not be hidden.
+
+## 5. Sensitivity: When the Claim Is Strong or Weak
+
+The claim is strongest when domestic value addition is high, margins are normal, and the tax holiday applies only to real new production. It weakens when value addition is low, margins are artificially inflated, or firms use the regime to shift profits without building capacity.
 
 | Domestic Value Added | Profit Margin | Tax Rate | VA / Tax Foregone |
 |---------------------:|--------------:|---------:|------------------:|
+| 20% | 8% | 15% | 16.7x |
 | 30% | 8% | 15% | 25.0x |
 | 30% | 10% | 25% | 12.0x |
 | 40% | 10% | 25% | 16.0x |
 | 50% | 10% | 25% | 20.0x |
 | 50% | 12% | 25% | 16.7x |
 
-This makes the policy test explicit. A zero-tax regime is strongest where domestic value addition is high and margins are not artificially inflated through transfer pricing or protected pricing. It is weakest where firms merely assemble imported kits with low value addition while claiming tax benefits.
+The break-even condition is:
 
-That is why eligibility cannot be based on incorporation alone. It must require audited production, payroll, domestic value addition, and reinvestment.
+```text
+v = m x tau
+```
 
-## 3. PLI Versus Zero Tax
+At a 25% tax rate:
 
-PLI is useful because it admits the core point: manufacturing needs active policy support. But its structure is selective. The state chooses sectors, firms apply, eligibility is verified, and incentives are paid against qualifying production.
+| Profit Margin | Break-Even Domestic Value Added |
+|--------------:|--------------------------------:|
+| 5% | 1.25% |
+| 10% | 2.50% |
+| 15% | 3.75% |
+| 20% | 5.00% |
 
-Zero tax has a different mechanism. If a manufacturer earns profit on eligible production, the tax benefit is `tau x profit`, or `tau x m x sales`. At a 10% margin and 15% tax rate, the benefit is 1.5% of sales. At a 10% margin and 25% tax rate, it is 2.5% of sales.
+This policy should be defended as a purchase of domestic value added and capability. The waived tax is a small fraction of output. Projects with trivial domestic value added should lose eligibility.
 
-PLI pays from the budget. Zero tax waives a claim on profit after production exists. The tradeoff is administrative: PLI allows tighter sector targeting, but it also creates discretion. Zero tax is broader, simpler, and more automatic, but only if the eligibility rules are hard enough to prevent fake manufacturing and profit shifting.
+Once non-tax incentives are included, the relevant sensitivity table is:
 
-The right design may use both: PLI for a small number of sectors with clear learning spillovers, zero tax for broad-based new manufacturing capacity that meets value-addition and payroll thresholds.
+| Domestic VA | Tax Cost | Power Support | Logistics / Land / WC | Total Incentive Bill | VA / Incentive Bill |
+|------------:|---------:|--------------:|----------------------:|---------------------:|--------------------:|
+| 30% | 2.5% | 1.0% | 1.0% | 4.5% | 6.7x |
+| 40% | 2.5% | 2.0% | 2.0% | 6.5% | 6.2x |
+| 40% | 2.5% | 3.0% | 3.0% | 8.5% | 4.7x |
+| 50% | 2.5% | 3.0% | 3.0% | 8.5% | 5.9x |
+| 30% | 2.5% | 5.0% | 5.0% | 12.5% | 2.4x |
 
-## 4. Fiscal Neutrality and the Wage-Side Caveat
+The policy is strongest when support closes a temporary cost gap and then declines. It becomes weak when firms need permanent power, logistics, land, and working-capital subsidies just to survive. That is why the support schedule should phase down and why graduation matters.
 
-The fiscal case should not pretend to know more than it knows. A previous draft used `tau_y = 10%` as average wage-side capture. That number needs a real payroll-tax and income-tax build-up before it can be asserted. The better claim is conditional.
+## 6. The Fiscal Objection
 
-Corporate tax foregone is `Q x m x tau_c`, where `Q` is output, `m` is margin, and `tau_c` is the corporate tax rate. Wage income created is `Q x v x w`, where `v` is domestic value addition and `w` is labor's share of value added.
+The strongest fiscal objection is that the state gives up real revenue. Corporate tax foregone is real. Direct corporate tax is still the wrong denominator for judging an industrial-capacity policy.
 
-For wage-side fiscal capture to cover the corporate tax foregone, the condition is:
+There are three fiscal channels.
+
+First, the direct cost:
+
+```text
+Corporate tax foregone = Q x m x tau_c
+```
+
+Second, the wage-side tax base:
+
+```text
+Wage income created = Q x v x w
+```
+
+where `w` is labor's share of value added. Wage-side fiscal capture covers the corporate tax foregone when:
 
 ```text
 v x w x tau_y > m x tau_c
 ```
 
-If `v = 40%`, `w = 40%`, `m = 10%`, and `tau_c = 15%`, the required wage-side capture is just above 9.4%. If actual wage-side capture is 10% or higher, the policy can be close to fiscally neutral before counting GST, electricity duties, port fees, railway freight, supplier profits, and higher household consumption. If wage-side capture is materially below that, the case becomes less about immediate fiscal neutrality and more about strategic capacity, employment, and future tax base creation.
+With:
 
-That is an acceptable argument, but it should be stated honestly.
+```text
+v = 40%
+w = 40%
+m = 10%
+tau_c = 15%
+```
 
-## 5. Jobs and the 100,000 Manufacturer Target
+the required wage-side capture is:
 
-Employment math needs assumptions, not slogans. If import replacement is $20B and domestic value addition is 40%, the value added created is $8B. At $20,000 of value added per direct worker, that implies about 400,000 direct jobs. With indirect jobs in suppliers, logistics, maintenance, packaging, and services, the total employment effect can be much larger, but the multiplier should be estimated sector by sector.
+```text
+tau_y > (m x tau_c) / (v x w)
+tau_y > (0.10 x 0.15) / (0.40 x 0.40)
+tau_y > 9.4%
+```
 
-The 100,000 manufacturer target is more useful because it gives a capacity ladder:
+If actual wage-side capture is around or above that level, the policy can be close to fiscally neutral before counting other channels. Below that level, the case rests on industrial capacity, employment, and future tax base creation instead of immediate fiscal neutrality.
+
+Third, there are indirect fiscal channels: GST on consumption, electricity duties, port fees, railway freight, supplier profits, property taxes around clusters, and higher household spending. These should be counted only with sector-level evidence. The clean first proof should stand on domestic value added versus corporate tax foregone; the full policy proof should then add power, logistics, land, and working-capital support to the incentive bill. Additional fiscal recovery is upside.
+
+## 7. Why Manufacturing Is the Exception
+
+Manufacturing depends on physical inputs the state already controls: land, power, logistics, customs, courts, inspections, and payment discipline. The License Raj failed because the state tried to control production decisions. The relevant state role here is to make the operating environment predictable enough for private factories to compete.
+
+If those inputs are slow or unreliable, the state has already imposed an implicit tax before a factory produces its first unit. A corporate tax holiday partly offsets that burden. The burden itself still has to fall.
+
+This matters because manufacturing margins are thin. A 4 percentage-point logistics disadvantage can erase half the operating margin of a firm earning 8%. A 180-day approval delay on $10M of committed capital at a 12% cost of capital costs roughly:
+
+```text
+$10M x 12% x 180 / 365 = $0.59M
+```
+
+A $1M invoice delayed 90 days at a 12% working-capital cost imposes:
+
+```text
+$1M x 12% x 90 / 365 = $29,589
+```
+
+If expected net profit on that invoice is $50,000, the payment delay consumes about 60% of profit.
+
+The tax holiday therefore belongs inside a broader manufacturing exception: faster land allotment, reliable power, lower logistics cost, faster customs, contract enforcement, and payment discipline. A hostile operating environment can erase the tax benefit.
+
+## 8. Eligibility: How to Keep the Math Honest
+
+The proof only works for real manufacturing. It fails if firms use the tax holiday to relabel imports, shift profits, bank land, or assemble imported kits with minimal local value addition.
+
+Eligibility should therefore attach to production, not incorporation, geography, or political selection.
+
+Minimum conditions:
+
+| Condition | Reason |
+|---|---|
+| New or expanded production capacity | Prevents windfall gains on existing output |
+| Audited domestic value addition | Ensures `v` is real |
+| Formal payroll and worker count | Ensures wage base and employment are real |
+| Input-output reporting | Detects pass-through imports and transfer pricing |
+| Reinvestment requirement | Keeps benefits tied to capacity building |
+| Sunset after 10-15 years | Prevents permanent exemption politics |
+| Automatic disqualification for false reporting | Makes gaming costly |
+
+The tax holiday should attach to eligible production revenue from qualifying manufacturing, not to all profits of a conglomerate. A firm with both trading and manufacturing businesses should not be able to shelter trading profits under a manufacturing label.
+
+The policy should also graduate sectors. Once domestic capability is built and import vulnerability falls, the tax holiday should expire for that sector or move to a lower tier.
+
+## 9. PLI Versus Tax-Free Manufacturing
+
+PLI and a tax holiday are different instruments.
+
+PLI pays from the budget against qualifying production. It is useful where the state wants tight sector targeting, especially when learning spillovers are large and early production is uneconomic.
+
+A tax holiday waives a claim on profit after production exists. At a 10% margin and 25% tax rate, the benefit is:
+
+```text
+10% x 25% = 2.5% of sales
+```
+
+At a 10% margin and 15% tax rate, the benefit is:
+
+```text
+10% x 15% = 1.5% of sales
+```
+
+That is modest relative to many PLI-style incentives, but it is broad, automatic, and less dependent on annual budgetary disbursement. The right design can use both:
+
+```text
+PLI = targeted support for sectors with high learning spillovers
+Tax holiday = broad reward for verified new manufacturing value added
+```
+
+The claim of this paper concerns the second instrument. If India is importing around $99B more from China than it exports to China, and if part of that import demand can be localized, then waiving profit tax on the new domestic production is cheap relative to the value added created.
+
+## 10. Inflation and Consumer Prices
+
+Import substitution can raise prices when the instrument is a tariff, quota, licensing restriction, or protected domestic monopoly. A tax holiday lowers the required after-tax return on domestic production while leaving the landed cost of imports unchanged.
+
+The price effect depends on whether domestic production is cost-competitive after the tax holiday and operating-environment improvements.
+
+Let:
+
+```text
+P_CN = landed price of the Chinese import
+C_IN = Indian pre-tax production cost
+m_req = required pre-tax profit margin
+tau = corporate tax rate
+```
+
+Without a tax holiday, the domestic producer needs a price high enough to cover cost and after-tax profit:
+
+```text
+Required price = C_IN x (1 + m_req / (1 - tau))
+```
+
+With a zero corporate tax rate:
+
+```text
+Required price = C_IN x (1 + m_req)
+```
+
+At a 10% required after-tax return and a 25% tax rate:
+
+```text
+Without tax holiday: C_IN x (1 + 0.10 / 0.75) = C_IN x 1.133
+With tax holiday:    C_IN x 1.10
+```
+
+The tax holiday lowers the required domestic price by roughly 3 percentage points of cost. If the India-China cost gap in a sector is 10-25%, tax relief leaves a large remaining gap. The inflation claim is narrow: a tax holiday narrows the gap without taxing consumers, and it becomes powerful only when combined with logistics reform, faster approvals, cheaper working capital, and scale. It is less inflationary than tariffs because it works by lowering domestic supply cost instead of raising import prices.
+
+There is also a macro-inflation channel. Import dependence exposes domestic prices to foreign supply shocks, freight spikes, exchange-rate depreciation, and export controls. Domestic capacity gives the country an alternative source of supply. In strategic inputs, that option value matters: local production can cap price spikes during disruptions even when it is more expensive in normal times.
+
+The inflation test is therefore:
+
+```text
+Domestic price after tax holiday and friction reduction <= import price plus strategic option value
+```
+
+If the policy relies on tariffs to force consumers to buy expensive domestic goods, the inflation objection wins. If the policy lowers the cost of domestic production and creates competitive supply, the inflation effect can be neutral or disinflationary over time.
+
+## 11. Jobs, Supplier Depth, and Capacity
+
+The employment case follows from the value-added case.
+
+If import replacement is $20B and domestic value addition is 40%, then domestic value added is:
+
+```text
+$20B x 40% = $8B
+```
+
+Using an illustrative $20,000 of value added per direct worker, roughly the order of magnitude that should be calibrated from ASI gross value added and organized-manufacturing employment, that implies:
+
+```text
+$8B / $20,000 = 400,000 direct jobs
+```
+
+Indirect jobs in suppliers, logistics, maintenance, packaging, and services can be much larger, but the multiplier should be estimated sector by sector.
+
+This is the first non-tax benefit of the policy: manufacturing converts import demand into a domestic wage pool. Under the import baseline, Indian consumers get the product but the production wages accrue elsewhere. Under the localization case, part of the same demand becomes Indian payroll.
+
+The second benefit is supplier depth. A finished-good factory creates demand for tooling, packaging, maintenance, testing, logistics, machine repair, components, industrial services, and quality certification. Those suppliers are the industrial base. The more supplier-dense the economy becomes, the easier it is for the next manufacturer to start.
+
+The third benefit is learning. Manufacturing capability improves through repeated production: yield improvement, defect reduction, process control, vendor qualification, inventory discipline, and export certification. These gains sit outside the corporate tax foregone formula and are central to why industrial capacity compounds.
+
+The fourth benefit is resilience. Domestic capacity gives the state and private buyers an option during war, sanctions, pandemics, shipping disruptions, or export controls. The option has value even when unused in normal times. It is insurance against strategic supply failure.
+
+The following 100,000-manufacturer target is illustrative. Its purpose is to show the scale required for the claim to matter nationally:
 
 | Manufacturers | Avg. Direct Jobs | Avg. Output | Gross Output | Domestic VA at 40% |
 |--------------:|-----------------:|------------:|-------------:|-------------------:|
@@ -91,210 +598,208 @@ The 100,000 manufacturer target is more useful because it gives a capacity ladde
 | 100,000 | 100 | $5M | $500B | $200B |
 | 100,000 | 100 | $10M | $1T | $400B |
 
-The firms do not all need to be giants. A Dixon-style electronics assembler, a Bharat Forge-style precision exporter, and thousands of smaller component makers are all part of the same production ladder. The policy question is what raises the number of viable firms, their average output, and their domestic value addition without freezing them into low-productivity labor absorption.
+A Dixon-style electronics assembler, a Bharat Forge-style precision exporter, and thousands of smaller component makers all belong on the production ladder. The question is what raises the number of viable firms, their average output, and their domestic value addition without freezing them into low-productivity labor absorption.
 
-## 6. Logistics, Delay, and Working Capital
+## 12. Conservative Accounting
 
-Manufacturing dies in working capital before it dies in strategy.
+The 16.0x figure is deliberately narrow. It compares only domestic value added to corporate tax foregone: `VA / Tax foregone = v / (m x tau)`. The fuller incentive-bill example, including power, logistics, land, and working-capital support, still gives 6.15x under the stated assumptions. Both figures ignore wage-side fiscal capture, supplier formation, indirect tax, learning-by-doing, export capability, resilience, and lower exposure to imported inflation shocks. Those effects are real but hard to measure cleanly without sector-level data. The narrow proof is built to stand before those additions. Firms or sectors that fail to create domestic value added, formal jobs, supplier capacity, lower import vulnerability, or eventual graduation from support should lose eligibility.
 
-Logistics cost is margin. If logistics costs fall from 14% to 10% of shipment value, the saving is 4% of shipment value. On $100B of goods movement, that is $4B. For a manufacturer with an 8% operating margin, a 4 percentage-point logistics disadvantage can erase half the margin before pricing, quality, or productivity are even considered.
+## 13. Geography: Where the Manufacturing Hubs Should Go
 
-Approval delay has the same structure. If $10M of capital is committed, the cost of capital is 12%, and approvals delay production by 180 days, the delay cost is roughly `$10M x 12% x 180/365`, or about $0.6M. That is before a single unit is produced.
+The tax-holiday proof says manufacturing can be worth much more than the corporate tax waived. Geography determines whether that arithmetic survives freight, port access, power, land, and delay costs.
 
-Payment delay is just as brutal. A $1M invoice delayed by 90 days at 12% working-capital cost creates about $30K of financing cost. If the manufacturer's expected net profit is $50K, the delay consumes about 60% of the expected profit.
-
-This is why factory-time matters. Land allotment, power connection, customs clearance, inspection resolution, and payment discipline all show up in the same place: the manufacturer's cash conversion cycle.
-
-## 7. Clusters, Roads, Tariffs, and Exports
-
-Clusters lower search costs, shared-services costs, and supplier-development costs. But the old version overstated this by treating shared infrastructure as a clean subsidy that mechanically cuts break-even output by 30%. Real clusters such as Tiruppur, Surat, Ludhiana, and Sialkot also face congestion, wage inflation, pollution costs, and local political capture. The right claim is narrower: clusters can reduce entry cost when common facilities and supplier density are real, but they need governance or the savings get eaten by externalities.
-
-Roads have the same caveat. A highway has industrial value only when goods flow through it. Expressways, ports, rail links, and warehouses should be planned with production nodes rather than treated as standalone monuments.
-
-Tariffs can create room for domestic industry, but only if they are paired with cost reduction and input-tariff alignment. Otherwise, protection can raise consumer prices while leaving producers uncompetitive. The real test is effective protection, not the headline tariff on the finished good: if inputs are also expensive, the domestic producer may receive less protection than the tariff number suggests.
-
-Import substitution also needs export discipline. Exporting forces quality, cost control, certification, delivery reliability, and product improvement. A manufacturing policy that never asks firms to compete abroad risks producing protected domestic mediocrity.
-
-## 8. The Zero-Tax Rule, SEZ Lessons, and Capture
-
-Zero tax should not mean zero conditions. A rule-based zero-tax manufacturing policy should have a 10-15 year duration, five-year reviews, and eligibility tied to production, payroll, domestic value addition, and reinvestment into capacity, R&D, exports, or worker training.
-
-The SEZ lesson matters. India has already seen how tax-preferred zones can drift into real-estate arbitrage, enclave politics, and permanent exemptions. A zero-tax manufacturing regime should therefore have a sunset from day one. Benefits should expire for firms that miss value-addition or payroll thresholds, and they should not transfer to land banking. The tax holiday should attach to production, not geography.
-
-The strongest objection is capture. A manufacturing exception can become a new rent machine if incumbents write the rules, labor protections are bypassed, or states compete by hiding costs instead of raising productivity. That is why the policy must be published, auditable, and open to new entrants. Labor flexibility should be paired with formal payroll, safety enforcement, and portable benefits; otherwise the state will have subsidized precariousness rather than production.
-
-## 9. Industrial Centrality: A PageRank for Supply-Chain Targeting
-
-Sector selection is the operational hole in any zero-tax or PLI proposal. Picking by political salience reproduces the License Raj. Picking by export contribution rewards incumbents who already have lobbyists in the room. The dashboard in §10 fixes the friction problem; it does not fix the prioritization problem. What is missing is a rule-based, recomputable, publishable score that ranks sectors by their structural importance to the production network.
-
-This section develops one. It is a directed-graph centrality measure on the input-output network, in the lineage of Acemoglu, Carvalho, Ozdaglar, and Tahbaz-Salehi (Econometrica 2012), Liu (QJE 2019), and Baqaee and Farhi (Econometrica 2019), with two policy-relevant modifications: a strategic-vulnerability weight and a capability-thickness discount. The result, Industrial Centrality (IC), is a quarterly-recomputable score that can drive zero-tax eligibility tiers, infrastructure sequencing, and the structural rows of the §10 dashboard.
-
-### 9.1. The Production Graph
-
-Let `G = (V, E, W)` be a directed weighted graph. `V = {1, ..., n}` indexes sectors at first, and firms at the firm-level extension. `E` is the set of input-output linkages. `W` assigns each edge `(i, j)` the technical coefficient
+The eastern manufacturing arc should be built around Uttar Pradesh, Bihar, and West Bengal:
 
 ```text
-a_{ij} = (rupees of input i used by sector j) / (rupees of total intermediate input used by j)
+UP      = large labor pool + large domestic market + freight corridor nodes
+Bihar   = low-cost labor + central position on the eastern corridor
+Bengal  = eastern port gateway + access to Northeast, Bangladesh, Nepal, Bhutan, and Bay of Bengal trade
 ```
 
-Stack the coefficients as `A in R^{n x n}`. Each column of `A` sums to at most 1; the residual is value added (wages, capital, taxes). The Leontief inverse `L = (I - A)^{-1}` has finite entries because the spectral radius of `A` is below 1 for any productive economy (Hawkins-Simon condition).
+The logic is transport math. A factory has two shipment directions:
 
-For India, `A` is computable from the CSO Supply-Use Tables (latest comprehensive vintage 2017-18, 140 sectors), and at firm level from GSTN B2B invoice flows aggregated to monthly bilateral edges. The first source is published. The second is held by GSTN and accessible through NIPFP and IIM research partnerships.
+```text
+Inbound cost  = cost of moving inputs to the factory
+Outbound cost = cost of moving finished goods to customers or ports
+```
 
-### 9.2. Forward and Backward Centrality
+For a candidate city `c`, define:
 
-Standard PageRank solves the fixed point
+```text
+L_c = annual labor-cost advantage
+I_c = annual input-logistics cost
+O_c = annual output-logistics cost
+P_c = annual port-access cost for traded goods
+K_c = annual delay and working-capital cost
+```
+
+The city is attractive when:
+
+```text
+L_c > I_c + O_c + P_c + K_c
+```
+
+For export-oriented or import-replacing manufacturing, `P_c` becomes decisive. A low-wage inland factory can lose its entire labor advantage if inputs and finished goods spend too much time moving to and from a port. This is why eastern manufacturing needs a corridor-and-port design, not isolated industrial parks.
+
+### 13.1. The UP-Bihar-Bengal Corridor
+
+UP should be a major manufacturing platform because it combines population, labor depth, demand, and nodes on the eastern freight spine. The first-order candidates are not random cities; they are places with rail, road, power, universities, existing industry, and access to large markets: Noida-Greater Noida, Ghaziabad, Meerut, Aligarh, Kanpur, Lucknow-Kanpur, Prayagraj, Varanasi, and Gorakhpur.
+
+Bihar should be treated as the labor-and-assembly bridge of the eastern arc: cheap labor plus a position between the dense northern market and the Bengal port gateway. Patna, Bihta, Gaya, Muzaffarpur, Darbhanga, Begusarai, and Bhagalpur are plausible manufacturing nodes if power, land, skilling, and rail-road links are made reliable.
+
+Bengal should be the eastern gateway. Kolkata-Dankuni-Durgapur-Asansol-Haldia should function as the port-linked industrial belt for the arc. Bengal already has Kolkata/Haldia port infrastructure, but the policy question is whether eastern manufacturing has enough reliable port capacity, container handling, draft, customs speed, and last-mile rail-road connectivity. If UP and Bihar become serious manufacturing hubs, Bengal must have port capacity that behaves like part of the factory system, not like a separate bottleneck.
+
+The economic test for Bengal's port role is:
+
+```text
+Port value = inland logistics savings + export revenue enabled + import-input reliability + avoided delay cost
+```
+
+If a Bengal port upgrade cuts the weighted average port-access cost for UP-Bihar-Bengal manufacturers by even 1% of shipment value, then on $100B of annual goods movement the saving is:
+
+```text
+$100B x 1% = $1B per year
+```
+
+That is before counting faster inventory turns, lower working capital, lower rejection risk from delayed delivery, and export growth. The port is the eastern arc's shared manufacturing infrastructure.
+
+### 13.2. The City Score
+
+City selection should use a recomputable freight-network centrality measure plus normalized feasibility variables.
+
+Build a directed weighted graph:
+
+```text
+G = (V, E, W)
+```
+
+where:
+
+```text
+V = cities, ports, industrial clusters, logistics nodes
+E = freight, supplier, labor, and market links between nodes
+W_ij = strength of the link from node i to node j
+```
+
+The edge weight should be defined in one unit, or normalized before composition. A practical version is:
+
+```text
+W_ij = annual freight value from i to j
+```
+
+If supplier-buyer transactions, travel-time reliability, labor catchments, and market access are added, each should first be converted to a percentile score in `[0, 1]`, then combined by a stated weighted sum. Do not multiply variables with different units.
+
+Normalize `W` into a row-stochastic transition matrix `P`. Then compute PageRank:
 
 ```text
 x = (1 - d) v + d P x
 ```
 
-for a column-stochastic transition matrix `P`, a personalization distribution `v`, and a damping factor `d in (0, 1)`. The closed form is
+where:
 
 ```text
-x = (1 - d) (I - d P)^{-1} v
+x = city freight-network centrality score, normalized to [0, 1]
+d = damping factor, default 0.85
+v = personalization vector
 ```
 
-Production networks admit two natural specializations.
-
-**Forward Industrial Centrality (FIC)** measures the extent to which a sector's output propagates downstream. Take `P = A` after column-normalization with uniform redistribution over dangling sectors, and let `v_F` be a personalization vector concentrated on final-demand sinks (households, exports, strategic categories). Solve `x_F = (1 - d) (I - d A)^{-1} v_F`. A sector with high `x_F` is one whose value-add is widely consumed downstream. Pharma APIs, basic chemicals, and electronics components score high.
-
-**Backward Industrial Centrality (BIC)** measures the extent to which a sector is fed by upstream supply that the rest of the economy depends on. Take `P = A^T` and a uniform `v_B`. A sector with high `x_B` is one whose failure propagates broadly because many downstream sectors depend on it. This is the policy-relevant direction for strategic-capacity questions: what loses the most output if input `i` becomes unavailable.
-
-The damping factor `d` plays two roles. Mathematically it makes the iteration a contraction with modulus `d`, so power iteration converges geometrically irrespective of the spectral structure of `P`. Operationally it weights short over long supply chains: `d = 0.85` (the Brin-Page choice) emphasizes effects within roughly six supply-chain steps, which matches the empirical depth of most Indian manufacturing chains. The limit `d -> 1` recovers the classical Leontief multiplier.
-
-### 9.3. Connection to the Production-Network Literature
-
-Three results from the recent macro-network literature anchor the construction.
-
-Acemoglu, Carvalho, Ozdaglar, and Tahbaz-Salehi (2012) showed that idiosyncratic sectoral shocks do not wash out in aggregation when the production network is asymmetric. The standard deviation of GDP fluctuations decays slower than `1/sqrt(n)`, and the rate of decay is governed by the degree distribution of `A`. Their "influence vector" `alpha = (1/n) (I - (1 - alpha) A)^{-1} 1` is structurally a uniform-personalization PageRank up to scaling.
-
-Baqaee and Farhi (2019) generalized Hulten's theorem beyond the first order. Once non-linearities are admitted, shocks at network-central nodes have outsize macroeconomic consequences with magnitude proportional to Domar-weighted higher derivatives of the aggregate production function evaluated at central nodes. The policy reading: distortions and supports concentrated at high-centrality sectors have first-order welfare effects.
-
-Liu (2019) is the most directly relevant. He defines distortion centrality `delta = (I - A')^{-1} epsilon` where `epsilon` is the sectoral wedge vector, and proves that under a wide class of inefficiencies, the optimal industrial subsidy is positive and largest at sectors with high `delta`. India's policy-relevant `epsilon` includes labor-regulation wedges, credit-allocation wedges, and inverted input-tariff structures. Liu's distortion centrality is a Leontief-weighted distortion vector. BIC is the damped, regularized variant.
-
-The contribution here is operational rather than theoretical: composing centrality with two observable, lobbying-resistant weights to produce a decision rule that can survive contact with administrative practice.
-
-### 9.4. Two Policy-Relevant Weights
-
-For each sector `i`, define two scalars.
-
-**Strategic vulnerability** `m_i in [0, 1]` is the share of sector `i`'s domestic absorption supplied by a single concentrated foreign source, computed from DGCI&S commodity-country flows. For each four-digit HS code mapped into the I-O classification, take the maximum import share from any single country (or politically-linked country bloc), weighted by domestic absorption. Active pharma ingredients, mature-node semiconductor wafers, lithium-cell precursors, and rare-earth permanent magnets place sectors at `m_i > 0.6`. Diversified or domestically-dominant sectors have `m_i` near zero.
-
-**Capability thickness** `h_i > 0` is a normalized count of domestic firms producing in sector `i` with revenue above a productivity floor (for example, ASI Schedule plants above Rs 5 crore turnover), drawn from the ASI plant frame and MCA company data. Sectors with thousands of domestic producers (textiles, food processing, basic auto components) have high `h_i`. Sectors with under a hundred (mature semis, large turbines, advanced API molecules) have low `h_i`. The denominator penalizes adding state weight to sectors that are already supplier-thick.
-
-Both weights are observable, recomputable quarterly, and resistant to firm-level lobbying because they aggregate over thousands of underlying flows.
-
-### 9.5. The Industrial Centrality Score
-
-Combine:
+The personalization vector changes by policy goal:
 
 ```text
-IC_i = (BIC_i x m_i) / h_i
+Import substitution: weight ports, customs nodes, and China-heavy input sectors
+Jobs:                weight labor-abundant districts
+Exports:             weight ports, airports, testing labs, and high-reliability freight nodes
+Supplier depth:      weight existing industrial clusters and MSME density
 ```
 
-A sector with high `IC` is structurally critical, strategically vulnerable, and thinly supplied domestically. These are the sectors where state coordination produces the largest expected reduction in strategic exposure per unit of effort.
-
-Two operational variants are useful.
-
-**IC-export** uses FIC instead of BIC, with `v_F` concentrated on exports, identifying sectors whose downstream output reaches foreign buyers most thickly. This is the variant for export-discipline targeting (§7).
-
-**IC-employment** weights the numerator by sectoral labor intensity from ASI, identifying sectors where centrality coincides with employment generation. This is the variant for the §5 100,000-manufacturer target.
-
-The general form admits a tunable upstream-downstream balance:
+Then define normalized city variables, all in `[0, 1]` where higher is better:
 
 ```text
-IC_i^{(k)} = (w_k x BIC_i + (1 - w_k) x FIC_i) x m_i / h_i
+C_c = freight-network centrality
+L_c = industrial land readiness
+P_c = power reliability
+S_c = skill availability
+A_c = port or market access
+D_c = delay-cost score, defined as 1 - normalized delay cost
+G_c = governance reliability score
 ```
 
-with `w_k in [0, 1]` indexing the policy use case (capacity, exports, employment, strategic).
-
-### 9.6. The Algorithm
+The composite score is a weighted sum:
 
 ```text
-Input:
-  A     : n x n technical-coefficient matrix
-  m     : n-vector of strategic-vulnerability weights, m_i in [0, 1]
-  h     : n-vector of capability-thickness counts, h_i > 0
-  v     : n-vector personalization, sum(v) = 1
-  d     : damping factor, default 0.85
-  w     : upstream weight, w in [0, 1]
-  tol   : convergence tolerance, default 1e-9
-  k_max : iteration cap, default 200
-
-Procedure:
-  1. Build P_B from A^T, row-stochastic, dangling rows redistributed uniformly over V.
-  2. Build P_F from A,   row-stochastic, dangling rows redistributed uniformly over V.
-  3. For each P in {P_B, P_F}:
-       x_0 := v
-       for k in 1 .. k_max:
-         x_k := (1 - d) v + d P x_{k-1}
-         if ||x_k - x_{k-1}||_1 < tol break
-       record x_k as BIC or FIC.
-  4. For each i:
-       IC_i := (w x BIC_i + (1 - w) x FIC_i) x m_i / h_i
-  5. Rank sectors by IC, descending.
-
-Output:
-  IC vector, BIC vector, FIC vector, ranked sector list.
+GeoScore_c =
+  w_C C_c + w_L L_c + w_P P_c + w_S S_c + w_A A_c + w_D D_c + w_G G_c
 ```
 
-**Convergence.** The map `x -> (1 - d) v + d P x` is a contraction in the L1 norm with modulus `d` whenever `P` is row-stochastic, so `||x_k - x*||_1 <= d^k x ||x_0 - x*||_1`. With `d = 0.85` and `tol = 1e-9`, convergence is reached in roughly `ceil(log(tol) / log(d)) ~ 128` iterations, independent of `n`. Existence and uniqueness of the fixed point follow from Banach.
+with:
 
-**Complexity.** Each iteration costs `O(nnz(A))`, where `nnz` counts non-zeros. For the 140-sector I-O table, `nnz` is on the order of 5,000 and a full IC computation runs in milliseconds. For the firm-level GSTN graph at roughly 1.4M registered manufacturers and approximately 5 x 10^7 monthly bilateral edges, each iteration costs about 50 ms with sparse linear algebra (scipy.sparse, PETSc), and the full IC computation finishes in under 10 seconds on a single workstation. Quarterly recomputation is trivially affordable.
+```text
+w_C + w_L + w_P + w_S + w_A + w_D + w_G = 1
+```
 
-**Numerical stability.** The damping factor regularizes the spectral problem. Even when `A` has near-unit spectral radius, the damped iteration has spectral radius `d` and converges. This is the operational reason for preferring damped PageRank over the raw Leontief inverse for policy targeting.
+For export-oriented manufacturing, increase `w_A` and `w_C`. For labor-intensive assembly, increase `w_S` and `w_L`. For power-intensive manufacturing, increase `w_P`. This is less elegant than multiplying everything together, but it is dimensionally honest and inspectable.
 
-### 9.7. Worked Qualitative Illustration
+A high `GeoScore` identifies cities where production, labor, suppliers, markets, and ports connect with low friction.
 
-This paper is the specification, not the empirical execution. The qualitative structure of `IC` for India in 2026 is expected to resemble:
+An illustrative eastern ranking would likely put the following nodes high, subject to real data:
 
-| Sector cluster | BIC | m | h | IC rank |
-|---|---|---|---|---|
-| Active pharma ingredients (key molecules) | High | High (China 0.6-0.8) | Low | Top decile |
-| Mature-node semiconductors | Moderate | High (Taiwan, China) | Very low | Top decile |
-| Lithium-cell precursors | Moderate-high | Very high (China) | Near zero | Top decile |
-| Rare-earth permanent magnets | Moderate | Very high (China) | Near zero | Top decile |
-| Advanced auto components | High | Moderate | Moderate | Mid-upper |
-| Industrial chemicals (commodity) | High | Moderate | Moderate | Mid |
-| Apparel and textiles | Moderate | Low | Very high | Lower |
-| Food processing | Low-moderate | Low | Very high | Bottom |
+| Role | Likely Nodes | Why They Matter |
+|---|---|---|
+| National capital manufacturing interface | Noida-Greater Noida, Ghaziabad | Demand, electronics, suppliers, Delhi NCR access |
+| Western UP corridor | Meerut, Aligarh | Labor, existing industry, freight access |
+| Central UP production belt | Kanpur, Lucknow-Kanpur, Prayagraj | Labor, universities, market access |
+| Eastern UP bridge | Varanasi, Gorakhpur | Links UP to Bihar and eastern markets |
+| Bihar assembly and labor bridge | Patna-Bihta, Gaya, Muzaffarpur, Begusarai | Labor, corridor position, emerging industrial land |
+| Bengal port-industrial belt | Dankuni, Kolkata, Haldia, Durgapur, Asansol | Port access, rail convergence, heavy industry |
 
-Two structural points emerge. First, the IC ranking does not coincide with employment intensity. Textiles and food rank low because they are domestically thick. They are addressed by a different instrument: the IC-employment variant, or direct labor-policy reform. Second, the top-decile IC sectors substantially overlap the announced PLI list, with two important divergences. PLI covers solar modules where IC is moderate (China-heavy but `h` is rising fast post-2022); PLI does not cover several IC top-decile chemical intermediates where domestic capability remains thin and import dependence is severe.
+The algorithm should be recomputed annually. If a city improves power reliability, land availability, port access, or customs speed, its score should rise. If congestion, delay, or governance risk worsens, its score should fall.
 
-The reading: a recomputed quarterly IC ranking would give the next iteration of PLI, or its successor instrument, a rule-based target list with explicit graduation when `m_i` falls below threshold or `h_i` rises above threshold. The concession ends when the capability is built, not when the lobbying ends.
+## 14. Sector Targeting: Where the Tax Holiday Should Be Strongest
 
-### 9.8. Connection to the Rest of the Paper
+The math proves that real domestic value addition can dominate tax foregone. Sector priority still matters. The highest priority sectors are those where three conditions coincide:
 
-The IC algorithm operationalizes three earlier sections.
+```text
+High domestic value-added potential
+High strategic import vulnerability
+Thin domestic supplier base
+```
 
-**Zero-tax eligibility (§3, §8).** Sectors are tiered. Tier 1 is the top-decile IC: full zero-tax for the maximum 15-year window with strict eligibility. Tier 2 is the top-quartile IC: a 10-year window. Tier 3 is all qualifying manufacturing under §8's general conditions: a 7-year window. Graduation is automatic when IC drops below threshold for four consecutive quarters.
+A rule-based targeting score can be built from the production network, but the variables need definitions.
 
-**The 100,000-manufacturer target (§5).** Composition matters. Roughly 10,000 in IC top-decile sectors where individual scale and capability matter most; roughly 30,000 in IC mid-quartile sectors where supplier-base depth matters; the remaining 60,000 in employment-intensive sectors selected by IC-employment. Aggregate counts hide the structural problem.
+Let:
 
-**The dashboard (§10).** Add three structural rows: top-10 sectors by IC; sectors that exited the top decile this quarter (capability built); sectors that entered the top decile this quarter (new strategic exposure). The dashboard becomes a state-capability instrument, not just a friction monitor.
+```text
+BIC_i = normalized backward industrial centrality of sector i, in [0, 1]
+m_i   = import-vulnerability score, in [0, 1]
+s_i   = domestic supplier-scarcity score, in [0, 1]
+```
 
-### 9.9. Limitations
+`BIC_i` is computed from the input-output network: sectors are nodes, input flows are directed edges, and backward centrality measures how widely a sector's failure would propagate downstream. `m_i` can be measured as the import share of domestic absorption from a concentrated foreign source or bloc. `s_i` is high when domestic supplier thickness is low; for example, it can be defined from the count of domestic producers above a productivity floor, converted into a percentile scarcity score.
 
-The algorithm has four well-defined failure modes.
+Then a simple normalized score is:
 
-**Sector aggregation.** The 140-sector I-O classification masks within-sector heterogeneity. "Pharmaceuticals" hides the molecule-level dependence on six Chinese intermediates. Operationalization at firm level via GSTN data resolves this but raises data-privacy and access questions. The plan: publish at 140-sector for transparency, refine to four-digit HS for actual policy ranking.
+```text
+IndustrialCentrality_i = BIC_i x m_i x s_i
+```
 
-**Structural change.** `A` evolves. Treating it as fixed assumes the production technology is stationary over the policy horizon. For a country undergoing rapid industrialization that assumption is wrong: building cell-precursor capacity changes `A` for batteries, autos, and the grid simultaneously. Mitigation: recompute quarterly; treat IC as a rolling instrument, not a one-time master plan.
+Because each term is dimensionless and bounded in `[0, 1]`, the score is interpretable: a high score means the sector is structurally important, strategically exposed, and thinly supplied domestically. If any one term is near zero, the sector falls out of the top strategic tier under this instrument. A weighted-sum version can be used for robustness checks; the multiplicative version is useful as a strict screen.
 
-**Endogeneity of `h`.** The capability-thickness denominator is itself a target variable. Once policy raises `h_i`, IC drops for that sector. This is a feature (graduation), but it implies the IC ranking is not a static optimum. It is the gradient of where to push next, recomputed continuously.
+Qualitatively, the top tier for India is likely to include active pharma ingredients, mature-node semiconductor inputs, lithium-cell precursors, rare-earth permanent magnets, and selected chemical intermediates. Textiles and food processing may be employment-intensive, but they are already domestically thick; they need a different policy mix.
 
-**Strategic gaming.** A foreign supplier could try to game `m_i` downward by routing through a third country. Mitigation: compute `m_i` on country-of-origin (rules-of-origin certificates) rather than country-of-shipment, and aggregate over politically-linked country blocs (China and Hong Kong) rather than nominal national borders.
+The sector list should be recomputed and published. Graduation should be automatic. If import vulnerability falls or domestic supplier thickness rises, the sector exits the top tier. The concession ends when capability is built, not when lobbying fails.
 
-These are real limits, not deal-breakers, and each has a mitigation path. The IC algorithm is a substantial improvement over discretionary sector lists drawn up by committee, while remaining honest about the parameters it depends on.
+The sector score and geography score should be combined only after both are normalized. A conservative rule is a two-stage screen:
 
-### 9.10. What This Adds to the Doctrine
+```text
+1. Keep sectors with IndustrialCentrality above threshold.
+2. Within those sectors, rank cities by GeoScore for that sector's logistics and labor needs.
+```
 
-Sector targeting becomes auditable: the eligibility list is published quarterly and any analyst can rerun the computation from open data. The policy is self-graduating: sectors exit when capability is built, with no political-will requirement at the exit gate. Capture is structurally harder, because a firm seeking inclusion must alter `m` (the country-trade structure) or `h` (the domestic supplier base), both observable in third-party data. And the framework is portable: the same algorithm with different `m` and `h` vectors is the right operational instrument for Vietnam, Indonesia, and any other Asian industrializer making the same calculation. The algorithm is country-agnostic; the parameters are country-specific.
+That is how policy avoids two mistakes: giving incentives to the right sector in the wrong location, or building industrial parks in good locations for sectors that do not matter strategically.
 
-## 10. Dashboard and Clock
+## 15. The Dashboard
 
-Every state should publish a manufacturing dashboard:
+Every state should publish a manufacturing dashboard that measures the variables that determine whether the tax holiday can actually create capacity:
 
 | Metric | Why It Matters |
 |--------|----------------|
@@ -305,13 +810,39 @@ Every state should publish a manufacturing dashboard:
 | Port dwell and customs clearance time | Input and export speed |
 | MSME payment delay | Working capital health |
 | Contract enforcement time | Trust |
-| Domestic value addition by sector | Depth |
-| Export share by sector | Competitiveness |
+| Domestic value addition by sector | Tests the core claim |
+| Export share by sector | Competitiveness discipline |
 | Jobs per crore of investment | Employment intensity |
 | Output per worker | Productivity |
 | Defect or rejection rates | Quality |
+| Top sectors by Industrial Centrality | Sector targeting |
+| Top cities by GeoScore | Geography targeting |
+| Port-access cost by manufacturing belt | Export and input competitiveness |
+| Average time from factory gate to port gate | Working-capital and reliability |
+| Sectors graduating from support | Anti-capture test |
 
-The clock is concrete. India has roughly a decade-plus before the demographic dividend window tightens, and PLI in its current reported form has produced about Rs 20.41 lakh crore in sales, Rs 8.3 lakh crore in exports, and 14.39 lakh jobs against Rs 28,748 crore disbursed. The next test is whether policy can move from scheme-wise success to system-wide capacity: shorter factory setup times, higher domestic value addition, faster payments, and a measurable path toward 100,000 manufacturers.
+The tax holiday has to be paired with state capacity. If a state wants manufacturing, it should be able to show how quickly a firm can acquire land, receive power, clear inputs, hire formally, ship goods, collect payment, and reinvest.
+
+## 16. What Would Disprove the Claim
+
+The claim is falsifiable. It fails if any of the following are true:
+
+1. The localized share of China imports lacks a competitive production path in India.
+2. Domestic value addition is too low to clear the break-even condition `v > m x tau`.
+3. Firms inflate margins through transfer pricing to maximize tax benefits.
+4. The tax holiday mostly rewards existing production instead of new capacity.
+5. The regime becomes a land or incorporation arbitrage instead of a production incentive.
+6. The operating environment remains so costly that the tax benefit cannot offset logistics, delay, power, and working-capital disadvantages.
+7. Domestic supply is created through consumer-price inflation instead of lower production cost and competitive output.
+8. Factories are placed in politically convenient locations where labor savings are erased by port distance, logistics delay, power unreliability, or supplier thinness.
+
+These are the design constraints. A tax-free manufacturing regime should be conditional, audited, temporary, and tied to domestic value addition. Without those safeguards, the policy becomes a rent machine. With them, the arithmetic is strong.
+
+## Conclusion
+
+The claim is `16.0x` at a 25% tax rate and `26.7x` at the 15% concessional manufacturing rate before non-tax incentives: `VA / Tax foregone = v / (m x tau)`. With a larger package that includes tax, power, logistics, land, and working-capital support, the example ratio is still `6.15x`. The policy is only defensible for verified new manufacturing that clears the falsifiers in §16 and is placed where labor, suppliers, freight, power, and port access survive the full cost equation.
+
+> Working note: this states the core arithmetic and policy intuition. The literature, formal model, comparative cases, political-economy apparatus, and sectoral chapters required for a full paper are specified in [Manufacturing White Paper Research Program](./research-program.md).
 
 ## Source Anchors
 
@@ -321,9 +852,11 @@ The clock is concrete. India has roughly a decade-plus before the demographic di
 - The Production Linked Incentive program has an official outlay around Rs 1.9-1.97 lakh crore across 14 sectors, with reported disbursements, sales, exports, and employment generation.
 - The National Logistics Policy material notes private estimates of India's logistics cost at 13-14% of GDP and a target reduction toward 9-10%.
 - Income-tax Act section 115BAB provides a concessional 15% tax rate for qualifying new domestic manufacturing companies, showing that India already recognizes manufacturing-specific tax treatment.
+- DFCCIL / Eastern Dedicated Freight Corridor material describes the eastern freight spine running to Dankuni in West Bengal through major north Indian and eastern states, making it the natural rail backbone for a UP-Bihar-Bengal manufacturing arc.
+- Syama Prasad Mookerjee Port, Kolkata material identifies Kolkata/Haldia as West Bengal's major port system and the natural eastern gateway for the hinterland; the policy question is port capacity, reliability, draft, container handling, customs speed, and last-mile connectivity.
 - Acemoglu, D., Carvalho, V. M., Ozdaglar, A., and Tahbaz-Salehi, A. (2012). "The Network Origins of Aggregate Fluctuations." Econometrica 80(5): 1977-2016. The foundational result that sectoral shocks do not wash out in aggregation when the input-output network is asymmetric.
 - Liu, E. (2019). "Industrial Policies in Production Networks." Quarterly Journal of Economics 134(4): 1883-1948. Defines distortion centrality and proves that optimal industrial subsidies are largest at network-central, distorted sectors.
 - Baqaee, D. R., and Farhi, E. (2019). "The Macroeconomic Impact of Microeconomic Shocks: Beyond Hulten's Theorem." Econometrica 87(4): 1155-1203. Generalizes Hulten's theorem to non-linear production networks; shocks at central nodes have outsize aggregate effects.
 - Carvalho, V. M., and Tahbaz-Salehi, A. (2019). "Production Networks: A Primer." Annual Review of Economics 11: 635-663. Survey of the input-output network literature relevant to industrial policy.
-- Page, L., Brin, S., Motwani, R., and Winograd, T. (1999). "The PageRank Citation Ranking: Bringing Order to the Web." Stanford Technical Report. The original damped-iteration algorithm whose specialization to production networks underlies §9.
-- CSO Supply-Use Tables (latest comprehensive vintage 2017-18, 140 sectors) supply the technical-coefficient matrix `A` used in the §9 algorithm. Firm-level extension uses GSTN B2B invoice flows accessible through NIPFP / IIM research partnerships.
+- Page, L., Brin, S., Motwani, R., and Winograd, T. (1999). "The PageRank Citation Ranking: Bringing Order to the Web." Stanford Technical Report. The original damped-iteration algorithm whose specialization to production networks underlies the Industrial Centrality score.
+- CSO Supply-Use Tables (latest comprehensive vintage 2017-18, 140 sectors) supply the technical-coefficient matrix used in the Industrial Centrality algorithm. Firm-level extension uses GSTN B2B invoice flows accessible through NIPFP / IIM research partnerships.
