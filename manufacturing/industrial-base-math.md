@@ -59,7 +59,7 @@ At India's 15% concessional manufacturing tax rate under Section 115BAB, the sam
 0.40 / (0.10 x 0.15) = 26.7x
 ```
 
-That is the core of the paper. For every $1 of corporate tax waived on real qualifying manufacturing, the policy can create roughly $16 to $27 of domestic value added before counting wage taxes, GST, supplier profits, freight revenue, electricity payments, job creation, lower supply-side inflation pressure, learning effects, or strategic resilience.
+For every $1 of corporate tax waived on real qualifying manufacturing, the policy can create roughly $16 to $27 of domestic value added before counting wage taxes, GST, supplier profits, freight revenue, electricity payments, job creation, lower supply-side inflation pressure, learning effects, or strategic resilience.
 
 The policy conclusion is specific: for goods now imported from China that India can plausibly produce, offer a time-bound manufacturing package consisting of zero corporate tax, fast land and power, power-cost support where needed, logistics and working-capital support where measurable, and strict eligibility rules. The subsidy should attach to verified new production that replaces imports, raises domestic value added, puts workers on formal payroll, and reinvests into production capability.
 
@@ -292,7 +292,7 @@ If the program starts with $5B of localized output, 18% annual growth produces:
 
 Over 10 years, this path creates about $47.1B of domestic value added and waives about $2.94B of corporate tax. The ratio remains 16.0x because the year-by-year growth scales both value added and tax foregone.
 
-The mechanism is important. If eligibility requires reinvestment, tax-free profit becomes internal capital for more machines, tooling, working capital, supplier development, and export certification. That is how manufacturing rises year by year: import demand creates orders, orders create profit, tax-free retained profit funds capacity, capacity lowers cost through scale and learning, and lower cost wins more import-replacement orders.
+If eligibility requires reinvestment, tax-free profit becomes internal capital for more machines, tooling, working capital, supplier development, and export certification. That is how manufacturing rises year by year: import demand creates orders, orders create profit, tax-free retained profit funds capacity, capacity lowers cost through scale and learning, and lower cost wins more import-replacement orders.
 
 ## 4. The Full Incentive Bill
 
@@ -358,7 +358,7 @@ Cumulative domestic value added is:
 $117.7B x 40% = $47.1B
 ```
 
-That is the concrete "instead of paying China" claim. If India can redirect about $117.7B of 10-year import demand into domestic production, a package costing roughly $7.65B can create roughly $47.1B of domestic value added before indirect benefits.
+If India can redirect about $117.7B of 10-year import demand into domestic production, a package costing roughly $7.65B can create roughly $47.1B of domestic value added before indirect benefits.
 
 The incentive package should decline with learning. For example:
 
@@ -780,7 +780,7 @@ The algorithm should be recomputed annually. If a city improves power reliabilit
 
 ## 14. Sector Targeting: Where the Tax Holiday Should Be Strongest
 
-The math proves that real domestic value addition can dominate tax foregone. Sector priority still matters. The highest priority sectors are those where three conditions coincide:
+The math proves that real domestic value addition can dominate tax foregone. The highest priority sectors are those where three conditions coincide:
 
 ```text
 High domestic value-added potential
