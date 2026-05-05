@@ -786,7 +786,7 @@ Because each term is dimensionless and bounded in `[0, 1]`, the score is interpr
 
 Qualitatively, the top tier for India is likely to include active pharma ingredients, mature-node semiconductor inputs, lithium-cell precursors, rare-earth permanent magnets, and selected chemical intermediates. Textiles and food processing may be employment-intensive, but they are already domestically thick; they need a different policy mix.
 
-The sector list should be recomputed and published. Graduation should be automatic. If import vulnerability falls or domestic supplier thickness rises, the sector exits the top tier. The concession ends when capability is built, not when lobbying fails.
+The sector list should be recomputed and published. Graduation should be automatic. If import vulnerability falls or domestic supplier thickness rises, the sector exits the top tier.
 
 The sector score and geography score should be combined only after both are normalized. A conservative rule is a two-stage screen:
 
